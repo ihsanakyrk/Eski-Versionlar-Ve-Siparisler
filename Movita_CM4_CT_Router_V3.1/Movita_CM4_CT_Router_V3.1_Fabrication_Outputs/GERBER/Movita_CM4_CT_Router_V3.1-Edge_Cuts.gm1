@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.0-rc1*
+G04 #@! TF.CreationDate,2024-11-04T15:19:59+03:00*
+G04 #@! TF.ProjectId,Movita_CM4_CT_Router_V3.1,4d6f7669-7461-45f4-934d-345f43545f52,REV1*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.0-rc1) date 2024-11-04 15:19:59*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.050000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X108973767Y-82494190D02*
+X235973767Y-82494190D01*
+X235973767Y-132494190D01*
+X108973767Y-132494190D01*
+X108973767Y-82494190D01*
+M02*

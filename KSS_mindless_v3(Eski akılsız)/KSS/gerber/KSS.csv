@@ -1,0 +1,6 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J3,J1,J2";"RJ45_OST_PJ012-8P8CX_Vertical";3;"RJ45";;;
+2;"I1";"R_0603_1608Metric";1;"47K";;;
+3;"4,6,1,5,3,7,8";"R_0603_1608Metric";7;"0R";;;
+4;"XA1,XA2";"Hirose_DF63M-2P-3.96DSA_1x02_P3.96mm_Vertical";2;"B2P-VH(LF)(SN)";;;
+5;"I2";"R_0603_1608Metric";1;"22K";;;

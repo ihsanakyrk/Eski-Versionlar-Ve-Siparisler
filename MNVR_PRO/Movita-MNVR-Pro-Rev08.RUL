@@ -1,0 +1,19 @@
+DRC Rules Export File for PCB: C:\Projects\Altium\Movita\Movita-MNVR-Pro-Multi-Rev08\Movita-MNVR-Pro-Rev08\Movita-MNVR-Pro-Rev08.PcbDoc
+RuleKind=ShortCircuit|RuleName=2WaysJumperShortCircuitClearance|Scope=Board|Allowed=1
+RuleKind=Clearance|RuleName=2WaysJumperPads|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=DiffPair_90|Scope=Board|Minimum=7.87
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=3.94
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.95
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.94
+RuleKind=Width|RuleName=Width Ground|Scope=Board|Minimum=9.06
+RuleKind=Width|RuleName=Width Power|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=DiffPair_DIFF100_HDMI_Width|Scope=Board|Minimum=3.94
+RuleKind=Width|RuleName=DiffPair_DIFF100Width|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=PWR Poly to VIA|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Poly to Poly Outer Layers|Scope=Board|Minimum=20.00
+RuleKind=Clearance|RuleName=Poly to Poly Inner Layers|Scope=Board|Minimum=13.78
+RuleKind=Clearance|RuleName=Signal tracks|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance Non Plated Holes|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=Pad Clearance|Scope=Board|Minimum=5.00

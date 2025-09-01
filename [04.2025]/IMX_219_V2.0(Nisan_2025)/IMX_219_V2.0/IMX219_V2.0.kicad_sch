@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ab88be40-b690-4b77-b53c-01e87309c92e")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 117.348 46.99)
+		(size 32.004 47.498)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "22e6bcd8-01f2-45d9-af4a-0ce8caa256d8")
+		(property "Sheetname" "IMX219"
+			(at 117.348 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMX219.kicad_sch"
+			(at 117.348 95.0726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IMX219_V2.0"
+				(path "/ab88be40-b690-4b77-b53c-01e87309c92e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

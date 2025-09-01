@@ -1,0 +1,53 @@
+Altium Designer Pick and Place Locations
+C:\Projects\Altium\Movita\Movita-EC25-Rev02\Project Outputs for Movita-EC25-Rev02\Pick Place for Movita-EC25-Rev02.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       16/09/21
+Time:       00:13
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Comment                 Layer       Footprint                  Center-X(mm) Center-Y(mm) Rotation Description                                                
+T3         DTR                     TopLayer    TESTPOINT_1WAY_0.7x1mm_VIA 48,6600      6,1400       0        TESTPOINT_1WAY_0.7x1mm_VIA                                 
+T2         RI                      TopLayer    TESTPOINT_1WAY_0.7x1mm_VIA 50,9600      6,1400       0        TESTPOINT_1WAY_0.7x1mm_VIA                                 
+T1         AP_READY                TopLayer    TESTPOINT_1WAY_0.7x1mm_VIA 54,2700      13,0900      0        TESTPOINT_1WAY_0.7x1mm_VIA                                 
+J6         Header_3Ways_2x54       BottomLayer HEADER_3WAYS_2x54          34,6200      2,0700       180      Header_3Ways_2x54                                          
+R2         0R                      TopLayer    RESC1005X35N               29,4300      2,6600       270      "0R 0402 %5"                                               
+C16        T490A107M006ATE500      TopLayer    CAPPM3216X180N             15,1100      5,3600       270      "Capacitor Polarised"                                      
+C15        T490A107M006ATE500      TopLayer    CAPPM3216X180N             21,2300      5,3600       270      "Capacitor Polarised"                                      
+D1         TPET05US3               TopLayer    SOT23                      46,4500      3,6300       360      "TVS Diode Array (Uni-directional), 5V, SOT23"             
+J2         Header_6Ways_2x54       BottomLayer HEADER_6WAYS_2x54          8,5700       39,2900      360      Header_6Ways_2x54                                          
+J1         Header_6Ways_2x54       BottomLayer HEADER_6WAYS_2x54          30,8000      5,9200       180      Header_6Ways_2x54                                          
+Z2         TDZVTR5.1               TopLayer    TDZVTR51                   9,4900       5,1200       180      "500mW SOD-323HE TUMD2M  Zener Diode"                      
+Z1         TDZVTR5.1               TopLayer    TDZVTR51                   25,0700      2,8400       270      "500mW SOD-323HE TUMD2M  Zener Diode"                      
+R5         0R                      TopLayer    RESC1005X35N               8,0200       32,8300      180      "0R 0402 %5"                                               
+R4         0R                      TopLayer    RESC1005X35N               8,1400       14,5800      180      "0R 0402 %5"                                               
+R3         10R                     TopLayer    RESC1005X35N               8,3400       22,1000      270      "10R ohms 1% 0402"                                         
+R1         0R                      TopLayer    RESC1005X35N               39,9600      6,1800       270      "0R 0402 %5"                                               
+L1         "47nH 5%"               TopLayer    LQG15WH0N7B02D             7,4000       23,3500      270      "Fixed Inductors 47nH 5% Hi-Freq"                          
+J5         IPEX                    TopLayer    RSP12281101                4,3626       32,8396      90       "IPEX SMD RF Connector
+Alternatif MPN: 320110048"         
+J4         IPEX                    TopLayer    RSP12281101                4,3826       14,5496      90       "IPEX SMD RF Connector
+Alternatif MPN: 320110048"         
+J3         IPEX                    TopLayer    RSP12281101                4,3826       23,9595      90       "IPEX SMD RF Connector
+Alternatif MPN: 320110048"         
+IC1        EC25-E                  TopLayer    EC21AU                     34,7250      24,3700      180      "Integrated Circuit"                                       
+FL1        "90R Common Mode Choke" TopLayer    DLW31SH222SQ2L             42,0200      4,9300       270      "90ohm@100MHz Tol 25% 
+Common Mode Chokes / Filters 1206" 
+C14        DNP                     TopLayer    CAPC1005X55N               6,4300       33,3000      270      "Capacitor 0402, Do not populate"                          
+C13        DNP                     TopLayer    CAPC1005X55N               9,6100       32,3700      90       "Capacitor 0402, Do not populate"                          
+C12        DNP                     TopLayer    CAPC1005X55N               6,4300       15,0300      270      "Capacitor 0402, Do not populate"                          
+C11        DNP                     TopLayer    CAPC1005X55N               9,8400       14,1000      90       "Capacitor 0402, Do not populate"                          
+C10        DNP                     TopLayer    CAPC1005X55N               6,4354       23,4998      90       "Capacitor 0402, Do not populate"                          
+C9         DNP                     TopLayer    CAPC1005X55N               10,2700      24,4300      270      "Capacitor 0402, Do not populate"                          
+C8         100pF                   TopLayer    CAPC1005X55N               8,8200       23,9400      180      "100pF 0402 10% 50V MLCC"                                  
+C7         0.1uF                   TopLayer    CAPC1005X55N               9,3100       22,2400      270      "0.1uF 0402 20% 16V MLCC"                                  
+C6         0.1uF                   TopLayer    CAPC1005X55N               13,3348      5,5600       90       "0.1 uF 0402 50V X8L 10%"                                  
+C5         10pF                    TopLayer    CAPC1005X55N               12,2674      5,5600       90       "10pF 0402 5% 16V MLCC"                                    
+C4         33pF                    TopLayer    CAPC1005X55N               11,2000      5,5600       90       "33pF 0402 5% 16V MLCC"                                    
+C3         0.1uF                   TopLayer    CAPC1005X55N               19,5370      5,5600       90       "0.1 uF 0402 50V X8L 10%"                                  
+C2         10pF                    TopLayer    CAPC1005X55N               18,4696      5,5600       90       "10pF 0402 5% 16V MLCC"                                    
+C1         33pF                    TopLayer    CAPC1005X55N               17,4022      5,5600       90       "33pF 0402 5% 16V MLCC"                                    

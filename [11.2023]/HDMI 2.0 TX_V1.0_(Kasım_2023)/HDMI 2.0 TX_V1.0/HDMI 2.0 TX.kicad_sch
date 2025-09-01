@@ -1,0 +1,31 @@
+(kicad_sch (version 20230819) (generator eeschema)
+
+  (uuid 1c337521-e807-4163-b5e8-0747888bbf7d)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 80.518 46.228) (size 38.608 61.214) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cba64b31-b862-492c-821d-b9e8d2d7b0fc)
+    (property "Sheetname" "HDMI 2.0 " (at 80.518 45.5164 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "HDMI 2.0 .kicad_sch" (at 80.518 108.0266 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "HDMI 2.0 TX"
+        (path "/1c337521-e807-4163-b5e8-0747888bbf7d" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -1,0 +1,26 @@
+Altium Designer Pick and Place Locations
+C:\Projects\Altium\Movita\Movita-Pro-V2_1_Multi\Movita-Pro-V2_1-GSM-EC25\Project Outputs for Movita-Pro-V2_1-GSM-EC25\Pick Place for Movita-Pro-V2_1-GSM-EC25.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       21/02/23
+Time:       11:08
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Comment                       Layer    Footprint                     Center-X(mm) Center-Y(mm) Rotation Description                              
+J4         CastellatedHoles_6Ways_2_54mm TopLayer CastellatedHoles_6Ways_2.54mm 40.0060      24.6700      90       "CastellatedHoles
+6 Ways
+2.54mm pitch" 
+J3         CastellatedHoles_5Ways_2_54mm TopLayer CastellatedHoles_5Ways_2.54mm 25.0190      0.0000       0        "CastellatedHoles
+5 Ways
+2.54mm pitch" 
+J2         CastellatedHoles_5Ways_2_54mm TopLayer CastellatedHoles_5Ways_2.54mm 0.0000       13.9700      270      "CastellatedHoles
+5 Ways
+2.54mm pitch" 
+J1         CastellatedHoles_5Ways_2_54mm TopLayer CastellatedHoles_5Ways_2.54mm 13.8742      36.9968      180      "CastellatedHoles
+5 Ways
+2.54mm pitch" 
+IC1        EC25-E                        TopLayer EC21AU                        20.0052      18.4743      180      "Integrated Circuit"                     

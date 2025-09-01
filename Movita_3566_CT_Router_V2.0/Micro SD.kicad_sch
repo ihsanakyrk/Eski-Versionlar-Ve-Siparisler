@@ -1,0 +1,4921 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1dfe3080-728f-4204-91e0-22296797290c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cm3568 LPDDR4-altium-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cm3568 LPDDR4-altium-import:root_0_TFP09-2-12B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TFP09-2-12B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_TFP09-2-12B_1_0"
+				(polyline
+					(pts
+						(xy 45 -15) (xy 40 -15)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 40 -2.5) (xy 45 -2.5) (xy 45 -15)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 40 -2.5) (xy 27.5 -2.5) (xy 25 -5) (xy 20 -5) (xy 20 -15) (xy 40 -15)
+					)
+					(stroke
+						(width 0.508)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 -22.5) (xy 5 2.5) (xy 12.5 2.5) (xy 17.5 5) (xy 40 5) (xy 40 -22.5) (xy 5 -22.5)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.5 -27.5 90)
+					(length 5.08)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35 -27.5 90)
+					(length 5.08)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35 10 270)
+					(length 5.08)
+					(name "G3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.5 10 270)
+					(length 5.08)
+					(name "G4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "CD/DAT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.5 0)
+					(length 5.08)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20 0)
+					(length 5.08)
+					(name "CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cm3568 LPDDR4-altium-import:root_3_C0201_100nF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "X5R 10uF 10V C0201"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C0201"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_C0201_100nF_1_0"
+				(arc
+					(start -4.5103 -1.5255)
+					(mid -5.3375 -2.132)
+					(end -5.9865 -2.9264)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -1.016)
+					(mid -3.5575 -1.1454)
+					(end -4.5103 -1.5255)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 -0.762) (xy -0.508 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.016) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy -4.572 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cm3568 LPDDR4-altium-import:root_3_C0603_10uF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "X5R 10uF 6.3V C0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_C0603_10uF_1_0"
+				(arc
+					(start -4.5103 -1.5255)
+					(mid -5.3375 -2.132)
+					(end -5.9865 -2.9264)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -1.016)
+					(mid -3.5575 -1.1454)
+					(end -4.5103 -1.5255)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 -0.762) (xy -0.508 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.016) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy -4.572 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cm3568 LPDDR4-altium-import:root_3_ESD0402_1xD5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TVS DIODE ESD0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ESD0402_1xD5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_ESD0402_1xD5_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 2.54 -5.08) (xy -2.54 -5.08) (xy 0 -0.254)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy -2.54 5.08) (xy 0 0) (xy 2.54 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 111.644 84.836)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03a87749-be77-4af9-8c47-c2304639e04a")
+	)
+	(junction
+		(at 191.644 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3eaa7733-e6d4-4945-b2e8-909dd864d2db")
+	)
+	(junction
+		(at 171.644 72.292)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42132dba-9899-4a9d-8988-276ad4a7e32e")
+	)
+	(junction
+		(at 21.59 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5371eacf-5566-420d-b4dd-7f5f7188dbc8")
+	)
+	(junction
+		(at 152.762 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "878f5985-6dca-4590-a95d-87765c2f6b69")
+	)
+	(junction
+		(at 34.09 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ea3b5e0-3e77-4cc6-812b-e2153e839d57")
+	)
+	(junction
+		(at 92.71 87.212)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a58fcc12-4871-4b06-95f0-78cd80e40e07")
+	)
+	(junction
+		(at 191.644 69.752)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3f3a39c-8094-4b8c-b938-bb0c6ed69257")
+	)
+	(junction
+		(at 131.572 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb248daf-a1a7-4c29-8b2a-d582eb6b4846")
+	)
+	(junction
+		(at 211.644 67.212)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d859a6a4-b264-421b-bb91-80c7c909e105")
+	)
+	(wire
+		(pts
+			(xy 211.644 67.212) (xy 211.644 66.9316)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0590d595-b0de-49b8-a5b5-21073fa74136")
+	)
+	(wire
+		(pts
+			(xy 27.94 54.61) (xy 21.59 54.61)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "08aad18b-05de-49ec-bcea-4e8dd202e151")
+	)
+	(wire
+		(pts
+			(xy 70.104 69.596) (xy 75.9609 69.596)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0aaf8a1f-e72c-4d49-b022-11033b9ec4f9")
+	)
+	(wire
+		(pts
+			(xy 21.644 87.412) (xy 21.644 89.952)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "13dd5483-2984-4cbb-a224-3d3f52457767")
+	)
+	(wire
+		(pts
+			(xy 239.144 67.212) (xy 211.644 67.212)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "14e70a68-3d12-4edd-8867-f072a3c2f9a3")
+	)
+	(wire
+		(pts
+			(xy 191.644 69.596) (xy 191.644 69.752)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "15a76402-6c1a-4528-af24-61e27d7c4b32")
+	)
+	(wire
+		(pts
+			(xy 83.5809 69.596) (xy 191.644 69.596)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "192f4907-f564-466d-8c54-2a778823506a")
+	)
+	(wire
+		(pts
+			(xy 92.71 87.212) (xy 239.144 87.212)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "1f6f82c6-979c-4407-a6ab-36898ff85539")
+	)
+	(wire
+		(pts
+			(xy 67.4 82.55) (xy 76.128 82.55)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "21c5340b-526c-488d-baa5-b78af09f79f8")
+	)
+	(wire
+		(pts
+			(xy 153.108 77.372) (xy 239.144 77.372)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "276e9796-91cd-4621-b7e8-e56226e2d559")
+	)
+	(wire
+		(pts
+			(xy 131.572 82.55) (xy 131.644 82.55)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2c284c70-1d83-4fbe-8cdb-7e906a57936d")
+	)
+	(wire
+		(pts
+			(xy 34.09 74.832) (xy 34.09 74.93)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "309ae326-ae4c-4c1a-bedb-9f1d80de0d55")
+	)
+	(wire
+		(pts
+			(xy 92.71 87.15) (xy 83.748 87.15)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "322677df-3cb9-42fc-bf46-2553874c64a2")
+	)
+	(wire
+		(pts
+			(xy 77.0109 66.9316) (xy 74.93 66.9316)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "35c0db7f-f35b-4ffd-b2b0-4d11d388aa67")
+	)
+	(wire
+		(pts
+			(xy 171.644 72.292) (xy 171.45 72.292)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "36042b12-194b-4667-85d7-d7c6d331d3f0")
+	)
+	(wire
+		(pts
+			(xy 34.144 97.572) (xy 34.144 99.952)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "38ca83b4-de4a-4fa0-8087-8aa56ce78c0e")
+	)
+	(wire
+		(pts
+			(xy 21.59 74.93) (xy 34.09 74.93)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "3b41a7d8-462d-40ca-8d40-9acb1bc06ce3")
+	)
+	(wire
+		(pts
+			(xy 34.09 74.93) (xy 34.09 84.872)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "3e07c7d4-8700-4a72-a8fd-ef2e778ba15d")
+	)
+	(wire
+		(pts
+			(xy 67.31 77.47) (xy 76.0561 77.47)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "47f6c575-acc1-4f05-a4f3-a2f76b4e5c7a")
+	)
+	(wire
+		(pts
+			(xy 191.644 69.85) (xy 191.736 69.85)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "4b3bd057-a531-44ff-805c-96064b35e356")
+	)
+	(wire
+		(pts
+			(xy 21.59 54.61) (xy 21.59 62.23)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "500f469a-fbd4-4bb7-8097-d6889f21cb96")
+	)
+	(wire
+		(pts
+			(xy 74.93 66.9316) (xy 74.93 67.056)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "594e10d5-0725-4bca-9e68-6e39c6e46ef0")
+	)
+	(wire
+		(pts
+			(xy 153.108 77.47) (xy 153.108 77.372)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5c93e601-55a0-4463-89aa-1c3b28aee54c")
+	)
+	(wire
+		(pts
+			(xy 112.244 84.712) (xy 239.144 84.712)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5fc84a7e-6ed7-497e-91f7-be8a000b51ff")
+	)
+	(wire
+		(pts
+			(xy 152.762 77.47) (xy 153.108 77.47)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "652247a9-e829-4e16-b98c-43fe70e85f2f")
+	)
+	(wire
+		(pts
+			(xy 76.128 87.15) (xy 67.6785 87.15)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6d1eedf4-b477-45eb-bd77-8f500744a2ed")
+	)
+	(wire
+		(pts
+			(xy 274.144 99.952) (xy 274.144 94.712)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6d59204c-73e8-453f-8863-e471c6e6d95f")
+	)
+	(wire
+		(pts
+			(xy 239.144 79.912) (xy 231.644 79.912)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6edff814-95a8-4fe8-a706-8fad1e210de0")
+	)
+	(wire
+		(pts
+			(xy 239.144 69.752) (xy 191.644 69.752)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6f65aba2-0477-42e9-b9e7-964bb8f1e1da")
+	)
+	(wire
+		(pts
+			(xy 92.71 87.15) (xy 92.71 87.212)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7373eeed-9301-4227-91c2-7e3c82fecbf9")
+	)
+	(wire
+		(pts
+			(xy 152.762 101.44) (xy 152.762 77.47)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "742b3183-9e8b-4b40-bea6-e2620a6a02d7")
+	)
+	(wire
+		(pts
+			(xy 191.644 69.752) (xy 191.644 69.85)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "79dd655a-a18b-408b-91f7-38a611f9cf8d")
+	)
+	(wire
+		(pts
+			(xy 211.644 102.052) (xy 211.644 67.212)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7a6b4489-bcb4-455e-887d-c5c54cf453d1")
+	)
+	(wire
+		(pts
+			(xy 83.6761 77.47) (xy 152.762 77.47)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "80af8228-abe7-41c6-abc9-9abc46b238cb")
+	)
+	(wire
+		(pts
+			(xy 92.762 87.376) (xy 92.71 87.376)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "84e91076-6eb9-46bd-b370-28bfcf994405")
+	)
+	(wire
+		(pts
+			(xy 211.644 66.9316) (xy 84.6309 66.9316)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "853f723a-5589-4836-99cd-31bebc368e0c")
+	)
+	(wire
+		(pts
+			(xy 112.244 84.836) (xy 112.244 84.712)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "8715a5c8-bdaa-4b6e-9e91-9fa79452820f")
+	)
+	(wire
+		(pts
+			(xy 83.748 82.55) (xy 131.572 82.55)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "8848b4d8-bb27-4c35-a5cb-60dcb5f758f6")
+	)
+	(wire
+		(pts
+			(xy 274.144 54.952) (xy 274.144 57.212)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "8a5a51b6-8f9b-4ece-96f2-7092387c72c0")
+	)
+	(wire
+		(pts
+			(xy 171.45 72.292) (xy 171.45 72.136)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "8ba44565-5b1b-48c3-abe6-6850a623fc57")
+	)
+	(wire
+		(pts
+			(xy 21.59 74.93) (xy 21.59 69.85)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9021210f-da8b-4a41-8fb6-b1fc6854f68a")
+	)
+	(wire
+		(pts
+			(xy 261.644 99.952) (xy 261.644 94.712)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "90521823-9af2-4771-95b7-bddab78d5573")
+	)
+	(wire
+		(pts
+			(xy 131.644 82.55) (xy 131.644 102.052)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9ab01106-e557-43fc-9cb7-f0f4f3e8555c")
+	)
+	(wire
+		(pts
+			(xy 83.748 84.836) (xy 111.644 84.836)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9bcacc05-4f03-4e7b-afc3-57c358a7c5a9")
+	)
+	(wire
+		(pts
+			(xy 131.572 82.452) (xy 131.572 82.55)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a5bf308f-a120-4a1f-a85a-61a9c404c753")
+	)
+	(wire
+		(pts
+			(xy 171.644 102.052) (xy 171.644 72.292)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a9c51635-e7e2-4094-9265-56564beee37a")
+	)
+	(wire
+		(pts
+			(xy 92.71 87.376) (xy 92.71 87.212)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ac9a539c-4806-4338-9e8b-1fa8530640bc")
+	)
+	(wire
+		(pts
+			(xy 239.144 82.452) (xy 131.572 82.452)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "c6756f26-f934-4d1f-aef5-164c3512f1b0")
+	)
+	(wire
+		(pts
+			(xy 171.45 72.136) (xy 83.6288 72.136)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "c9d1bbfa-ba95-42c6-8511-bb593bcc3b45")
+	)
+	(wire
+		(pts
+			(xy 239.144 74.832) (xy 34.09 74.832)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ca8c9500-4c1d-47da-a43b-c239405d3cad")
+	)
+	(wire
+		(pts
+			(xy 21.59 87.412) (xy 21.644 87.412)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "cb383512-4762-414c-a4cf-92ee10a7cb11")
+	)
+	(wire
+		(pts
+			(xy 171.644 72.292) (xy 239.144 72.292)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "cf9bf182-ae9a-4768-b700-1dcecb25fa1d")
+	)
+	(wire
+		(pts
+			(xy 21.59 74.93) (xy 21.59 87.412)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e2b62e81-b976-48ed-ad42-91afecbd1699")
+	)
+	(wire
+		(pts
+			(xy 191.644 69.85) (xy 191.644 102.052)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e8034ae0-e194-4894-91f8-ff6964cd00f0")
+	)
+	(wire
+		(pts
+			(xy 111.644 102.052) (xy 111.644 84.836)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e84ee7e6-91b9-48f9-ba00-35fc1eaf07e3")
+	)
+	(wire
+		(pts
+			(xy 231.644 79.912) (xy 231.644 127.452)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ea25a2ea-0f6b-45da-8e5c-a3f879aa4d02")
+	)
+	(wire
+		(pts
+			(xy 34.144 84.872) (xy 34.144 89.952)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ea3994cb-e2a8-4b7f-9a81-a076a3f6861b")
+	)
+	(wire
+		(pts
+			(xy 111.644 84.836) (xy 112.244 84.836)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ed607641-460e-472a-946b-e1d6fbbb32a1")
+	)
+	(wire
+		(pts
+			(xy 261.644 54.952) (xy 261.644 57.212)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f1dc9bb1-3a36-43a5-8c72-a06da8f11354")
+	)
+	(wire
+		(pts
+			(xy 76.0088 72.136) (xy 70.072 72.136)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f3de5cea-2bff-4627-a80b-833ccfe221f6")
+	)
+	(wire
+		(pts
+			(xy 67.31 84.836) (xy 76.128 84.836)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f6405bf5-408a-4a59-8279-fdc8b1f26581")
+	)
+	(wire
+		(pts
+			(xy 34.09 84.872) (xy 34.144 84.872)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "fb88d8b3-c4c4-4b9e-805b-c858e8d944ce")
+	)
+	(wire
+		(pts
+			(xy 21.644 97.572) (xy 21.644 99.952)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "fba621b8-470d-46bc-b4d2-c11e4948f401")
+	)
+	(wire
+		(pts
+			(xy 92.762 101.44) (xy 92.762 87.376)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "fc8e09a2-6754-4b4c-a1de-366400ed0da9")
+	)
+	(wire
+		(pts
+			(xy 74.93 67.056) (xy 70.204 67.056)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "fcd87e29-0572-4cdf-a505-5e80d469bc96")
+	)
+	(polyline
+		(pts
+			(xy 16.764 87.63) (xy 43.18 87.376) (xy 43.18 107.188) (xy 16.51 107.696) (xy 16.256 87.63)
+		)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 0 255 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7370680c-dfb4-4bfc-844c-06646f05015c)
+	)
+	(text_box "SOD-882"
+		(exclude_from_sim no)
+		(at 193.548 111.916 0)
+		(size 15 3.048)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left top)
+		)
+		(uuid "0c4da250-cd8e-4054-a878-c75c2482b0fb")
+	)
+	(text_box "SOD-882"
+		(exclude_from_sim no)
+		(at 154.686 111.662 0)
+		(size 15 3.048)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left top)
+		)
+		(uuid "11853818-9f8c-4be0-8ada-538eb843b436")
+	)
+	(text_box "SOD-882"
+		(exclude_from_sim no)
+		(at 94.742 111.662 0)
+		(size 15 3.048)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left top)
+		)
+		(uuid "314b8be9-91c6-4a1c-9752-9b57d5d02c9d")
+	)
+	(text_box "X5R\n10V\nC0603"
+		(exclude_from_sim no)
+		(at 22.86 91.342 0)
+		(size 7.5 8.138)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left top)
+		)
+		(uuid "7d9ff75e-7bc7-4307-8c80-4dde8550948f")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 134.098 111.6 0)
+		(size 15 3.048)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left top)
+		)
+		(uuid "818a15b1-5ecb-410e-aac6-264ee09aaffc")
+	)
+	(text_box "SOD-882"
+		(exclude_from_sim no)
+		(at 213.868 111.916 0)
+		(size 15 3.048)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left top)
+		)
+		(uuid "8a28d198-3a69-49bc-81d2-6c88378c872b")
+	)
+	(text_box "Close to MicroSD Card"
+		(exclude_from_sim no)
+		(at 42.672 108.874 0)
+		(size -23.192 3.138)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left top)
+		)
+		(uuid "93e41ea1-c61f-42e7-8b1b-934d4ac68a6e")
+	)
+	(text_box "SOD-882"
+		(exclude_from_sim no)
+		(at 113.538 111.916 0)
+		(size 15 3.048)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left top)
+		)
+		(uuid "c9414712-824a-462e-89f1-a461e5b38084")
+	)
+	(text_box "SOD-882"
+		(exclude_from_sim no)
+		(at 134.366 112.424 0)
+		(size 15 3.048)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left top)
+		)
+		(uuid "d872721c-a1c0-4018-9232-343400238225")
+	)
+	(text_box "X5R\n10V\nC0402\n"
+		(exclude_from_sim no)
+		(at 35.56 91.85 0)
+		(size 7.5 8.138)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left top)
+		)
+		(uuid "df904160-db79-4af8-8b85-d755e05a67bf")
+	)
+	(text_box "SOD-882"
+		(exclude_from_sim no)
+		(at 173.736 111.916 0)
+		(size 15 3.048)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left top)
+		)
+		(uuid "e3d01e49-3ec2-4173-9a55-90729a9d0063")
+	)
+	(text_box "MicroSD Card"
+		(exclude_from_sim no)
+		(at 109.22 40.64 0)
+		(size 71.12 21.59)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "e3dae04b-3201-4b0f-8c9e-b2dfb9a3934d")
+	)
+	(label ""
+		(at 46.228 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2eb9893a-0a21-4a6c-a93e-c4835d13df98")
+	)
+	(hierarchical_label "SDMMC0_D3/ARMJTAG_TMS"
+		(shape passive)
+		(at 70.104 69.596 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e52758c-3cf8-4be0-8297-4c1d99aac91c")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 27.94 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f804a79-c41e-45ad-9a7e-90e0f6261436")
+	)
+	(hierarchical_label "SDMMC0_D0"
+		(shape passive)
+		(at 67.4 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f9e6bb7-8ca6-4e61-985c-9bdbc333c024")
+	)
+	(hierarchical_label "SDMMC0_D2/ARMJTAG_TCK"
+		(shape passive)
+		(at 70.204 67.056 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9256c282-33f2-4508-881c-92fc34e835e8")
+	)
+	(hierarchical_label "SDMMC0_DET_L"
+		(shape passive)
+		(at 67.6785 87.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c200be54-8930-41b1-95c7-e66453e4f668")
+	)
+	(hierarchical_label "SDMMC0_CMD"
+		(shape passive)
+		(at 70.072 72.136 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c88cf942-ed29-46a8-a9d4-08428dffb433")
+	)
+	(hierarchical_label "SDMMC0_CLK"
+		(shape passive)
+		(at 67.31 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5c348b7-9281-4265-8aa4-b67fb635ae0b")
+	)
+	(hierarchical_label "SDMMC0_D1"
+		(shape passive)
+		(at 67.31 84.836 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d941b225-7297-47d3-af7e-7f1e473cfed8")
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:root_3_ESD0402_1xD5")
+		(at 171.644 114.752 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a172063-72af-4f37-8bbb-5e310dfb05dd")
+		(property "Reference" "ED5"
+			(at 174.438 109.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ESD5341N"
+			(at 174.438 111.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Footprint Library:ESD5341N"
+			(at 171.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD5341N"
+			(at 171.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 171.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cbf62e6-0b90-4b07-b58e-036221c45ac2")
+		)
+		(pin "2"
+			(uuid "bb8b8e94-f7bf-46ee-8918-cabe19a46c55")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "ED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 79.938 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3685d2c4-dc5f-46b5-8db8-42b4f9da5515")
+		(property "Reference" "R70"
+			(at 75.6856 81.026 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 85.0836 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 79.938 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 79.938 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 79.938 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF220JT5E"
+			(at 79.938 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 79.938 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d127119e-167d-4074-8b19-619ea04d685f")
+		)
+		(pin "2"
+			(uuid "ec22032b-f956-4428-9dad-5ada547a03de")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:GND")
+		(at 211.644 127.452 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a35b79b-177b-4ccd-adc0-c731d239fe9d")
+		(property "Reference" "#PWR034"
+			(at 211.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 211.644 133.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 211.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 211.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 211.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2b96c671-4354-4ca8-92d5-ba5079d375fa")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:root_3_ESD0402_1xD5")
+		(at 191.644 114.752 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c56d95e-9a67-48a1-8a04-8978b25e2297")
+		(property "Reference" "ED6"
+			(at 194.438 109.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ESD5341N"
+			(at 194.438 111.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Footprint Library:ESD5341N"
+			(at 191.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD5341N"
+			(at 191.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 191.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af27f26b-c4f3-4455-9190-59ebc8252973")
+		)
+		(pin "2"
+			(uuid "1a5081e5-1d80-42ff-8fd4-2505ea3866e3")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "ED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:root_3_ESD0402_1xD5")
+		(at 111.644 114.752 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d97ba73-7254-4336-aa01-5edf7037ff1d")
+		(property "Reference" "ED2"
+			(at 114.438 109.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ESD5341N"
+			(at 114.438 111.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Footprint Library:ESD5341N"
+			(at 111.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD5341N"
+			(at 111.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 111.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e01a8bc-2c79-450e-b2cb-0705b8af754c")
+		)
+		(pin "2"
+			(uuid "eb7a9e04-b06b-47c3-97a3-11cca5f40fb3")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "ED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 79.8188 72.136 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6139b9ef-7cee-4919-8018-c1f3e3867ee2")
+		(property "Reference" "R68"
+			(at 75.5664 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 84.9644 70.866 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 79.8188 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 79.8188 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 79.8188 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF220JT5E"
+			(at 79.8188 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 79.8188 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faf2247e-8332-4acc-bb7b-8656dfcfc8aa")
+		)
+		(pin "2"
+			(uuid "19751c3b-f5c4-4260-bc5a-22514c032c2e")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:GND")
+		(at 131.644 127.452 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61ef3ba0-1314-4448-a4e5-83db136f055b")
+		(property "Reference" "#PWR030"
+			(at 131.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 131.644 133.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 131.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 131.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 131.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6bbcd998-c722-45e9-b805-82df593554e8")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:root_0_TFP09-2-12B")
+		(at 239.144 67.212 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63c31ab4-da41-4545-be92-0900a57e7bfe")
+		(property "Reference" "J1"
+			(at 243.078 92.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TF-CARD H1.8"
+			(at 243.078 94.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "HDMI 2.0 TX:TF-CARD H1.8"
+			(at 239.144 67.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 239.144 67.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 239.144 67.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://images.100y.com.tw/pdf_file/10-TFP09-2-12B.pdf"
+			(at 239.144 67.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "2.45mm"
+			(at 239.144 67.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "100y"
+			(at 239.144 67.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "TFP09-2-12B"
+			(at 239.144 67.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" ""
+			(at 239.144 67.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" ""
+			(at 239.144 67.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 239.144 67.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 239.144 67.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER TESTING PART NUMBER" ""
+			(at 239.144 67.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER TESTING PRICE/STOCK" ""
+			(at 239.144 67.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TF 卡座 铜壳"
+			(at 239.144 67.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 239.144 67.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8b1cc58-c020-41c6-97cc-a18b72c30331")
+		)
+		(pin "10"
+			(uuid "8b4cb976-2110-4025-b105-c8950035d16e")
+		)
+		(pin "11"
+			(uuid "57432e42-904f-420f-9fe0-135c690c46a3")
+		)
+		(pin "12"
+			(uuid "0a8fdad1-b103-4c9d-b3d5-b2125c260c8c")
+		)
+		(pin "13"
+			(uuid "314721c6-cd22-458c-a7aa-b6d86b1ca7b7")
+		)
+		(pin "2"
+			(uuid "3462cb41-4f6d-40ef-ba50-bf6094e56dff")
+		)
+		(pin "3"
+			(uuid "5ca2a747-255a-43b0-b5b6-11c61059335d")
+		)
+		(pin "4"
+			(uuid "9d3b91d1-353b-4f98-a037-53864b0f818f")
+		)
+		(pin "5"
+			(uuid "8159bed6-c26b-4576-a7c0-f1a8c2607b26")
+		)
+		(pin "6"
+			(uuid "2440bdc9-1c72-46ef-b6eb-b742014f2748")
+		)
+		(pin "7"
+			(uuid "98256483-6789-4c7f-a0d6-07daa2f67e54")
+		)
+		(pin "8"
+			(uuid "45641abd-5af9-44b7-8f55-523a31bfc2ea")
+		)
+		(pin "9"
+			(uuid "07d35e90-a5b1-49d0-9b63-73300d6fe64c")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.8209 66.9316 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "648e6fe2-f781-41ec-938f-83f5cae88444")
+		(property "Reference" "R73"
+			(at 76.5685 65.4076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 85.9665 65.6616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 80.8209 68.7096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.8209 66.9316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 80.8209 66.9316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF220JT5E"
+			(at 80.8209 66.9316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 80.8209 66.9316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23c08634-b58e-4cdc-ada1-72f1fb086a88")
+		)
+		(pin "2"
+			(uuid "1f80f71e-43a5-47c5-bb38-5e4fc473a153")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:GND")
+		(at 111.644 127.452 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "668a2151-1e14-4376-baf5-10396cc0b6f0")
+		(property "Reference" "#PWR029"
+			(at 111.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.644 133.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "73da263a-aa2a-4272-b9c0-6e7b5fca0213")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:GND")
+		(at 191.644 127.452 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "682f9fcf-0a6c-4e58-84d8-873dc59d0f47")
+		(property "Reference" "#PWR033"
+			(at 191.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.644 133.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bc337338-4f7f-4243-8dbe-d731c9305755")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:GND")
+		(at 171.644 127.452 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78266356-eed4-4750-9889-16e0aa2330d1")
+		(property "Reference" "#PWR032"
+			(at 171.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.644 133.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "388781ac-4459-4348-9978-0529ffcdea7b")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:GND")
+		(at 231.644 127.452 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80569ad6-95e5-4ccf-897b-eb07f18ea64a")
+		(property "Reference" "#PWR035"
+			(at 231.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.644 133.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.644 127.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c2b1fad7-23c4-404e-9970-e2b28c524d98")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ef53bcf-405e-4b78-8b25-a3842ec630b3")
+		(property "Reference" "R62"
+			(at 20.066 70.2924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 20.32 60.8944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 23.368 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 21.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 21.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a91a5525-d010-4ae4-b58a-ae7af69797de")
+		)
+		(pin "2"
+			(uuid "c21d0256-a26c-4df5-b1cb-3462749d19b5")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:root_3_C0603_10uF")
+		(at 24.184 92.492 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96a6408a-18f1-4012-ac7a-1894fae18415")
+		(property "Reference" "C2"
+			(at 23.622 89.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10uF "
+			(at 23.622 91.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 24.184 92.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.184 92.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.184 92.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106MO8NQNC"
+			(at 24.184 92.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 24.184 92.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa79e3e6-c10f-4a5e-b99c-334ab42c7214")
+		)
+		(pin "2"
+			(uuid "666db5ae-cf00-4496-8667-39ee958d98ad")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:GND")
+		(at 274.144 99.952 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e5ec310-7826-4ff2-b0f9-58b01b7a1eb8")
+		(property "Reference" "#PWR048"
+			(at 274.144 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.144 106.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.144 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.144 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 274.144 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "4da3c7e0-b699-4731-b68c-0a377e51daaf")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:root_3_ESD0402_1xD5")
+		(at 92.762 114.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2b6cb94-cbae-40e1-8e99-b184a6cc3bef")
+		(property "Reference" "ED1"
+			(at 95.556 108.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ESD5341N"
+			(at 95.556 111.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Footprint Library:ESD5341N"
+			(at 92.762 114.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.762 114.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.762 114.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD5341N"
+			(at 92.762 114.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 92.762 114.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9770abdc-1a64-40dd-9766-c567bdd8d32c")
+		)
+		(pin "2"
+			(uuid "190acf0e-7708-46ba-aa25-3226fe56c534")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "ED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:root_3_C0201_100nF")
+		(at 36.684 92.492 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3b7d9ed-2030-4c28-a6fd-47769bc4dacd")
+		(property "Reference" "C3"
+			(at 36.576 89.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF "
+			(at 41.402 94.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 36.684 92.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.684 92.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.684 92.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX7R7BB104"
+			(at 36.684 92.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 36.684 92.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8df5d6e-4260-474c-baef-a2bd97763158")
+		)
+		(pin "2"
+			(uuid "57887842-0c04-4930-ab27-62060c28a541")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:GND")
+		(at 261.644 54.952 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5f7999f-0cf5-45bc-a709-646c4ccff018")
+		(property "Reference" "#PWR043"
+			(at 261.644 54.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.644 48.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.644 54.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.644 54.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.644 54.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "24c966a6-6929-46e8-9d8d-60e8398d4a57")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:GND")
+		(at 274.144 54.952 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8d36e2d-b7b7-4a4e-804a-59b097b5fe00")
+		(property "Reference" "#PWR047"
+			(at 274.144 54.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.144 48.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.144 54.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.144 54.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 274.144 54.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6db3656d-cc07-407a-8f61-af4479b4f2bd")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 79.8661 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa518fcb-8338-4f4e-84bf-c9a7dd5c5249")
+		(property "Reference" "R69"
+			(at 75.6137 75.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 85.0117 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 79.8661 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 79.8661 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 79.8661 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF220JT5E"
+			(at 79.8661 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 79.8661 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a61bb278-6305-4f7e-b04c-fd13056033a3")
+		)
+		(pin "2"
+			(uuid "53280684-6b5f-48b8-8e70-0a901061346e")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 79.7709 69.596 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adfd9bbf-b6af-46ba-a290-6372e7ed9275")
+		(property "Reference" "R67"
+			(at 75.5185 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 84.9165 68.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 79.7709 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 79.7709 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 79.7709 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF220JT5E"
+			(at 79.7709 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 79.7709 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8afb57c-eb1b-473a-8ebe-cc78a9286159")
+		)
+		(pin "2"
+			(uuid "549941a5-8993-401c-a243-ab38af357035")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:GND")
+		(at 152.762 126.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfdcc0d2-4e1d-4e48-9877-82f99d29628d")
+		(property "Reference" "#PWR031"
+			(at 152.762 126.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.762 133.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.762 126.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.762 126.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.762 126.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d81b10f6-69a1-49af-a1a8-5d7ed2b985c4")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:GND")
+		(at 261.644 99.952 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3599138-f085-4fee-af5a-abc111a4abea")
+		(property "Reference" "#PWR046"
+			(at 261.644 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.644 106.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.644 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.644 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.644 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2b912661-a089-479f-acf0-ed56331a7247")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:GND")
+		(at 92.762 126.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5db14e5-e34b-46e8-9851-ed3916c22258")
+		(property "Reference" "#PWR028"
+			(at 92.762 126.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.762 133.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.762 126.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.762 126.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.762 126.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "88e4cf1c-6f45-4d95-b2c3-a31c5fbf0982")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:root_3_ESD0402_1xD5")
+		(at 152.762 114.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca0b2d9d-7818-46d3-8de9-3a19517b002b")
+		(property "Reference" "ED4"
+			(at 155.556 108.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ESD5341N"
+			(at 155.556 111.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Footprint Library:ESD5341N"
+			(at 152.762 114.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.762 114.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.762 114.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD5341N"
+			(at 152.762 114.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 152.762 114.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c167f18-c7b8-4f12-9d19-4f26476f75e0")
+		)
+		(pin "2"
+			(uuid "532431d6-e591-43ba-b1cf-9b70096b02e8")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "ED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 79.938 84.836 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d12d0a79-51e7-45cf-88ad-d388dddc4a50")
+		(property "Reference" "R71"
+			(at 75.6856 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 85.0836 83.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 79.938 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 79.938 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 79.938 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF220JT5E"
+			(at 79.938 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 79.938 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c82d2952-cc34-46fc-91da-2b80f328b224")
+		)
+		(pin "2"
+			(uuid "f000c985-d7b2-41b8-9080-aad1495169f7")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:GND")
+		(at 21.644 99.952 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4c80f2a-fa1d-4de0-8fd3-6e61a45a71f5")
+		(property "Reference" "#PWR026"
+			(at 21.644 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.644 106.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.644 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.644 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 21.644 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "4d256744-b2ce-4e73-a5f0-19c9c0c70508")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 79.938 87.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dacae554-3cf6-40e7-b825-a9c983382340")
+		(property "Reference" "R72"
+			(at 75.6856 85.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 85.0836 85.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 79.938 88.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 79.938 87.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 79.938 87.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF220JT5E"
+			(at 79.938 87.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 79.938 87.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b6822fa-9301-4baf-a09e-4eb02f1e6849")
+		)
+		(pin "2"
+			(uuid "ad0f5439-1d28-4722-9a4a-e45ce7d8a039")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:root_3_ESD0402_1xD5")
+		(at 131.644 114.752 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4b0e54a-bb85-438c-a9a6-9d4e391418eb")
+		(property "Reference" "ED3"
+			(at 134.438 109.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ESD5341N"
+			(at 134.438 111.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Footprint Library:ESD5341N"
+			(at 131.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 131.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 131.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD5341N"
+			(at 131.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 131.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2b79bec-cd6c-40f9-89f4-5b2aab011ff7")
+		)
+		(pin "2"
+			(uuid "f44010d9-a6d2-4571-9ea9-c9259392bd6b")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "ED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:GND")
+		(at 34.144 99.952 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f78bb0df-1c8c-4bb3-be69-52ab92d09ad6")
+		(property "Reference" "#PWR027"
+			(at 34.144 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.144 106.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.144 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.144 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.144 99.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "025f293a-7573-48e2-a209-923691851b78")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm3568 LPDDR4-altium-import:root_3_ESD0402_1xD5")
+		(at 211.644 114.752 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff670008-d0c1-49c9-bf0a-3a5ded1b254c")
+		(property "Reference" "ED7"
+			(at 214.438 109.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ESD5341N"
+			(at 214.438 111.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Footprint Library:ESD5341N"
+			(at 211.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 211.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 211.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD5341N"
+			(at 211.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 211.644 114.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "182d44cf-1299-46c3-a4a3-02734d03286a")
+		)
+		(pin "2"
+			(uuid "70d72701-6f38-4944-b6d0-b8a2c7db7e16")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/f6e8ee5e-fdda-418e-bce1-28d6de982252"
+					(reference "ED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

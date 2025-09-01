@@ -1,0 +1,31 @@
+(kicad_sch (version 20230819) (generator eeschema)
+
+  (uuid 462e137d-3177-4ddc-bf31-cf74740243a6)
+
+  (paper "A3")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 195.072 65.024) (size 53.34 108.458) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8bd73a10-5646-4591-9771-22920bb423f9)
+    (property "Sheetname" "IMX415" (at 195.072 64.3124 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "IMX415.kicad_sch" (at 195.072 174.0666 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Camera IMX_415"
+        (path "/462e137d-3177-4ddc-bf31-cf74740243a6" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

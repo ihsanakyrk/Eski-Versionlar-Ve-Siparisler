@@ -1,0 +1,264 @@
+*************************************************************
+FileName = Movita-Pro-V2_1-GSM-EC25.GBR
+AutoAperture = True
+*************************************************************
+Generating : Mechanical 15
+      File : Movita-Pro-V2_1-GSM-EC25.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D11
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : Movita-Pro-V2_1-GSM-EC25.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D11
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Dimensions
+      File : Movita-Pro-V2_1-GSM-EC25.GM3
+
+    Adding Layer      : Dimensions
+
+
+Used DCodes :
+    D11
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Board outline
+      File : Movita-Pro-V2_1-GSM-EC25.GM2
+
+    Adding Layer      : Board outline
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : Movita-Pro-V2_1-GSM-EC25.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : Movita-Pro-V2_1-GSM-EC25.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Movita-Pro-V2_1-GSM-EC25.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Movita-Pro-V2_1-GSM-EC25.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Movita-Pro-V2_1-GSM-EC25.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D23
+    D24
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Movita-Pro-V2_1-GSM-EC25.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : Movita-Pro-V2_1-GSM-EC25.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Movita-Pro-V2_1-GSM-EC25.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : Movita-Pro-V2_1-GSM-EC25.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D27
+    D28
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : Movita-Pro-V2_1-GSM-EC25.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D27
+    D28
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Movita-Pro-V2_1-GSM-EC25.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D25
+    D26
+    D27
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : PWR
+      File : Movita-Pro-V2_1-GSM-EC25.G2
+
+    Adding Layer      : PWR
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : GND
+      File : Movita-Pro-V2_1-GSM-EC25.G1
+
+    Adding Layer      : GND
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D27
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : Movita-Pro-V2_1-GSM-EC25.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D15
+    D16
+    D17
+    D18
+    D25
+    D26
+    D27
+    D28
+    D29
+*************************************************************
+

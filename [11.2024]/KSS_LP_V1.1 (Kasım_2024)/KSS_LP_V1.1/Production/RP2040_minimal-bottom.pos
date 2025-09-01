@@ -1,0 +1,7 @@
+### Footprint positions - created on 2023-08-29T18:06:55+0300 ###
+### Printed by KiCad version 7.99.0-1900-g89780d353a
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                Package                                       PosX       PosY       Rot  Side
+J2        Conn_01x08_Socket  JST_XH_S8B-XH-A_1x08_P2.50mm_Horizontal    66.0300   -24.9900  -90.0000  bottom
+## End

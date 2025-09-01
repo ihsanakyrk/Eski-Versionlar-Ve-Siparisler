@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RP2040-altium-import")(type "KiCad")(uri "D:/Donanımlar/Bluetooth/Anchor/Bluetooth_Anchor_Altium/Bluetooth-Anchor-AltiumDesigner/RP2040-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "POWER UNİT-altium-import")(type "KiCad")(uri "D:/Donanımlar/Bluetooth/Anchor/Bluetooth_Anchor_Altium/Bluetooth-Anchor-AltiumDesigner/POWER UNİT-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "NINA-B411-altium-import")(type "KiCad")(uri "D:/Donanımlar/Bluetooth/Anchor/Bluetooth_Anchor_Altium/Bluetooth-Anchor-AltiumDesigner/NINA-B411-altium-import.kicad_sym")(options "")(descr ""))
+)

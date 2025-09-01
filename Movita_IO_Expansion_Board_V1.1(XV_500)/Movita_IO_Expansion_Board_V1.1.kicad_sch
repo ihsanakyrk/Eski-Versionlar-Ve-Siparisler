@@ -1,0 +1,221 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "25e5aa8e-2696-44a3-8d3c-c2c53f2923cf")
+	(paper "A2")
+	(title_block
+		(title "CamTracker")
+		(date "2022-09-20")
+		(rev "REV1")
+		(company "SmartEQ Bilisim")
+	)
+	(lib_symbols)
+	(sheet
+		(at 228.6 152.1528)
+		(size 71.12 42.1572)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b95e05d9-7dbc-401d-ad33-a443353595f1")
+		(property "Sheetname" "CSI_AHD"
+			(at 227.584 197.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CSI_AHD.kicad_sch"
+			(at 227.838 198.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MIPI_CSI_RX_D1N" input
+			(at 228.6 162.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a9a605a-3bc8-4a01-bb94-67891a6a72ea")
+		)
+		(pin "MIPI_CSI_RX_D0N" input
+			(at 228.6 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "886fe990-bc7b-4cdc-aadc-4e54600d18fd")
+		)
+		(pin "MIPI_CSI_RX_D1P" input
+			(at 228.6 160.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fedf2d57-986b-4ed5-9857-b8951a4ba453")
+		)
+		(pin "MIPI_CSI_RX_D2P" input
+			(at 228.6 165.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bce18477-375e-431c-bf03-7b50df4ccbea")
+		)
+		(pin "MIPI_CSI_RX_D2N" input
+			(at 228.6 167.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4cf78d31-547b-44e3-86ea-4a9697befc7b")
+		)
+		(pin "MIPI_CSI_RX_D3N" input
+			(at 228.6 172.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "20b4da34-7b6f-42fd-825c-b7407e988574")
+		)
+		(pin "MIPI_CSI_RX_D3P" input
+			(at 228.6 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a28770a7-4286-4684-92fe-12f6fdbe79db")
+		)
+		(pin "MIPI_CSI_RX_D0P" input
+			(at 228.6 154.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f6dc042d-abf8-4599-988d-c9423d1e3f6b")
+		)
+		(pin "+3.3V" input
+			(at 299.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "0f08fd18-a017-4852-929a-517d95fd0873")
+		)
+		(pin "+5V" input
+			(at 299.72 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "f6f8fec2-b735-43d8-a7dd-9b43357d2664")
+		)
+		(pin "I2C4_SCL_M0_1V8" input
+			(at 228.6 180.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c11fd44f-4b89-4d50-937e-ddfeb3ec7776")
+		)
+		(pin "I2C4_SDA_M0_1V8" input
+			(at 228.6 182.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2e714052-5087-41ec-9e37-1583b9f41863")
+		)
+		(pin "CAMERAF_RST_L" input
+			(at 228.6 186.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6fee98e7-85f4-40f3-bef9-f2de86c6943a")
+		)
+		(pin "GPIO4_B5_d_1V8" input
+			(at 228.6 189.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "34c7ce1a-67e6-4767-a41c-558068a843b3")
+		)
+		(pin "MIPI_CSI_RX_CLK0P" input
+			(at 228.6 175.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "50cf3449-9d81-41da-abd6-80c54d33597f")
+		)
+		(pin "MIPI_CSI_RX_CLK0N" input
+			(at 228.6 177.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6bc9bc9a-f954-4661-b7c7-9218a8c064a5")
+		)
+		(instances
+			(project "Movita_IO_Expansion_Board_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

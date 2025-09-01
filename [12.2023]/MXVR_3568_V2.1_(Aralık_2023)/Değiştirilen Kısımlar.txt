@@ -1,0 +1,1 @@
+Wifi anteni kısmında SMA Connector_inner_hole yerine SMA connector inner pin geldi

@@ -1,0 +1,3065 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "508b5e72-6c5e-4a39-989c-9c2a1acac4a6")
+	(paper "User" 297.002 210.007)
+	(lib_symbols
+		(symbol "total-altium-import:23_0_CAP NP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "cap,4.70uF,+/-10%,10V,X5R,C0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*C0603*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "23_0_CAP NP_1_0"
+				(polyline
+					(pts
+						(xy 0.254 -1.778) (xy 4.826 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.508) (xy 4.826 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "total-altium-import:23_0_RESISTOR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "通用厚膜电阻,4K7,+/-5%,R0402,1/16W."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*R0402*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "23_0_RESISTOR_1_0"
+				(polyline
+					(pts
+						(xy 1.778 -5.334) (xy 3.302 -6.858)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -2.286) (xy 3.302 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.302 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -6.858) (xy 2.54 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -3.81) (xy 1.778 -5.334)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.762) (xy 1.778 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -10.16 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "total-altium-import:23_1_RESISTOR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "厚膜低阻值电阻,0R05,+/-1%,R0603,1/10W."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*R0402*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "23_1_RESISTOR_1_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.302) (xy 2.286 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 1.778) (xy 3.81 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.302) (xy 5.334 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 1.778) (xy 6.858 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.858 3.302) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 11 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "total-altium-import:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "电源符号创建名为 'GND' 的全局标签"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 110.49 104.9528)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "434af193-73b5-44aa-9010-93b126f46ebe")
+	)
+	(junction
+		(at 224.79 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51aa46a6-515b-4ac2-b282-bf420136ae63")
+	)
+	(wire
+		(pts
+			(xy 224.79 90.17) (xy 224.79 87.63)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "074ff30d-439f-4dd4-b391-09591896f831")
+	)
+	(wire
+		(pts
+			(xy 191.77 110.49) (xy 224.79 110.49)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "16dee783-1bd7-43c0-afc5-9ee07037d296")
+	)
+	(polyline
+		(pts
+			(xy 38.1 19.5072) (xy 38.1 52.5272)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 255 1)
+		)
+		(uuid "1e4c3fd3-8d7b-469d-a8be-478af83ed74f")
+	)
+	(polyline
+		(pts
+			(xy 144.78 55.0672) (xy 144.78 207.4672)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(uuid "2648a02e-6667-4013-b62c-9e5ceab6b090")
+	)
+	(wire
+		(pts
+			(xy 110.5844 104.9528) (xy 110.5844 105.0161)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2c6af59e-e008-494e-9088-7fb3779ac172")
+	)
+	(polyline
+		(pts
+			(xy 7.62 37.2872) (xy 284.48 37.2872)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 255 1)
+		)
+		(uuid "654a90a3-73a5-47df-9dda-381c4b1509c6")
+	)
+	(wire
+		(pts
+			(xy 224.79 115.57) (xy 224.79 110.49)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "697e391d-d07c-4930-bf76-095a184e6bc2")
+	)
+	(wire
+		(pts
+			(xy 111.76 139.7) (xy 111.76 147.32)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "6b165054-3251-4358-b9ed-175a87039cb9")
+	)
+	(wire
+		(pts
+			(xy 111.76 147.32) (xy 86.36 147.32)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "8302515e-17d4-4f50-a73a-d0022de05702")
+	)
+	(wire
+		(pts
+			(xy 110.49 104.9528) (xy 110.49 97.79)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "899ab4bf-b100-495f-b7ec-12ed9cacfa49")
+	)
+	(wire
+		(pts
+			(xy 80.1044 105.0161) (xy 40.7344 105.0161)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "8aefe2ae-aa43-48aa-850d-a64cba5df63b")
+	)
+	(wire
+		(pts
+			(xy 224.79 133.35) (xy 224.79 128.27)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "9415d8f1-30a6-426a-b407-6df3288c4494")
+	)
+	(wire
+		(pts
+			(xy 110.49 110.0328) (xy 110.49 104.9528)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "9864f007-88e9-46f9-af0b-ce66898f9906")
+	)
+	(polyline
+		(pts
+			(xy 7.62 29.6672) (xy 284.48 29.6672)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 255 1)
+		)
+		(uuid "b14bf675-5253-4ba4-88c0-608adc3e4924")
+	)
+	(polyline
+		(pts
+			(xy 144.78 19.5072) (xy 144.78 52.5272)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 255 1)
+		)
+		(uuid "b55d42b0-e64c-4c9c-869f-dc7eb4930bbd")
+	)
+	(wire
+		(pts
+			(xy 110.5844 104.9528) (xy 110.49 104.9528)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c09bc5aa-a96b-46c9-aa60-e745777d30dc")
+	)
+	(wire
+		(pts
+			(xy 73.66 147.32) (xy 53.34 147.32)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c6516a39-ca56-4e78-8afb-41f0d131c114")
+	)
+	(wire
+		(pts
+			(xy 110.49 122.7328) (xy 110.49 117.6528)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c89c4c9d-29e1-407b-96e7-ef977d77a2c9")
+	)
+	(polyline
+		(pts
+			(xy 7.62 44.9072) (xy 284.48 44.9072)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 255 1)
+		)
+		(uuid "d17a2d10-0590-4a61-9e09-cc28b9ba917f")
+	)
+	(wire
+		(pts
+			(xy 224.79 110.49) (xy 224.79 102.87)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d99902af-0edf-41c9-aec8-5c8022a409b0")
+	)
+	(wire
+		(pts
+			(xy 110.5844 105.0161) (xy 92.8044 105.0161)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f69554a0-bbc7-4e69-8bbd-31bca7168359")
+	)
+	(rectangle
+		(start 284.48 19.5072)
+		(end 7.62 52.5272)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9a80dd22-55a4-47ff-b793-1def4e4054b0)
+	)
+	(text_box "VCCIO2 domain voltage: Recommend  voltage value\n(VCCIO_FLASH)"
+		(exclude_from_sim no)
+		(at 43.18 22.0472 0)
+		(size 96.52 6.604)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "89ff5710-e610-417c-a888-0bd12ce38568")
+	)
+	(text_box "Note:\nFLASH_VOL_SEL state decided \nto VCCIO2 domain IO driven by default\nLogic=L：3.3V IO driven\nLogic=H：1.8V IO driven"
+		(exclude_from_sim no)
+		(at 182.88 133.8072 0)
+		(size 76.2 16.51)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "a48bf7e6-38b1-4551-b58c-70421eeb15ea")
+	)
+	(text "FLASH_VOL_SEL state decided  to VCCIO2 domain IO driven by default"
+		(exclude_from_sim no)
+		(at 149.86 24.3332 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e71dfde-b94b-494a-ae55-1a4dcf9d21d6")
+	)
+	(text "1.8V"
+		(exclude_from_sim no)
+		(at 45.72 34.4932 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "28fee8b5-a85d-4aa1-9bc0-64552de7f374")
+	)
+	(text "FLASH_VOL_SEL --> Logic=L(Default)"
+		(exclude_from_sim no)
+		(at 149.86 49.7332 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a0b2611-3bbd-42f5-98a5-2db2b0585470")
+	)
+	(text "eMMC"
+		(exclude_from_sim no)
+		(at 15.24 34.4932 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e4e5bca-ae7b-46f7-8bfd-fd83e7b6525c")
+	)
+	(text "Rockchip Confidential"
+		(exclude_from_sim no)
+		(at 5.08 204.6732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.4826)
+				(bold yes)
+				(italic yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "30c7b81b-bad1-49d0-9ffa-b6fa53ccc06f")
+	)
+	(text "Default 3.3V, Adjust according to demand 1.8V"
+		(exclude_from_sim no)
+		(at 45.72 42.1132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c15ba87-6be5-4884-98f1-27001e1d05b7")
+	)
+	(text "Nand flash"
+		(exclude_from_sim no)
+		(at 15.24 42.1132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "61989a3a-ec90-4d84-91d9-40efdc13354a")
+	)
+	(text "Default 3.3V, Adjust according to demand 1.8V"
+		(exclude_from_sim no)
+		(at 45.72 49.7332 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "7aed22fc-6073-48b7-bbdc-bc468f27df7c")
+	)
+	(text "FLASH_VOL_SEL --> Logic=L(Default)"
+		(exclude_from_sim no)
+		(at 149.86 42.1132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "93f58da8-96cf-4ecb-9a8f-86d38e7b0e15")
+	)
+	(text "Flash Power Manage"
+		(exclude_from_sim no)
+		(at 5.08 13.1572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.635)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d21be15f-5044-4b3c-a210-f440a51a63b6")
+	)
+	(text "SPI flash"
+		(exclude_from_sim no)
+		(at 15.24 49.7332 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e15ee2ad-58cc-4a38-97cf-dd2b7c55cc16")
+	)
+	(text "FLASH_VOL_SEL --> Logic=H"
+		(exclude_from_sim no)
+		(at 149.86 34.4932 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f636c619-c36c-434a-b4bd-a054f31e94fa")
+	)
+	(label "FLASH_VOL_SEL"
+		(at 191.77 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.25 1.25)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4f33fda-839f-46f5-ba95-87662038a2d1")
+	)
+	(hierarchical_label "VCC_1V8_FLASH"
+		(shape input)
+		(at 40.7344 105.0161 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.25 1.25)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "1f359a79-c86a-4dd6-9167-03522eb959b0")
+	)
+	(hierarchical_label "VCCIO_1V8_FLASH"
+		(shape input)
+		(at 110.49 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.25 1.25)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "258dcbd0-e90f-465c-958d-1be857e645f3")
+	)
+	(hierarchical_label "VCC3V3_FLASH"
+		(shape input)
+		(at 111.76 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.25 1.25)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "2dcbc18f-d098-471b-9bd8-90a2f16f5594")
+	)
+	(hierarchical_label "VCC_3V3_SYS"
+		(shape input)
+		(at 224.79 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.25 1.25)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "4cede5b2-e639-4f7b-8ec3-8f1305bb7737")
+	)
+	(hierarchical_label "VCC_3V3_EMMC"
+		(shape input)
+		(at 53.34 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.25 1.25)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "5149466b-eca0-4dce-b9fa-655ebff97632")
+	)
+	(hierarchical_label "FLASH_VOL_SEL"
+		(shape input)
+		(at 191.77 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.25 1.25)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "6ce9bd92-d30e-49a3-9e88-906adc31ffa6")
+	)
+	(symbol
+		(lib_id "total-altium-import:GND_POWER_GROUND")
+		(at 110.49 122.7328 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01c154e0-300f-4dc7-bdb6-b8ca0a17c44a")
+		(property "Reference" "#PWR0492"
+			(at 110.49 122.7328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 0 0 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 129.0828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 0 194 194 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 122.7328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 122.7328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 122.7328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "47215275-f0f3-4c68-b13c-1b50393723dc")
+		)
+		(instances
+			(project "SMX66_V1.0"
+				(path "/d2048726-8d70-4e2d-8ac4-f6297351542e/e1fc20bc-d7c0-4729-a294-f7db3114c1bc"
+					(reference "#PWR0492")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "total-altium-import:GND_POWER_GROUND")
+		(at 224.79 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13d64b9a-63a0-4c12-98fd-bbf52e0e123b")
+		(property "Reference" "#PWR0494"
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 0 0 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 0 194 194 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c37f8fad-5799-40f9-acab-294c3770482a")
+		)
+		(instances
+			(project "SMX66_V1.0"
+				(path "/d2048726-8d70-4e2d-8ac4-f6297351542e/e1fc20bc-d7c0-4729-a294-f7db3114c1bc"
+					(reference "#PWR0494")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "total-altium-import:23_1_RESISTOR")
+		(at 76.2 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16727ddb-675e-4613-b090-a576adb634ea")
+		(property "Reference" "R2305"
+			(at 63.5 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 0 0 255 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.05R"
+			(at 88.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 0 194 194 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Footprint Library:R0402"
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "厚膜低阻值电阻,0R05,+/-1%,R0603,1/10W."
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PCB FOOTPRINT" "R0603"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 96.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RK PN" "RL0603FR-070R05L"
+			(at 30.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRIORITY" "A"
+			(at 30.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART TYPE" "厚膜低阻值电阻"
+			(at 30.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WATTAGE" "1/10W"
+			(at 30.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 30.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PN" "RL0603FR-070R05L"
+			(at 30.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATED BY" "YTL"
+			(at 30.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FILENAME" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "IC" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ID_MAX" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART_NUM" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PC" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PD" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "RDS" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VCEO" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VDS" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VGS" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VGSTH" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62f2a745-2e84-46e8-a575-7b5744f09b5d")
+		)
+		(pin "2"
+			(uuid "5354e7ae-eb1a-46b9-be59-6c6062c8e5b4")
+		)
+		(instances
+			(project "SMX66_V1.0"
+				(path "/d2048726-8d70-4e2d-8ac4-f6297351542e/e1fc20bc-d7c0-4729-a294-f7db3114c1bc"
+					(reference "R2305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "total-altium-import:23_0_CAP NP")
+		(at 107.95 112.5728 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3efa0495-fb79-4b88-933c-34110ae2b8a7")
+		(property "Reference" "C2301"
+			(at 113.03 110.0328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 0 0 255 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 113.03 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 0 194 194 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Footprint Library:C0603"
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "cap,4.70uF,+/-10%,10V,X5R,C0603"
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "10V"
+			(at 113.03 117.6528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PCB FOOTPRINT" "C0603"
+			(at 113.03 120.1928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DIELECTRIC" "X5R"
+			(at 113.03 115.1128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RK PN" "C1608X5R1A475K080AC"
+			(at -3.81 201.4728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRIORITY" "A"
+			(at -3.81 201.4728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART TYPE" "C0603"
+			(at -3.81 201.4728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "10%"
+			(at -3.81 201.4728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TDK"
+			(at -3.81 201.4728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PN" "C1608X5R1A475K080AC"
+			(at -3.81 201.4728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATED BY" "JJJ"
+			(at -3.81 201.4728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FILENAME" ""
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "IC" ""
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ID_MAX" ""
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE" ""
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART_NUM" ""
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PC" ""
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PD" ""
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "RDS" ""
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VCEO" ""
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VDS" ""
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VGS" ""
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VGSTH" ""
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 107.95 112.5728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac1f7e1c-0250-4742-a6a5-c4353fbc06e0")
+		)
+		(pin "2"
+			(uuid "699c162a-fa12-4460-a883-e528446ae0ca")
+		)
+		(instances
+			(project "SMX66_V1.0"
+				(path "/d2048726-8d70-4e2d-8ac4-f6297351542e/e1fc20bc-d7c0-4729-a294-f7db3114c1bc"
+					(reference "C2301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "total-altium-import:23_0_RESISTOR")
+		(at 222.25 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ac89e9c-0e56-4795-ae30-8ca3805f3b79")
+		(property "Reference" "R2301"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 0 0 255 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 227.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 0 194 194 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Footprint Library:R0402"
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "通用厚膜电阻,10K,+/-5%,R0402,1/16W."
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PCB FOOTPRINT" "R0402"
+			(at 227.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TOLERANCE" "5%"
+			(at 227.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RK PN" "RC0402JR-0710KL"
+			(at 6.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRIORITY" "A"
+			(at 6.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART TYPE" "通用厚膜电阻"
+			(at 6.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WATTAGE" "1/16W"
+			(at 6.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 6.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PN" "RC0402JR-0710KL"
+			(at 6.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATED BY" "YTL"
+			(at 6.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FILENAME" ""
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "IC" ""
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ID_MAX" ""
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE" ""
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART_NUM" ""
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PC" ""
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PD" ""
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "RDS" ""
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VCEO" ""
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VDS" ""
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VGS" ""
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VGSTH" ""
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05530f14-5d4e-43f9-b426-f4955fa66224")
+		)
+		(pin "2"
+			(uuid "db3d31e6-32fc-4402-a69a-5e937767aa34")
+		)
+		(instances
+			(project "SMX66_V1.0"
+				(path "/d2048726-8d70-4e2d-8ac4-f6297351542e/e1fc20bc-d7c0-4729-a294-f7db3114c1bc"
+					(reference "R2301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "total-altium-import:23_0_RESISTOR")
+		(at 222.25 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2c5f098-51f9-4b11-ab91-cf9703ea5d52")
+		(property "Reference" "R2303"
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 0 0 255 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 227.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 0 194 194 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Footprint Library:R0402"
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "通用厚膜电阻,4K7,+/-5%,R0402,1/16W."
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PCB FOOTPRINT" "R0402"
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TOLERANCE" "5%"
+			(at 227.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CREATED BY" "YTL"
+			(at 6.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PN" "RC0402JR-074K7L"
+			(at 6.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 6.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WATTAGE" "1/16W"
+			(at 6.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART TYPE" "通用厚膜电阻"
+			(at 6.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRIORITY" "A"
+			(at 6.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RK PN" "RC0402JR-074K7L"
+			(at 6.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "OPTION" "DNP"
+			(at 227.584 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "FILENAME" ""
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "IC" ""
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ID_MAX" ""
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE" ""
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART_NUM" ""
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PC" ""
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PD" ""
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "RDS" ""
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VCEO" ""
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VDS" ""
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VGS" ""
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VGSTH" ""
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc7a7940-fea0-4320-ba71-175da5d3d6ea")
+		)
+		(pin "1"
+			(uuid "9f69d668-8fcf-4fa3-86f3-5abe26e78e4a")
+		)
+		(instances
+			(project "SMX66_V1.0"
+				(path "/d2048726-8d70-4e2d-8ac4-f6297351542e/e1fc20bc-d7c0-4729-a294-f7db3114c1bc"
+					(reference "R2303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "total-altium-import:23_1_RESISTOR")
+		(at 82.6444 107.5561 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6bb2608-e223-4438-b77b-4675ce4aaf9a")
+		(property "Reference" "R2302"
+			(at 69.9444 105.0161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 0 0 255 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.05R"
+			(at 95.3444 105.0161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 0 194 194 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Footprint Library:R0402"
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "厚膜低阻值电阻,0R05,+/-1%,R0603,1/10W."
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PCB FOOTPRINT" "R0603"
+			(at 95.3444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 102.9644 105.0161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CREATED BY" "YTL"
+			(at 11.5244 219.3161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PN" "RL0603FR-070R05L"
+			(at 11.5244 219.3161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 11.5244 219.3161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WATTAGE" "1/10W"
+			(at 11.5244 219.3161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART TYPE" "厚膜低阻值电阻"
+			(at 11.5244 219.3161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRIORITY" "A"
+			(at 11.5244 219.3161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RK PN" "RL0603FR-070R05L"
+			(at 11.5244 219.3161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FILENAME" ""
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "IC" ""
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ID_MAX" ""
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE" ""
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART_NUM" ""
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PC" ""
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "PD" ""
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "RDS" ""
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VCEO" ""
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VDS" ""
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VGS" ""
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "VGSTH" ""
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 82.6444 107.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+					(color 194 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce848a55-5dcc-47b7-875d-604346777fe9")
+		)
+		(pin "2"
+			(uuid "b6602f9b-7f9d-4315-a68b-44d65fcbc110")
+		)
+		(instances
+			(project "SMX66_V1.0"
+				(path "/d2048726-8d70-4e2d-8ac4-f6297351542e/e1fc20bc-d7c0-4729-a294-f7db3114c1bc"
+					(reference "R2302")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

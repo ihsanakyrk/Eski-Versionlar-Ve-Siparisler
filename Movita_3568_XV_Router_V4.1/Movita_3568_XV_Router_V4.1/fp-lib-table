@@ -1,0 +1,13 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RP2040_minimal")(type "KiCad")(uri "${KIPRJMOD}/Movita_3568_XV_Router_V4.1.pretty")(options "")(descr ""))
+  (lib (name "HDMI 2.0 TX")(type "KiCad")(uri "${KIPRJMOD}/HDMI 2.0 TX.pretty")(options "")(descr ""))
+  (lib (name "Pro V3")(type "KiCad")(uri "${KIPRJMOD}/Pro V3.pretty")(options "")(descr ""))
+  (lib (name "M2 SSD")(type "KiCad")(uri "${KIPRJMOD}/M2 SSD.pretty")(options "")(descr ""))
+  (lib (name "2SS100L-W")(type "KiCad")(uri "${KIPRJMOD}/2SS100L-W.pretty")(options "")(descr ""))
+  (lib (name "SS54B")(type "KiCad")(uri "${KIPRJMOD}/SS54B.pretty")(options "")(descr ""))
+  (lib (name "SY8113B")(type "KiCad")(uri "${KIPRJMOD}/SY8113B.pretty")(options "")(descr ""))
+  (lib (name "VİA")(type "KiCad")(uri "${KIPRJMOD}/VİA.pretty")(options "")(descr ""))
+  (lib (name "CYA1050-47UH")(type "KiCad")(uri "${KIPRJMOD}/CYA1050-47UH.pretty")(options "")(descr ""))
+  (lib (name "MYOUNG BS-02-A1AJ010")(type "KiCad")(uri "${KIPRJMOD}/MYOUNG BS-02-A1AJ010.pretty")(options "")(descr ""))
+)

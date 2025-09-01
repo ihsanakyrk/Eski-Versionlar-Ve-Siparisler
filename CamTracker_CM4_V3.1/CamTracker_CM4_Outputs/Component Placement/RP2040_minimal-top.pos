@@ -1,0 +1,48 @@
+### Footprint positions - created on 2024-01-27T16:00:11+0300 ###
+### Printed by KiCad version 8.0.0-rc1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                                             Package                                              PosX       PosY       Rot  Side
+BT1       MYOUNG_MY-1220-01                               BS-12-B3AA003                                     93.0400    -6.2000  -90.0000  top
+C4        22pF                                            C_0603_1608Metric                                121.4600   -21.0400  180.0000  top
+C6        100nF                                           C_0603_1608Metric                                109.8050   -24.8400  180.0000  top
+C34       10uF                                            C_0603_1608Metric                                107.4900   -40.4600  180.0000  top
+C35       100nF                                           C_0603_1608Metric                                101.2300   -37.1800    0.0000  top
+C36       150pF                                           C_0603_1608Metric                                 92.3850   -40.8500    0.0000  top
+D4        2SS100L-W                                       2SS100LW                                          25.8000   -39.7600  180.0000  top
+D5        SS34FA                                          SODFL3618X143N                                    97.1900   -37.0900  180.0000  top
+D6        SS14                                            DIOM4325X250N                                    107.8500   -22.4500    0.0000  top
+FID3      Fiducial                                        Fiducial_0.5mm_Mask1mm                            75.2200    -5.6100    0.0000  top
+FID4      Fiducial                                        Fiducial_0.5mm_Mask1mm                            48.7475    -5.6100    0.0000  top
+FID5      Fiducial                                        Fiducial_0.5mm_Mask1mm                            48.7475   -39.6100    0.0000  top
+FID6      Fiducial                                        Fiducial_0.5mm_Mask1mm                            75.2200   -39.6100    0.0000  top
+IC3       MP1584EN                                        SOIC127P600X170-9N                               101.2000   -41.1400    0.0000  top
+J4        Conn_01x05_Male                                 PinSocket_1x05_P2.00mm_Vertical                   60.7600   -48.4000   90.0000  top
+J6        DNP                                             RJ45_Amphenol_54602-x08_Horizontal                 6.2375   -41.0240    0.0000  top
+J7        Conn_01x02_Female                               JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical             34.8900   -46.5600    0.0000  top
+J8        Screw_Terminal_01x01                            Screw_terminal_shinbo                             25.0100   -27.8200    0.0000  top
+J9        JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical  JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical    46.8450   -41.6400  180.0000  top
+J10       Screw_Terminal_01x01                            Screw_terminal_shinbo                             98.5100   -27.8200    0.0000  top
+J13       MALE_Through_Hole_PinHeader_                    PinHeader_2x05_P2.00mm_Vertical                   22.2700    -3.0000    0.0000  top
+J16       DNP                                             PinHeader_1x08_P2.54mm_Vertical                   98.9400   -48.1300  -90.0000  top
+J100      Conn_01x15_Female                               JST_1x15-1MP_P1.25mm_Horizontal                  112.2100   -11.1700    0.0000  top
+J101      Conn_01x15_Female                               JST_1x15-1MP_P1.25mm_Horizontal                   15.0900   -12.5900    0.0000  top
+R2        150R                                            R_0603_1608Metric                                105.8350   -24.8400  180.0000  top
+R3        4.7K                                            R_0603_1608Metric                                112.9050   -24.7900    0.0000  top
+R4        4.7K                                            R_0603_1608Metric                                112.9200   -23.2600    0.0000  top
+R6        0R                                              R_0603_1608Metric                                112.9150   -20.1300  180.0000  top
+R8        0R                                              R_0603_1608Metric                                112.8800   -26.3200  180.0000  top
+R10       DNP                                             R_0603_1608Metric                                112.9150   -21.7000    0.0000  top
+R12       DNP                                             R_0603_1608Metric                                112.8700   -27.8500  180.0000  top
+R75       2.2K                                            R_0603_1608Metric                                 92.3700   -39.2800  180.0000  top
+R76       100K                                            R_0603_1608Metric                                 92.3900   -37.7400  180.0000  top
+R77       200K                                            R_0603_1608Metric                                107.4600   -42.0000    0.0000  top
+R78       100K                                            R_0603_1608Metric                                 92.4000   -42.3900    0.0000  top
+R79       40.2K                                           R_0603_1608Metric                                 92.4000   -43.9300  180.0000  top
+R80       210K                                            R_0603_1608Metric                                 92.3850   -45.4500  180.0000  top
+T1        H1102NL                                         H1102NL                                           14.6750   -22.8332   90.0000  top
+U1        DF40C-100DS-0.4V                                DF40C-100DS-0.4V_CM4_Unit_B                       73.6151    -5.6100   90.0000  top
+U6        PCF8563T                                        SOIC-8_3.9x4.9mm_P1.27mm                         121.5550   -25.9650  -90.0000  top
+U11       DF40C-100DS-0.4V                                DF40C-100DS-0.4V_CM4_Unit_A                       73.6151   -39.6100   90.0000  top
+Y2        32.768_KHz                                      Crystal_AT310_D3.0mm_L10.0mm_Horizontal          124.0900   -15.5400  -90.0000  top
+## End

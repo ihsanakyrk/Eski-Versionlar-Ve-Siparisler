@@ -1,0 +1,41 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Movita-MNVR-Pro-Rev08.PcbDoc   6/10/2023  7:56:22 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Movita-MNVR-Pro-Rev08.TXT
+ASCII RectHoles File : Movita-MNVR-Pro-Rev08-RectHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             817       PTH        129.24inch (3282.64mm)
+T2      18mil (0.46mm)                                            Round             2         PTH        0.04inch (1.00mm)
+T3      28mil (0.7mm)                                             Round             8         PTH        5.39inch (136.92mm)
+T4      28mil (0.711mm)                                           Round             2         PTH        0.53inch (13.55mm)
+T5      32mil (0.8mm)                                             Round             16        PTH        1.20inch (30.57mm)
+T6      33mil (0.85mm)                                            Round             4         PTH        2.73inch (69.32mm)
+T7      35mil (0.9mm)                                             Round             8         PTH        0.71inch (18.08mm)
+T8      37mil (0.94mm)                                            Round             48        PTH        5.58inch (141.68mm)
+T9      39mil (1mm)                                               Round             9         PTH        9.97inch (253.12mm)
+T10     39mil (1mm)                                               Rectangle         2         PTH        0.69inch (17.50mm)
+T11     43mil (1.1mm)                                             Round             31        PTH        13.02inch (330.66mm)
+T12     44mil (1.11mm)                                            Round             44        PTH        4.30inch (109.22mm)
+T13     44mil (1.12mm)                                            Round             4         PTH        1.17inch (29.62mm)
+T14     47mil (1.2mm)                                             Round             2         PTH        0.15inch (3.81mm)
+T15     51mil (1.3mm)                                             Round             4         PTH        1.64inch (41.62mm)
+T16     53mil (1.34mm)                                            Round             2         PTH        0.69inch (17.62mm)
+T17     55mil (1.4mm)                                             Round             8         PTH        6.38inch (162.08mm)
+T18     59mil (1.5mm)                                             Round             4         PTH        0.71inch (18.10mm)
+T19     59mil (1.5mm)                                             Rectangle         1         PTH        0.04inch (1.00mm)
+T20     63mil (1.6mm)                                             Round             4         PTH        6.50inch (165.07mm)
+T21     64mil (1.62mm)                                            Round             4         PTH        2.57inch (65.36mm)
+T22     75mil (1.9mm)                                             Round             4         PTH        0.61inch (15.45mm)
+T23     94mil (2.38mm)                                            Round             2         PTH        0.52inch (13.14mm)
+T24     126mil (3.2mm)                                            Round             2         PTH        0.45inch (11.43mm)
+T25     134mil (3.4mm)          +/-2mil (0.05mm)                  Round             2         PTH        5.90inch (149.97mm)
+T26     91mil (2.3mm)                                             Round             2         NPTH       0.64inch (16.14mm)
+T27     130mil (3.3mm)                                            Round             2         NPTH       2.36inch (59.94mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1038
+
+Total Processing Time (hh:mm:ss) : 00:00:00

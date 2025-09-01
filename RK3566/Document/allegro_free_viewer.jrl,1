@@ -1,0 +1,18 @@
+\t (00:00:06) allegro_free_viewer 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Tue Jan 23 16:57:59 2024
+\t (00:00:06)         Host=DESKTOP-HM05M8G User=Ýhsan Pid=21132 CPUs=16
+\t (00:00:06) CmdLine= C:\Cadence\PCBViewers_2023\tools\bin\allegro_free_viewer.exe C:\Users\Ýhsan\Desktop\Bizim Donanýmlar\RK356X\RK3566\EM3566-AV V1.pcb
+\t (00:00:06) 
+\t (00:00:07) Opening existing design...
+\e (00:00:07) ERROR(SPMHDB-180): Design revision post-23.1 is newer than current program version.
+\e (00:00:07) ERROR(SPMHDB-180): Design revision post-23.1 is newer than current program version.
+\i (00:00:08) fillin confirm
+\t (00:00:08) Starting new design...
+\i (00:00:09) trapsize 1910
+\i (00:00:09) trapsize 1261
+\i (00:00:09) updateport PropPane
+\i (00:00:09) updateport VisibilityPane
+\i (00:00:09) ucpedit 
+\i (00:00:09) updateport VisibilityPane
+\i (00:00:10) exit 
+\t (00:00:10)     Journal end - Tue Jan 23 16:58:03 2024

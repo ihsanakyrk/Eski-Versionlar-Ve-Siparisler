@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NINA-B411--altium-import")(type "KiCad")(uri "C:/Users/İhsan/Desktop/Donanımlar/Bluetooth/Beacon/Bluetooth_Beacon/Bluetooth-Beacon-AltiumDesigner/NINA-B411--altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "RP2040-altium-import")(type "KiCad")(uri "C:/Users/İhsan/Desktop/Donanımlar/Bluetooth/Beacon/Bluetooth_Beacon/Bluetooth-Beacon-AltiumDesigner/RP2040-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "Bluetooth_Beacon_Kicad-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Bluetooth_Beacon_Kicad-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "RTCL-altium-import")(type "KiCad")(uri "C:/Users/İhsan/Desktop/Donanımlar/Bluetooth/Beacon/Bluetooth_Beacon/Bluetooth-Beacon-AltiumDesigner/RTCL-altium-import.kicad_sym")(options "")(descr ""))
+)

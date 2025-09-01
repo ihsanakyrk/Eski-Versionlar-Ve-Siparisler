@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2c06c0d7-b029-47db-9a85-8a095dddfea8")
+	(paper "A4")
+	(title_block
+		(company "SmartEQ Information Technologies")
+	)
+	(lib_symbols)
+)

@@ -1,0 +1,2793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\İhsan\Desktop\Donanımlar\Bluetooth\Anchor\Bluetooth_Anchor_Kicad\Bluetooth_Anchor_Kicad.kicad_sch</source>
+    <date>2023-11-11T15:15:07+0300</date>
+    <tool>Eeschema 7.99.0-2677-g3cd60007c5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Bluetooth_Anchor_Kicad.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RP2040.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>NINA-B411.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>POWER_UNIT.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>14c7dc8a-7ef7-49c8-9bb2-0af225156d1c</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>948d8a73-f7d8-462c-8dfe-e2f7714d82dc</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>a69fa83e-270e-4fe5-94cd-f5cf21b4025b</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>b1e78d28-7fa5-4570-bda2-41b7526c164c</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>cf29d372-bd85-4002-bc0d-499f010f2888</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>dd1f3c89-19ad-488b-b728-9249d2922f74</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>e3a414fb-c5ce-4c69-a560-50858189f1e8</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>1be57254-0254-4c3b-a1b6-2d6b2a1e1f20</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>79d7f041-88ca-4555-85a9-2e2aed8b6dff</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>7e486424-7723-4596-923f-b4babe89523c</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>13749085-8da1-490a-8186-bcbf3cc2e812</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>cc3db2ed-10b3-45e2-a560-65c724f0fee4</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>62b32a1f-1a0f-4a40-98da-8b8c95015b6e</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>27pF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_0_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>56ae23a2-d38a-4e41-99ee-db0a262a99cd</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>27pF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_0_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>3cce9018-3901-40f0-a922-9f5c4af11160</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>100nF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>5ac52901-c9dc-440f-acaf-622b39470aba</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Header_8Ways_2x54</value>
+      <footprint>Header_8Ways_2x54</footprint>
+      <libsource lib="RP2040-altium-import" part="root_0_90120-0768" description="Header_8Ways_2x54"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>d4c2fa74-b792-484b-afe2-779fd8ba9662</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Header 11 Ways 2x54</value>
+      <footprint>Header 11 Ways 2x54</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="MF"/>
+        <field name="PRICE">None</field>
+        <field name="PACKAGE">None</field>
+        <field name="ALTIUM_VALUE">*</field>
+        <field name="MP">MTLW-111-08-G-S-355</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_2_MTLW-111-08-G-S-355" description="Header 11 Ways 2x54"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="MF" value=""/>
+      <property name="PRICE" value="None"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="MP" value="MTLW-111-08-G-S-355"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>6169c8d8-47ba-4dde-b856-6cb71cee9b3f</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Header_6 Ways_2x54</value>
+      <footprint>Header_6Ways_2x54</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Samtec</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">None</field>
+        <field name="CHECK_PRICES">https://www.snapeda.com/parts/HTSW-106-14-S-S-LL/Samtec/view-part/?ref=eda</field>
+        <field name="ALTIUM_VALUE">*</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/HTSW-106-14-S-S-LL/Samtec/view-part/?ref=snap</field>
+        <field name="MP">HTSW-106-14-S-S-LL</field>
+        <field name="AVAILABILITY">In Stock</field>
+        <field name="PURCHASE-URL">https://pricing.snapeda.com/search?q=HTSW-106-14-S-S-LL&amp;ref=eda</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_0_HTSW-106-14-S-S-LL" description="Header_6 Ways_2x54"/>
+      <property name="MF" value="Samtec"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="PRICE" value="None"/>
+      <property name="CHECK_PRICES" value="https://www.snapeda.com/parts/HTSW-106-14-S-S-LL/Samtec/view-part/?ref=eda"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/HTSW-106-14-S-S-LL/Samtec/view-part/?ref=snap"/>
+      <property name="MP" value="HTSW-106-14-S-S-LL"/>
+      <property name="AVAILABILITY" value="In Stock"/>
+      <property name="PURCHASE-URL" value="https://pricing.snapeda.com/search?q=HTSW-106-14-S-S-LL&amp;ref=eda"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>bedb19a0-d74e-4f11-a2e4-a91838b95aad</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Header 5 Ways 2x54</value>
+      <footprint>Header 5 Ways 2x54</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Samtec</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">None</field>
+        <field name="AVAILABILITY">In Stock</field>
+        <field name="CHECK_PRICES">https://www.snapeda.com/parts/TSM-105-02-T-SV/Samtec/view-part/3428522/?ref=eda</field>
+        <field name="PURCHASE-URL">https://pricing.snapeda.com/search/part/TSM-105-02-T-SV/?ref=eda</field>
+        <field name="MP">TSM-105-02-T-SV</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/TSM-105-02-T-SV/Samtec/view-part/3428522/?ref=snap</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_0_TSM-105-02-T-SV" description="Header 5 Ways 2x54"/>
+      <property name="MF" value="Samtec"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="PRICE" value="None"/>
+      <property name="AVAILABILITY" value="In Stock"/>
+      <property name="CHECK_PRICES" value="https://www.snapeda.com/parts/TSM-105-02-T-SV/Samtec/view-part/3428522/?ref=eda"/>
+      <property name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TSM-105-02-T-SV/?ref=eda"/>
+      <property name="MP" value="TSM-105-02-T-SV"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/TSM-105-02-T-SV/Samtec/view-part/3428522/?ref=snap"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>832338fb-ff01-4a99-a01d-cac6ace9b01e</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>27R</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="RP2040-altium-import" part="root_0_1K" description=""/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>0e61a4da-1051-4736-863c-08e2e757ab23</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>27R</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="RP2040-altium-import" part="root_0_1K" description=""/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>7b36d2f7-74d8-4a99-9355-ff88b885676c</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>27R</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="RP2040-altium-import" part="root_0_1K" description=""/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>68b88248-d761-4618-a8e9-351af0711249</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>27R</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="RP2040-altium-import" part="root_0_1K" description=""/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>2cad6352-552f-4451-aa12-53282d3180bc</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>27R</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="RP2040-altium-import" part="root_0_1K" description=""/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>a7240448-ecbd-4a29-a1ec-b9dc671cc037</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>27R</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="RP2040-altium-import" part="root_0_1K" description=""/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>df81f4e4-5bfa-4759-b430-718cc187eb8e</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>27R</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="RP2040-altium-import" part="root_0_1K" description=""/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>439274af-752e-4aaa-9c67-c5dda5b93868</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1K</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="RP2040-altium-import" part="root_0_1K" description=""/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>61143cfe-c9c5-4713-a919-71e13201b4d4</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10K</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="RP2040-altium-import" part="root_1_1K" description=""/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>97fa83b9-4ecd-4259-9702-268dcf7b64ef</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>DNP</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="RP2040-altium-import" part="root_2_1K" description=""/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>da7db399-96a2-4253-b445-354d2ed8e6a5</tstamps>
+    </comp>
+    <comp ref="RGB LED1">
+      <value>WS28128-B</value>
+      <footprint>WS28128-B</footprint>
+      <libsource lib="RP2040-altium-import" part="root_0_WS28128-B" description=""/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>85663f60-c7a4-4d72-abfc-3841f371390d</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>RP2040</value>
+      <footprint>QFN40P700X700X90-57N</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="CHECK_PRICES">https://www.snapeda.com/parts/RP2040/Raspberry+Pi/view-part/?ref=eda</field>
+        <field name="ALTIUM_VALUE">*</field>
+        <field name="AVAILABILITY">In Stock</field>
+        <field name="MP">RP2040</field>
+        <field name="PRICE">None</field>
+        <field name="PACKAGE">None</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/RP2040/Raspberry+Pi/view-part/?ref=snap</field>
+        <field name="PURCHASE-URL">https://pricing.snapeda.com/search/part/RP2040/?ref=eda</field>
+        <field name="MF">Raspberry Pi</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_0_RP2040" description="QFN-56-EP(7x7) Microcontroller Units (MCUs/MPUs/SOCs) ROHS"/>
+      <property name="CHECK_PRICES" value="https://www.snapeda.com/parts/RP2040/Raspberry+Pi/view-part/?ref=eda"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="AVAILABILITY" value="In Stock"/>
+      <property name="MP" value="RP2040"/>
+      <property name="PRICE" value="None"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/RP2040/Raspberry+Pi/view-part/?ref=snap"/>
+      <property name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RP2040/?ref=eda"/>
+      <property name="MF" value="Raspberry Pi"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>0e36578f-91e5-459a-9099-f837aff39fa4</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>W25Q128JVSIQ</value>
+      <footprint>W25Q128JVSIQ</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Winbond Electronics</field>
+        <field name="AVAILABILITY">In Stock</field>
+        <field name="CHECK_PRICES">https://www.snapeda.com/parts/W25Q128JVSIM%20TR/Winbond+Electronics/view-part/?ref=eda</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/W25Q128JVSIM%20TR/Winbond+Electronics/view-part/?ref=snap</field>
+        <field name="PURCHASE-URL">https://pricing.snapeda.com/search/part/W25Q128JVSIM TR/?ref=eda</field>
+        <field name="PACKAGE">SOIC-8 Winbond</field>
+        <field name="MP">W25Q128JVSIM TR</field>
+        <field name="ALTIUM_VALUE">*</field>
+        <field name="PRICE">None</field>
+      </fields>
+      <libsource lib="RP2040-altium-import" part="root_2_W25Q128JVSIM_TR" description="SOP-8-208mil NOR FLASH ROHS"/>
+      <property name="MF" value="Winbond Electronics"/>
+      <property name="AVAILABILITY" value="In Stock"/>
+      <property name="CHECK_PRICES" value="https://www.snapeda.com/parts/W25Q128JVSIM%20TR/Winbond+Electronics/view-part/?ref=eda"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/W25Q128JVSIM%20TR/Winbond+Electronics/view-part/?ref=snap"/>
+      <property name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/W25Q128JVSIM TR/?ref=eda"/>
+      <property name="PACKAGE" value="SOIC-8 Winbond"/>
+      <property name="MP" value="W25Q128JVSIM TR"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="PRICE" value="None"/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>bb4a1d54-1a3c-4173-83ce-c41c9a712909</tstamps>
+    </comp>
+    <comp ref="Y2">
+      <value>12000MHz</value>
+      <footprint>Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <libsource lib="RP2040-altium-import" part="root_0_Crystal_SMD_3225 _12.000MHz" description=""/>
+      <property name="Sheetname" value="RP2040"/>
+      <property name="Sheetfile" value="RP2040.kicad_sch"/>
+      <sheetpath names="/RP2040/" tstamps="/1a56e2af-50e8-4f30-8861-a8aeb303c546/"/>
+      <tstamps>3de9467d-c7fc-419b-9842-ff9901665836</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="NINA-B411-altium-import" part="root_2_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>3bc89a33-4091-423e-8ed4-23e10c8a0c70</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22pF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="NINA-B411-altium-import" part="root_2_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>987f3dd1-1287-498b-a0aa-83faa722b8d9</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>22pF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="NINA-B411-altium-import" part="root_2_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>79eef8dd-83d3-42d0-844f-813cf0213c46</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>330pF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="NINA-B411-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>9370af26-d559-402f-82d1-5f9d498d6d3c</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>DNP</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="NINA-B411-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>931bf702-bce3-46c0-868c-84110d210a86</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>330pF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="NINA-B411-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>bdd87943-4fbd-4df7-8f96-d33bc0d7c38d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>U.FL-R-SMT_10</value>
+      <footprint>UFLRSMT10</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MANUFACTURER_NAME">Hirose</field>
+        <field name="MANUFACTURER_PART_NUMBER">U.FL-R-SMT(10)</field>
+        <field name="MOUSER PART NUMBER">798-U.FL-R-SMT10</field>
+        <field name="MOUSER PRICE/STOCK">https://www.mouser.co.uk/ProductDetail/Hirose-Connector/U.FL-R-SMT10?qs=Ux3WWAnHpjBT1CWD8UMEMQ%3D%3D</field>
+        <field name="ARROW PART NUMBER">U.FL-R-SMT(10)</field>
+        <field name="ARROW PRICE/STOCK">https://www.arrow.com/en/products/u.fl-r-smt-10/hirose-electric?region=nac</field>
+        <field name="DATASHEET LINK">https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf</field>
+        <field name="GEOMETRY.HEIGHT">1.25mm</field>
+      </fields>
+      <libsource lib="NINA-B411-altium-import" part="root_0_U.FL-R-SMT_10__1" description="U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"/>
+      <property name="MANUFACTURER_NAME" value="Hirose"/>
+      <property name="MANUFACTURER_PART_NUMBER" value="U.FL-R-SMT(10)"/>
+      <property name="MOUSER PART NUMBER" value="798-U.FL-R-SMT10"/>
+      <property name="MOUSER PRICE/STOCK" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/U.FL-R-SMT10?qs=Ux3WWAnHpjBT1CWD8UMEMQ%3D%3D"/>
+      <property name="ARROW PART NUMBER" value="U.FL-R-SMT(10)"/>
+      <property name="ARROW PRICE/STOCK" value="https://www.arrow.com/en/products/u.fl-r-smt-10/hirose-electric?region=nac"/>
+      <property name="DATASHEET LINK" value="https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf"/>
+      <property name="GEOMETRY.HEIGHT" value="1.25mm"/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>4b8e1967-251c-49f2-8c22-d91bb9492ea9</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Header_6Ways_2x54</value>
+      <footprint>Header_6Ways_2x54</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Samtec</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">None</field>
+        <field name="CHECK_PRICES">https://www.snapeda.com/parts/HTSW-106-14-S-S-LL/Samtec/view-part/?ref=eda</field>
+        <field name="ALTIUM_VALUE">*</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/HTSW-106-14-S-S-LL/Samtec/view-part/?ref=snap</field>
+        <field name="MP">HTSW-106-14-S-S-LL</field>
+        <field name="AVAILABILITY">In Stock</field>
+        <field name="PURCHASE-URL">https://pricing.snapeda.com/search?q=HTSW-106-14-S-S-LL&amp;ref=eda</field>
+      </fields>
+      <libsource lib="NINA-B411-altium-import" part="root_2_HTSW-106-14-S-S-LL" description="Header_6Ways_2x54"/>
+      <property name="MF" value="Samtec"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="PRICE" value="None"/>
+      <property name="CHECK_PRICES" value="https://www.snapeda.com/parts/HTSW-106-14-S-S-LL/Samtec/view-part/?ref=eda"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/HTSW-106-14-S-S-LL/Samtec/view-part/?ref=snap"/>
+      <property name="MP" value="HTSW-106-14-S-S-LL"/>
+      <property name="AVAILABILITY" value="In Stock"/>
+      <property name="PURCHASE-URL" value="https://pricing.snapeda.com/search?q=HTSW-106-14-S-S-LL&amp;ref=eda"/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>fb6925dc-c75d-42df-ab0a-2d8699b12eb5</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>DNP</value>
+      <footprint>Header_4Ways_2x54_Male</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Samtec</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">None</field>
+        <field name="CHECK_PRICES">https://www.snapeda.com/parts/TSM-104-03-F-SV/Samtec/view-part/?ref=eda</field>
+        <field name="ALTIUM_VALUE">*</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/TSM-104-03-F-SV/Samtec/view-part/?ref=snap</field>
+        <field name="MP">TSM-104-03-F-SV</field>
+        <field name="AVAILABILITY">In Stock</field>
+        <field name="PURCHASE-URL">https://pricing.snapeda.com/search?q=TSM-104-03-F-SV&amp;ref=eda</field>
+      </fields>
+      <libsource lib="NINA-B411-altium-import" part="root_2_TSM-104-03-F-SV" description="Header_4Ways_2x54_Male"/>
+      <property name="MF" value="Samtec"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="PRICE" value="None"/>
+      <property name="CHECK_PRICES" value="https://www.snapeda.com/parts/TSM-104-03-F-SV/Samtec/view-part/?ref=eda"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/TSM-104-03-F-SV/Samtec/view-part/?ref=snap"/>
+      <property name="MP" value="TSM-104-03-F-SV"/>
+      <property name="AVAILABILITY" value="In Stock"/>
+      <property name="PURCHASE-URL" value="https://pricing.snapeda.com/search?q=TSM-104-03-F-SV&amp;ref=eda"/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>3bbde93b-23f9-47df-8e6e-aac5bca41be6</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>DNP</value>
+      <footprint>Header_4Ways_2x54_Male</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Samtec</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">None</field>
+        <field name="CHECK_PRICES">https://www.snapeda.com/parts/TSM-104-03-F-SV/Samtec/view-part/?ref=eda</field>
+        <field name="ALTIUM_VALUE">*</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/TSM-104-03-F-SV/Samtec/view-part/?ref=snap</field>
+        <field name="MP">TSM-104-03-F-SV</field>
+        <field name="AVAILABILITY">In Stock</field>
+        <field name="PURCHASE-URL">https://pricing.snapeda.com/search?q=TSM-104-03-F-SV&amp;ref=eda</field>
+      </fields>
+      <libsource lib="NINA-B411-altium-import" part="root_2_TSM-104-03-F-SV" description="Header_4Ways_2x54_Male"/>
+      <property name="MF" value="Samtec"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="PRICE" value="None"/>
+      <property name="CHECK_PRICES" value="https://www.snapeda.com/parts/TSM-104-03-F-SV/Samtec/view-part/?ref=eda"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/TSM-104-03-F-SV/Samtec/view-part/?ref=snap"/>
+      <property name="MP" value="TSM-104-03-F-SV"/>
+      <property name="AVAILABILITY" value="In Stock"/>
+      <property name="PURCHASE-URL" value="https://pricing.snapeda.com/search?q=TSM-104-03-F-SV&amp;ref=eda"/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>8ad189b9-3f67-4261-abf9-358beb625dcf</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>DNP</value>
+      <footprint>Header_4Ways_2x54_Male</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Samtec</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">None</field>
+        <field name="CHECK_PRICES">https://www.snapeda.com/parts/TSM-104-03-F-SV/Samtec/view-part/?ref=eda</field>
+        <field name="ALTIUM_VALUE">*</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/TSM-104-03-F-SV/Samtec/view-part/?ref=snap</field>
+        <field name="MP">TSM-104-03-F-SV</field>
+        <field name="AVAILABILITY">In Stock</field>
+        <field name="PURCHASE-URL">https://pricing.snapeda.com/search?q=TSM-104-03-F-SV&amp;ref=eda</field>
+      </fields>
+      <libsource lib="NINA-B411-altium-import" part="root_2_TSM-104-03-F-SV" description="Header_4Ways_2x54_Male"/>
+      <property name="MF" value="Samtec"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="PRICE" value="None"/>
+      <property name="CHECK_PRICES" value="https://www.snapeda.com/parts/TSM-104-03-F-SV/Samtec/view-part/?ref=eda"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/TSM-104-03-F-SV/Samtec/view-part/?ref=snap"/>
+      <property name="MP" value="TSM-104-03-F-SV"/>
+      <property name="AVAILABILITY" value="In Stock"/>
+      <property name="PURCHASE-URL" value="https://pricing.snapeda.com/search?q=TSM-104-03-F-SV&amp;ref=eda"/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>5b0c7bf6-319c-4038-befb-8c76a9e42b1e</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="NINA-B411-altium-import" part="root_0_1K" description=""/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>dece432f-2641-4b3a-9c2e-83864b0b15df</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="NINA-B411-altium-import" part="root_0_1K" description=""/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>68a18dcc-1927-4695-a887-6d6fa29a69dc</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="NINA-B411-altium-import" part="root_0_1K" description=""/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>7572de06-066d-42ef-8ab7-6c7360e127e0</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="NINA-B411-altium-import" part="root_0_1K" description=""/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>bbbc8904-4338-473f-b8ad-bd0426fa4b01</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>0R</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="NINA-B411-altium-import" part="root_0_1K" description=""/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>f0ab0e10-cd98-4975-a25e-e8a1e30594cf</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>0R</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="NINA-B411-altium-import" part="root_0_1K" description=""/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>0c24c196-db32-404f-8018-54f1662e51e5</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>SKRPANE010</value>
+      <footprint>SKRPANE010</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">ALPS</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/SKRPACE010/ALPS/view-part/376136/?ref=snap</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">None</field>
+        <field name="MP">SKRPACE010</field>
+        <field name="AVAILABILITY">Good</field>
+        <field name="ALTIUM_VALUE">*</field>
+        <field name="CHECK_PRICES">https://www.snapeda.com/parts/SKRPACE010/ALPS/view-part/376136/?ref=eda</field>
+      </fields>
+      <libsource lib="NINA-B411-altium-import" part="root_3_SKRPACE010" description="NO 100MΩ 1000000 times 16V 1.57N Brick nogging SPST SMD Tactile Switches ROHS"/>
+      <property name="MF" value="ALPS"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SKRPACE010/ALPS/view-part/376136/?ref=snap"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="PRICE" value="None"/>
+      <property name="MP" value="SKRPACE010"/>
+      <property name="AVAILABILITY" value="Good"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="CHECK_PRICES" value="https://www.snapeda.com/parts/SKRPACE010/ALPS/view-part/376136/?ref=eda"/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>74ce6560-0ef4-44ad-bf72-45e9949d4cb6</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>SKRPANE010</value>
+      <footprint>SKRPANE010</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">ALPS</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/SKRPACE010/ALPS/view-part/376136/?ref=snap</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">None</field>
+        <field name="MP">SKRPACE010</field>
+        <field name="AVAILABILITY">Good</field>
+        <field name="ALTIUM_VALUE">*</field>
+        <field name="CHECK_PRICES">https://www.snapeda.com/parts/SKRPACE010/ALPS/view-part/376136/?ref=eda</field>
+      </fields>
+      <libsource lib="NINA-B411-altium-import" part="root_3_SKRPACE010" description="NO 100MΩ 1000000 times 16V 1.57N Brick nogging SPST SMD Tactile Switches ROHS"/>
+      <property name="MF" value="ALPS"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SKRPACE010/ALPS/view-part/376136/?ref=snap"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="PRICE" value="None"/>
+      <property name="MP" value="SKRPACE010"/>
+      <property name="AVAILABILITY" value="Good"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="CHECK_PRICES" value="https://www.snapeda.com/parts/SKRPACE010/ALPS/view-part/376136/?ref=eda"/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>521d4373-477b-4300-b89e-57ed145cd6d8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>NINA-B411</value>
+      <footprint>NINA_LGA67R_1160X1000X223_PIN - duplicate</footprint>
+      <libsource lib="NINA-B411-altium-import" part="root_0_NINA-B411" description="RX TXRX MODULE BT 5.1, NRF52833"/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>ad639af0-96eb-4d91-860f-9be05710ebd8</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal 32.768KHz 12.5pF</value>
+      <footprint>C__Users_İhsan_Desktop_Bluetooth_Anchor_Wifi_Bluetooth-Anchor-wifi-AltiumDesigner_PcbLib1.PcbLib:XTAL_ECS-3X8X</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="ALTIUM_VALUE">*</field>
+        <field name="PACKAGE">Cylindrical Can Radial  ECS International</field>
+        <field name="DIGI-KEY_PURCHASE_URL"/>
+        <field name="MF">ECS Inc.</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/ECS-3X8X/ECS%20Inc./view-part/2454480/?ref=snap</field>
+        <field name="DIGI-KEY_PART_NUMBER"/>
+        <field name="MP">ECS-3X8X</field>
+      </fields>
+      <libsource lib="NINA-B411-altium-import" part="root_1_ECS-3X8X" description="32.768kHz Â±20ppm Crystal 12.5pF 35 kOhms Cylindrical Can, Radial"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="PACKAGE" value="Cylindrical Can Radial  ECS International"/>
+      <property name="DIGI-KEY_PURCHASE_URL" value=""/>
+      <property name="MF" value="ECS Inc."/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/ECS-3X8X/ECS%20Inc./view-part/2454480/?ref=snap"/>
+      <property name="DIGI-KEY_PART_NUMBER" value=""/>
+      <property name="MP" value="ECS-3X8X"/>
+      <property name="Sheetname" value="NINA-B411"/>
+      <property name="Sheetfile" value="NINA-B411.kicad_sch"/>
+      <sheetpath names="/NINA-B411/" tstamps="/0fb5f41c-9bf5-4637-9215-f82ecbe789b5/"/>
+      <tstamps>dedc04f9-41f1-44a0-9f08-c99c02480ce2</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="POWER UNİT-altium-import" part="root_0_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>a6edb9f3-e9ba-404e-b436-82d5cffcfe92</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100uF</value>
+      <footprint>XT100UF10V90RV0060</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="PRICE">None</field>
+        <field name="AVAILABILITY">In Stock</field>
+        <field name="PACKAGE">RADIAL-2 Panasonic</field>
+        <field name="MP">EEEFPC101XAL</field>
+        <field name="ALTIUM_VALUE">*</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/EEEFPC101XAL/Panasonic/view-part/?ref=snap</field>
+        <field name="MF">Panasonic</field>
+        <field name="PURCHASE-URL">https://pricing.snapeda.com/search/part/EEEFPC101XAL/?ref=eda</field>
+        <field name="CHECK_PRICES">https://www.snapeda.com/parts/EEEFPC101XAL/Panasonic/view-part/?ref=eda</field>
+      </fields>
+      <libsource lib="POWER UNİT-altium-import" part="root_3_EEEFPC101XAL_1" description="100uF 10V 45mA@120kHz ±20% SMD,D5xL5.4mm Aluminum Electrolytic Capacitors - SMD ROHS"/>
+      <property name="PRICE" value="None"/>
+      <property name="AVAILABILITY" value="In Stock"/>
+      <property name="PACKAGE" value="RADIAL-2 Panasonic"/>
+      <property name="MP" value="EEEFPC101XAL"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/EEEFPC101XAL/Panasonic/view-part/?ref=snap"/>
+      <property name="MF" value="Panasonic"/>
+      <property name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/EEEFPC101XAL/?ref=eda"/>
+      <property name="CHECK_PRICES" value="https://www.snapeda.com/parts/EEEFPC101XAL/Panasonic/view-part/?ref=eda"/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>fcd37f09-05e9-484a-9376-95d332f32209</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>10uF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="POWER UNİT-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>80d3c79c-354e-49c0-b04b-10ba1bdef848</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>22pF</value>
+      <footprint>C_0402</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MP">C0402C220K4RACTU</field>
+        <field name="SNAPEDA_LINK">https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap</field>
+        <field name="PRICE">None</field>
+        <field name="MF">KEMET</field>
+        <field name="PACKAGE">0402 KEMET</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="ALTIUM_VALUE">*</field>
+      </fields>
+      <libsource lib="POWER UNİT-altium-import" part="root_1_C0402C220K4RACTU" description=""/>
+      <property name="MP" value="C0402C220K4RACTU"/>
+      <property name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C0402C220K4RACTU/KEMET/view-part/2040769/?ref=snap"/>
+      <property name="PRICE" value="None"/>
+      <property name="MF" value="KEMET"/>
+      <property name="PACKAGE" value="0402 KEMET"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>6a2f33bc-70e0-4491-b88f-3a40bcd6d0aa</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>2SS100L-W</value>
+      <footprint>2SS100LW</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MANUFACTURER_NAME">Rectron</field>
+        <field name="MANUFACTURER_PART_NUMBER">2SS100L-W</field>
+        <field name="MOUSER PART NUMBER">583-2SS100L-W</field>
+        <field name="MOUSER PRICE/STOCK">https://www.mouser.co.uk/ProductDetail/Rectron/2SS100L-W?qs=5aG0NVq1C4wsv0OtzLcEnw%3D%3D</field>
+        <field name="ARROW PART NUMBER">2SS100L-W</field>
+        <field name="ARROW PRICE/STOCK">https://www.arrow.com/en/products/2ss100l-w/rectron?region=nac</field>
+        <field name="DATASHEET LINK">https://componentsearchengine.com/Datasheets/1/2SS100L-W.pdf</field>
+        <field name="GEOMETRY.HEIGHT">1mm</field>
+      </fields>
+      <libsource lib="POWER UNİT-altium-import" part="root_2_2SS100L-W_2" description="Surface Mount Schottky Barrier Rectifier"/>
+      <property name="MANUFACTURER_NAME" value="Rectron"/>
+      <property name="MANUFACTURER_PART_NUMBER" value="2SS100L-W"/>
+      <property name="MOUSER PART NUMBER" value="583-2SS100L-W"/>
+      <property name="MOUSER PRICE/STOCK" value="https://www.mouser.co.uk/ProductDetail/Rectron/2SS100L-W?qs=5aG0NVq1C4wsv0OtzLcEnw%3D%3D"/>
+      <property name="ARROW PART NUMBER" value="2SS100L-W"/>
+      <property name="ARROW PRICE/STOCK" value="https://www.arrow.com/en/products/2ss100l-w/rectron?region=nac"/>
+      <property name="DATASHEET LINK" value="https://componentsearchengine.com/Datasheets/1/2SS100L-W.pdf"/>
+      <property name="GEOMETRY.HEIGHT" value="1mm"/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>34d3e3cc-32ca-42ca-8622-8ea5f4626c99</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SS34FA</value>
+      <footprint>SODFL3618X143N</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MANUFACTURER_NAME">onsemi</field>
+        <field name="MANUFACTURER_PART_NUMBER">SS34FA</field>
+        <field name="MOUSER PART NUMBER">512-SS34FA</field>
+        <field name="MOUSER PRICE/STOCK">https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/SS34FA?qs=R26iFe%2FkX%2FK1QUwZdCmBBw%3D%3D</field>
+        <field name="ARROW PART NUMBER">SS34FA</field>
+        <field name="ARROW PRICE/STOCK">https://www.arrow.com/en/products/ss34fa/on-semiconductor?region=nac</field>
+        <field name="DATASHEET LINK">http://www.onsemi.com/pub/Collateral/SS36FA-D.pdf</field>
+        <field name="GEOMETRY.HEIGHT">1.43mm</field>
+      </fields>
+      <libsource lib="POWER UNİT-altium-import" part="root_3_SS34FA_1" description="40V Single 3A 0.5V@3A SOD-123FL Schottky Barrier Diodes (SBD) ROHS"/>
+      <property name="MANUFACTURER_NAME" value="onsemi"/>
+      <property name="MANUFACTURER_PART_NUMBER" value="SS34FA"/>
+      <property name="MOUSER PART NUMBER" value="512-SS34FA"/>
+      <property name="MOUSER PRICE/STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/SS34FA?qs=R26iFe%2FkX%2FK1QUwZdCmBBw%3D%3D"/>
+      <property name="ARROW PART NUMBER" value="SS34FA"/>
+      <property name="ARROW PRICE/STOCK" value="https://www.arrow.com/en/products/ss34fa/on-semiconductor?region=nac"/>
+      <property name="DATASHEET LINK" value="http://www.onsemi.com/pub/Collateral/SS36FA-D.pdf"/>
+      <property name="GEOMETRY.HEIGHT" value="1.43mm"/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>40adc240-97f2-41fe-b4a1-b6e085af61f7</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>MP1584EN-LF-Z</value>
+      <footprint>SOIC127P600X170-9N</footprint>
+      <libsource lib="POWER UNİT-altium-import" part="root_0_MP1584EN-LF-Z" description=""/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>3c784859-96c0-4c6b-8e53-58580ae9486c</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>KF2EDGV-3.5-3.81</value>
+      <footprint>SHDR2W80P0X381_1X2_862X700X920P</footprint>
+      <libsource lib="POWER UNİT-altium-import" part="root_0_KF2EDGV-3.5-3.81" description="KF2EDGV-3.5-3.81"/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>46cb0225-d506-4ff0-8857-ad7852c18249</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>YSPI0530-100M</footprint>
+      <libsource lib="POWER UNİT-altium-import" part="root_0_10uH" description="2.5A 10uH ±20% SMD,5.4x5.2x3mm Power Inductors ROHS"/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>27b1c2db-6037-47ca-a9b1-2f324b38d5f1</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>Green LED</value>
+      <footprint>NCD0805R1</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MANUFACTURER_NAME">Foshan NationStar Optoelectronics</field>
+        <field name="MANUFACTURER_PART_NUMBER">NCD0805R1</field>
+        <field name="MOUSER PART NUMBER">*</field>
+        <field name="MOUSER PRICE/STOCK">*</field>
+        <field name="ARROW PART NUMBER">*</field>
+        <field name="ARROW PRICE/STOCK">*</field>
+        <field name="DATASHEET LINK">https://datasheet.lcsc.com/lcsc/2008201032_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.pdf</field>
+        <field name="GEOMETRY.HEIGHT">1.2mm</field>
+      </fields>
+      <libsource lib="POWER UNİT-altium-import" part="root_1_NCD0805R1" description="LED Chip Light Emitting Diode"/>
+      <property name="MANUFACTURER_NAME" value="Foshan NationStar Optoelectronics"/>
+      <property name="MANUFACTURER_PART_NUMBER" value="NCD0805R1"/>
+      <property name="MOUSER PART NUMBER" value="*"/>
+      <property name="MOUSER PRICE/STOCK" value="*"/>
+      <property name="ARROW PART NUMBER" value="*"/>
+      <property name="ARROW PRICE/STOCK" value="*"/>
+      <property name="DATASHEET LINK" value="https://datasheet.lcsc.com/lcsc/2008201032_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.pdf"/>
+      <property name="GEOMETRY.HEIGHT" value="1.2mm"/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>70e138c8-d802-4f87-acd5-a77a7a9e9819</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>510R</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="POWER UNİT-altium-import" part="root_1_1K" description=""/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>3bd31d72-17a9-400c-8bb7-730946cf47fe</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>100K</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="POWER UNİT-altium-import" part="root_1_1K" description=""/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>b494e5fe-b6f9-4afa-afe4-0eb5e317c081</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>40.2K</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="POWER UNİT-altium-import" part="root_1_1K" description=""/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>888121c2-4628-47bb-8eaa-2c348b467a63</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>124K</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="POWER UNİT-altium-import" part="root_1_1K" description=""/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>12b1eb1f-1e2c-4fe2-ad24-2c1ab01ec333</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>200K</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="POWER UNİT-altium-import" part="root_1_1K" description=""/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>61b56998-6cf2-4104-a96d-96c7a5a8e682</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>200K</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="POWER UNİT-altium-import" part="root_1_1K" description=""/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>8c18c7e9-254a-4c36-9c78-9f899284f217</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>68.1K</value>
+      <footprint>Res_0402</footprint>
+      <libsource lib="POWER UNİT-altium-import" part="root_1_1K" description=""/>
+      <property name="Sheetname" value="POWER_UNIT"/>
+      <property name="Sheetfile" value="POWER_UNIT.kicad_sch"/>
+      <sheetpath names="/POWER_UNIT/" tstamps="/3b9e4cf8-3347-4fde-8234-8a7b80413597/"/>
+      <tstamps>eb9d3ee9-6430-4a39-9739-2594ff396b23</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="NINA-B411-altium-import" part="root_0_1K">
+      <footprints>
+        <fp>Res_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NINA-B411-altium-import" part="root_0_NINA-B411">
+      <description>RX TXRX MODULE BT 5.1, NRF52833</description>
+      <footprints>
+        <fp>NINA_LGA67R_1160X1000X223_PIN - duplicate</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">RX TXRX MODULE BT 5.1, NRF52833</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RED" type="passive"/>
+        <pin num="2" name="IO_2/XL1" type="passive"/>
+        <pin num="3" name="IO_3/XL2" type="passive"/>
+        <pin num="4" name="IO_4" type="passive"/>
+        <pin num="5" name="IO_5" type="passive"/>
+        <pin num="6" name="GND6" type="passive"/>
+        <pin num="7" name="GREEN/SWITCH_1" type="passive"/>
+        <pin num="8" name="BLUE" type="passive"/>
+        <pin num="9" name="VCC_IO" type="passive"/>
+        <pin num="10" name="VCC" type="passive"/>
+        <pin num="11" name="RSVD11" type="passive"/>
+        <pin num="12" name="GND12" type="passive"/>
+        <pin num="13" name="RSVD13" type="passive"/>
+        <pin num="14" name="GND14" type="passive"/>
+        <pin num="15" name="RSVD15" type="passive"/>
+        <pin num="16" name="UART_DTR" type="passive"/>
+        <pin num="17" name="UART_DSR" type="passive"/>
+        <pin num="18" name="SWITCH_2" type="passive"/>
+        <pin num="19" name="RESET_N" type="passive"/>
+        <pin num="20" name="UART_RTS" type="passive"/>
+        <pin num="21" name="UART_CTS" type="passive"/>
+        <pin num="22" name="UART_TXD" type="passive"/>
+        <pin num="23" name="UART_RXD" type="passive"/>
+        <pin num="24" name="IO_24" type="passive"/>
+        <pin num="25" name="IO_25" type="passive"/>
+        <pin num="26" name="GND26" type="passive"/>
+        <pin num="27" name="IO_27" type="passive"/>
+        <pin num="28" name="NFC1" type="passive"/>
+        <pin num="29" name="NFC2" type="passive"/>
+        <pin num="30" name="GND30" type="passive"/>
+        <pin num="31" name="VBUS" type="passive"/>
+        <pin num="32" name="IO_32" type="passive"/>
+        <pin num="33" name="IO_33" type="passive"/>
+        <pin num="34" name="IO_34" type="passive"/>
+        <pin num="35" name="IO_35" type="passive"/>
+        <pin num="36" name="IO_36" type="passive"/>
+        <pin num="37" name="IO_37" type="passive"/>
+        <pin num="38" name="IO_38" type="passive"/>
+        <pin num="39" name="IO_39" type="passive"/>
+        <pin num="40" name="IO_40" type="passive"/>
+        <pin num="41" name="IO_41" type="passive"/>
+        <pin num="42" name="IO_42" type="passive"/>
+        <pin num="43" name="IO_43" type="passive"/>
+        <pin num="44" name="IO_44" type="passive"/>
+        <pin num="45" name="IO_45" type="passive"/>
+        <pin num="46" name="IO_46" type="passive"/>
+        <pin num="47" name="I0_47" type="passive"/>
+        <pin num="48" name="IO_48" type="passive"/>
+        <pin num="49" name="IO_49" type="passive"/>
+        <pin num="50" name="IO_50" type="passive"/>
+        <pin num="51" name="IO_51" type="passive"/>
+        <pin num="52" name="IO_52" type="passive"/>
+        <pin num="53" name="GND53" type="passive"/>
+        <pin num="54" name="RSVSD54" type="passive"/>
+        <pin num="55" name="RSVD55" type="passive"/>
+        <pin num="56" name="EGP56" type="passive"/>
+        <pin num="57" name="EGP57" type="passive"/>
+        <pin num="58" name="EGP58" type="passive"/>
+        <pin num="59" name="EGP59" type="passive"/>
+        <pin num="60" name="EGP60" type="passive"/>
+        <pin num="61" name="EGP61" type="passive"/>
+        <pin num="62" name="EGP62" type="passive"/>
+        <pin num="63" name="EGP63" type="passive"/>
+        <pin num="64" name="EGP64" type="passive"/>
+        <pin num="65" name="EGP65" type="passive"/>
+        <pin num="66" name="EGP66" type="passive"/>
+        <pin num="67" name="EGP67" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NINA-B411-altium-import" part="root_0_U.FL-R-SMT_10__1">
+      <description>U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder</description>
+      <footprints>
+        <fp>UFLRSMT10</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND_1" type="passive"/>
+        <pin num="2" name="GND_2" type="passive"/>
+        <pin num="3" name="SIG" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NINA-B411-altium-import" part="root_1_C0402C220K4RACTU">
+      <footprints>
+        <fp>C_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NINA-B411-altium-import" part="root_1_ECS-3X8X">
+      <description>32.768kHz Â±20ppm Crystal 12.5pF 35 kOhms Cylindrical Can, Radial</description>
+      <footprints>
+        <fp>C__Users_İhsan_Desktop_Bluetooth_Anchor_Wifi_Bluetooth-Anchor-wifi-AltiumDesigner_PcbLib1.PcbLib:XTAL_ECS-3X8X</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">32.768kHz Â±20ppm Crystal 12.5pF 35 kOhms Cylindrical Can, Radial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NINA-B411-altium-import" part="root_2_C0402C220K4RACTU">
+      <footprints>
+        <fp>C_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NINA-B411-altium-import" part="root_2_HTSW-106-14-S-S-LL">
+      <description>Header_6Ways_2x54</description>
+      <footprints>
+        <fp>Header_6Ways_2x54</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Header_6Ways_2x54</field>
+      </fields>
+      <pins>
+        <pin num="01" name="01" type="passive"/>
+        <pin num="02" name="02" type="passive"/>
+        <pin num="03" name="03" type="passive"/>
+        <pin num="04" name="04" type="passive"/>
+        <pin num="05" name="05" type="passive"/>
+        <pin num="06" name="06" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NINA-B411-altium-import" part="root_2_TSM-104-03-F-SV">
+      <description>Header_4Ways_2x54_Male</description>
+      <footprints>
+        <fp>Header_4Ways_2x54_Male</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Header_4Ways_2x54_Male</field>
+      </fields>
+      <pins>
+        <pin num="01" name="01" type="passive"/>
+        <pin num="02" name="02" type="passive"/>
+        <pin num="03" name="03" type="passive"/>
+        <pin num="04" name="04" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NINA-B411-altium-import" part="root_3_SKRPACE010">
+      <description>NO 100MΩ 1000000 times 16V 1.57N Brick nogging SPST SMD Tactile Switches ROHS</description>
+      <footprints>
+        <fp>SKRPANE010</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">NO 100MΩ 1000000 times 16V 1.57N Brick nogging SPST SMD Tactile Switches ROHS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="POWER UNİT-altium-import" part="root_0_10uH">
+      <description>2.5A 10uH ±20% SMD,5.4x5.2x3mm Power Inductors ROHS</description>
+      <footprints>
+        <fp>YSPI0530-100M</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">2.5A 10uH ±20% SMD,5.4x5.2x3mm Power Inductors ROHS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="POWER UNİT-altium-import" part="root_0_C0402C220K4RACTU">
+      <footprints>
+        <fp>C_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="POWER UNİT-altium-import" part="root_0_KF2EDGV-3.5-3.81">
+      <description>KF2EDGV-3.5-3.81</description>
+      <footprints>
+        <fp>SHDR2W80P0X381_1X2_862X700X920P</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">KF2EDGV-3.5-3.81</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="POWER UNİT-altium-import" part="root_0_MP1584EN-LF-Z">
+      <footprints>
+        <fp>SOIC127P600X170-9N</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="passive"/>
+        <pin num="2" name="EN" type="passive"/>
+        <pin num="3" name="COMP" type="passive"/>
+        <pin num="4" name="FB" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="FREQ" type="passive"/>
+        <pin num="7" name="VIN" type="passive"/>
+        <pin num="8" name="BST" type="passive"/>
+        <pin num="9" name="HEAT_GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="POWER UNİT-altium-import" part="root_1_1K">
+      <footprints>
+        <fp>Res_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="POWER UNİT-altium-import" part="root_1_C0402C220K4RACTU">
+      <footprints>
+        <fp>C_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="POWER UNİT-altium-import" part="root_1_NCD0805R1">
+      <description>LED Chip Light Emitting Diode</description>
+      <footprints>
+        <fp>NCD0805R1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">LED Chip Light Emitting Diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="POWER UNİT-altium-import" part="root_2_2SS100L-W_2">
+      <description>Surface Mount Schottky Barrier Rectifier</description>
+      <footprints>
+        <fp>2SS100LW</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Surface Mount Schottky Barrier Rectifier</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="POWER UNİT-altium-import" part="root_3_EEEFPC101XAL_1">
+      <description>100uF 10V 45mA@120kHz ±20% SMD,D5xL5.4mm Aluminum Electrolytic Capacitors - SMD ROHS</description>
+      <footprints>
+        <fp>XT100UF10V90RV0060</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">100uF 10V 45mA@120kHz ±20% SMD,D5xL5.4mm Aluminum Electrolytic Capacitors - SMD ROHS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="POWER UNİT-altium-import" part="root_3_SS34FA_1">
+      <description>40V Single 3A 0.5V@3A SOD-123FL Schottky Barrier Diodes (SBD) ROHS</description>
+      <footprints>
+        <fp>SODFL3618X143N</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">40V Single 3A 0.5V@3A SOD-123FL Schottky Barrier Diodes (SBD) ROHS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP2040-altium-import" part="root_0_1K">
+      <footprints>
+        <fp>Res_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP2040-altium-import" part="root_0_90120-0768">
+      <description>Header_8Ways_2x54</description>
+      <footprints>
+        <fp>Header_8Ways_2x54</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Header_8Ways_2x54</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP2040-altium-import" part="root_0_C0402C220K4RACTU">
+      <footprints>
+        <fp>C_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP2040-altium-import" part="root_0_Crystal_SMD_3225 _12.000MHz">
+      <footprints>
+        <fp>Crystal_SMD_3225-4Pin_3.2x2.5mm</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="XOUT" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="XIN" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP2040-altium-import" part="root_0_HTSW-106-14-S-S-LL">
+      <description>Header_6 Ways_2x54</description>
+      <footprints>
+        <fp>Header_6Ways_2x54</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Header_6 Ways_2x54</field>
+      </fields>
+      <pins>
+        <pin num="01" name="01" type="passive"/>
+        <pin num="02" name="02" type="passive"/>
+        <pin num="03" name="03" type="passive"/>
+        <pin num="04" name="04" type="passive"/>
+        <pin num="05" name="05" type="passive"/>
+        <pin num="06" name="06" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP2040-altium-import" part="root_0_RP2040">
+      <description>QFN-56-EP(7x7) Microcontroller Units (MCUs/MPUs/SOCs) ROHS</description>
+      <footprints>
+        <fp>QFN40P700X700X90-57N</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">QFN-56-EP(7x7) Microcontroller Units (MCUs/MPUs/SOCs) ROHS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IOVDD" type="power_in"/>
+        <pin num="2" name="GPIO0" type="bidirectional"/>
+        <pin num="3" name="GPIO1" type="bidirectional"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GPIO6" type="bidirectional"/>
+        <pin num="9" name="GPIO7" type="bidirectional"/>
+        <pin num="10" name="IOVDD" type="power_in"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GPIO10" type="bidirectional"/>
+        <pin num="14" name="GPIO11" type="input"/>
+        <pin num="15" name="GPIO12" type="output"/>
+        <pin num="16" name="GPIO13" type="input"/>
+        <pin num="17" name="GPIO14" type="output"/>
+        <pin num="18" name="GPIO15" type="output"/>
+        <pin num="19" name="TESTEN" type="passive"/>
+        <pin num="20" name="XIN" type="input"/>
+        <pin num="21" name="XOUT" type="output"/>
+        <pin num="22" name="IOVDD" type="power_in"/>
+        <pin num="23" name="DVDD" type="power_in"/>
+        <pin num="24" name="SWCLK" type="input"/>
+        <pin num="25" name="SWD" type="bidirectional"/>
+        <pin num="26" name="RUN" type="input"/>
+        <pin num="27" name="GPIO16" type="output"/>
+        <pin num="28" name="GPIO17" type="output"/>
+        <pin num="29" name="GPIO18" type="bidirectional"/>
+        <pin num="30" name="GPIO19" type="bidirectional"/>
+        <pin num="31" name="GPIO20" type="bidirectional"/>
+        <pin num="32" name="GPIO21" type="bidirectional"/>
+        <pin num="33" name="IOVDD" type="power_in"/>
+        <pin num="34" name="GPIO22" type="bidirectional"/>
+        <pin num="35" name="GPIO23" type="bidirectional"/>
+        <pin num="36" name="GPIO24" type="bidirectional"/>
+        <pin num="37" name="GPIO25" type="bidirectional"/>
+        <pin num="38" name="GPIO26/ADC0" type="bidirectional"/>
+        <pin num="39" name="GPIO27/ADC1" type="bidirectional"/>
+        <pin num="40" name="GPIO28/ADC2" type="bidirectional"/>
+        <pin num="41" name="GPIO29/ADC3" type="bidirectional"/>
+        <pin num="42" name="IOVDD" type="power_in"/>
+        <pin num="43" name="ADC_AVDD" type="power_in"/>
+        <pin num="44" name="VREG_VIN" type="input"/>
+        <pin num="45" name="VREG_VOUT" type="power_in"/>
+        <pin num="46" name="USB_DM" type="bidirectional"/>
+        <pin num="47" name="USB_DP" type="bidirectional"/>
+        <pin num="48" name="USB_VDD" type="power_in"/>
+        <pin num="49" name="IOVDD" type="power_in"/>
+        <pin num="50" name="DVDD" type="power_in"/>
+        <pin num="51" name="QSPI_SD3" type="bidirectional"/>
+        <pin num="52" name="QSPI_SCLK" type="bidirectional"/>
+        <pin num="53" name="QSPI_SD0" type="bidirectional"/>
+        <pin num="54" name="QSPI_SD2" type="bidirectional"/>
+        <pin num="55" name="QSPI_SD1" type="bidirectional"/>
+        <pin num="56" name="QSPI_CSN" type="bidirectional"/>
+        <pin num="57" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP2040-altium-import" part="root_0_TSM-105-02-T-SV">
+      <description>Header 5 Ways 2x54</description>
+      <footprints>
+        <fp>Header 5 Ways 2x54</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Header 5 Ways 2x54</field>
+      </fields>
+      <pins>
+        <pin num="01" name="01" type="passive"/>
+        <pin num="02" name="02" type="passive"/>
+        <pin num="03" name="03" type="passive"/>
+        <pin num="04" name="04" type="passive"/>
+        <pin num="05" name="05" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP2040-altium-import" part="root_0_WS28128-B">
+      <footprints>
+        <fp>WS28128-B</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="passive"/>
+        <pin num="2" name="DOUT2" type="output"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP2040-altium-import" part="root_1_1K">
+      <footprints>
+        <fp>Res_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP2040-altium-import" part="root_1_C0402C220K4RACTU">
+      <footprints>
+        <fp>C_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP2040-altium-import" part="root_2_1K">
+      <footprints>
+        <fp>Res_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP2040-altium-import" part="root_2_MTLW-111-08-G-S-355">
+      <description>Header 11 Ways 2x54</description>
+      <footprints>
+        <fp>Header 11 Ways 2x54</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Header 11 Ways 2x54</field>
+      </fields>
+      <pins>
+        <pin num="01" name="01" type="passive"/>
+        <pin num="02" name="02" type="passive"/>
+        <pin num="03" name="03" type="passive"/>
+        <pin num="04" name="04" type="passive"/>
+        <pin num="05" name="05" type="passive"/>
+        <pin num="06" name="06" type="passive"/>
+        <pin num="07" name="07" type="passive"/>
+        <pin num="08" name="08" type="passive"/>
+        <pin num="09" name="09" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP2040-altium-import" part="root_2_W25Q128JVSIM_TR">
+      <description>SOP-8-208mil NOR FLASH ROHS</description>
+      <footprints>
+        <fp>W25Q128JVSIQ</fp>
+      </footprints>
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SOP-8-208mil NOR FLASH ROHS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS~{}}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="~{WP~{}}(IO2)" type="bidirectional"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="~{HOLD~{}}/~{RESET}/~{IO3}" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="NINA-B411-altium-import">
+      <uri>D:/Donanımlar/Bluetooth/Anchor/Bluetooth_Anchor_Altium/Bluetooth-Anchor-AltiumDesigner/NINA-B411-altium-import.kicad_sym</uri>
+    </library>
+    <library logical="POWER UNİT-altium-import">
+      <uri>D:/Donanımlar/Bluetooth/Anchor/Bluetooth_Anchor_Altium/Bluetooth-Anchor-AltiumDesigner/POWER UNİT-altium-import.kicad_sym</uri>
+    </library>
+    <library logical="RP2040-altium-import">
+      <uri>D:/Donanımlar/Bluetooth/Anchor/Bluetooth_Anchor_Altium/Bluetooth-Anchor-AltiumDesigner/RP2040-altium-import.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V1">
+      <node ref="C18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U2" pin="45" pinfunction="VREG_VOUT" pintype="power_in"/>
+      <node ref="U2" pin="50" pinfunction="DVDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="06" pinfunction="06" pintype="passive"/>
+      <node ref="J4" pin="04" pinfunction="04" pintype="passive"/>
+      <node ref="J5" pin="04" pinfunction="04" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R27" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R30" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RGB LED1" pin="1" pinfunction="VDD" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="VCC" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="VCC_IO" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="22" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="33" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="42" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
+      <node ref="U2" pin="44" pinfunction="VREG_VIN" pintype="input"/>
+      <node ref="U2" pin="48" pinfunction="USB_VDD" pintype="power_in"/>
+      <node ref="U2" pin="49" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="+VIN">
+      <node ref="C28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC2" pin="7" pinfunction="VIN" pintype="passive"/>
+      <node ref="J9" pin="01" pinfunction="01" pintype="passive"/>
+      <node ref="R28" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/NINA-B411/BLE IO 35">
+      <node ref="U1" pin="35" pinfunction="IO_35" pintype="passive+no_connect"/>
+    </net>
+    <net code="6" name="/NINA-B411/BLE IO24">
+      <node ref="J5" pin="03" pinfunction="03" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="IO_24" pintype="passive"/>
+    </net>
+    <net code="7" name="/NINA-B411/BLE IO25">
+      <node ref="J5" pin="02" pinfunction="02" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="IO_25" pintype="passive"/>
+    </net>
+    <net code="8" name="/NINA-B411/BLE IO34">
+      <node ref="U1" pin="34" pinfunction="IO_34" pintype="passive+no_connect"/>
+    </net>
+    <net code="9" name="/NINA-B411/BLE NFC1">
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="NFC1" pintype="passive"/>
+    </net>
+    <net code="10" name="/NINA-B411/BLE NFC2">
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="NFC2" pintype="passive"/>
+    </net>
+    <net code="11" name="/NINA-B411/NINAB401-DSR">
+      <node ref="J4" pin="02" pinfunction="02" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="UART_DSR" pintype="passive"/>
+    </net>
+    <net code="12" name="/NINA-B411/NINAB401-DTR">
+      <node ref="J4" pin="03" pinfunction="03" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="UART_DTR" pintype="passive"/>
+    </net>
+    <net code="13" name="/NINA-B411/NINAB401-RTS">
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="UART_RTS" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="GPIO13" pintype="input"/>
+    </net>
+    <net code="14" name="/NINA-B411/NINAB410-CTS">
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="UART_CTS" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="GPIO14" pintype="output"/>
+    </net>
+    <net code="15" name="/NINA-B411/RESET">
+      <node ref="S3" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="S3" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="U1" pin="19" pinfunction="RESET_N" pintype="passive"/>
+    </net>
+    <net code="16" name="/NINA-B411/RXD">
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="UART_RXD" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="GPIO12" pintype="output"/>
+    </net>
+    <net code="17" name="/NINA-B411/SWITCH2">
+      <node ref="S1" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="S1" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="U1" pin="18" pinfunction="SWITCH_2" pintype="passive"/>
+    </net>
+    <net code="18" name="/NINA-B411/TXD">
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="UART_TXD" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="GPIO11" pintype="input"/>
+    </net>
+    <net code="19" name="/RP2040/GPIO0">
+      <node ref="J7" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/RP2040/GPIO1">
+      <node ref="J7" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/RP2040/GPIO2">
+      <node ref="J7" pin="09" pinfunction="09" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/RP2040/GPIO3">
+      <node ref="J7" pin="08" pinfunction="08" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/RP2040/GPIO4">
+      <node ref="J7" pin="07" pinfunction="07" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/RP2040/GPIO5">
+      <node ref="J7" pin="06" pinfunction="06" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/RP2040/GPIO6">
+      <node ref="J7" pin="05" pinfunction="05" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/RP2040/GPIO7">
+      <node ref="J7" pin="04" pinfunction="04" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/RP2040/GPIO8">
+      <node ref="J7" pin="03" pinfunction="03" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/RP2040/GPIO9">
+      <node ref="J7" pin="02" pinfunction="02" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/RP2040/GPIO10">
+      <node ref="J7" pin="01" pinfunction="01" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/RP2040/GPIO20">
+      <node ref="J6" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U2" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/RP2040/GPIO21">
+      <node ref="J6" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U2" pin="32" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/RP2040/GPIO22">
+      <node ref="J6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/RP2040/GPIO23">
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/RP2040/GPIO24">
+      <node ref="J8" pin="01" pinfunction="01" pintype="passive"/>
+      <node ref="U2" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/RP2040/GPIO25">
+      <node ref="J8" pin="02" pinfunction="02" pintype="passive"/>
+      <node ref="U2" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/RP2040/GPIO26">
+      <node ref="J8" pin="03" pinfunction="03" pintype="passive"/>
+      <node ref="U2" pin="38" pinfunction="GPIO26/ADC0" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/RP2040/GPIO27">
+      <node ref="J8" pin="04" pinfunction="04" pintype="passive"/>
+      <node ref="U2" pin="39" pinfunction="GPIO27/ADC1" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/RP2040/GPIO28">
+      <node ref="J8" pin="05" pinfunction="05" pintype="passive"/>
+      <node ref="U2" pin="40" pinfunction="GPIO28/ADC2" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/RP2040/GPIO29">
+      <node ref="J8" pin="06" pinfunction="06" pintype="passive"/>
+      <node ref="U2" pin="41" pinfunction="GPIO29/ADC3" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/RP2040/I2C SCL">
+      <node ref="J6" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="U2" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/RP2040/I2C SDA">
+      <node ref="J6" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="U2" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/RP2040/QSPI_CSN">
+      <node ref="R19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="56" pinfunction="QSPI_CSN" pintype="bidirectional"/>
+      <node ref="U5" pin="1" pinfunction="~{CS~{}}" pintype="input"/>
+    </net>
+    <net code="43" name="/RP2040/QSPI_SCLK">
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="44" name="/RP2040/QSPI_SD0">
+      <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/RP2040/QSPI_SD1">
+      <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/RP2040/QSPI_SD2">
+      <node ref="R14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="~{WP~{}}(IO2)" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/RP2040/QSPI_SD3">
+      <node ref="R15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="~{HOLD~{}}/~{RESET}/~{IO3}" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/RP2040/RGB LED">
+      <node ref="RGB LED1" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="U2" pin="18" pinfunction="GPIO15" pintype="output"/>
+    </net>
+    <net code="49" name="/RP2040/RUN">
+      <node ref="U2" pin="26" pinfunction="RUN" pintype="input+no_connect"/>
+    </net>
+    <net code="50" name="/RP2040/SWCLK">
+      <node ref="U2" pin="24" pinfunction="SWCLK" pintype="input+no_connect"/>
+    </net>
+    <net code="51" name="/RP2040/SWD">
+      <node ref="U2" pin="25" pinfunction="SWD" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="/RP2040/USB D N">
+      <node ref="J9" pin="04" pinfunction="04" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="53" name="/RP2040/USB D P">
+      <node ref="J9" pin="05" pinfunction="05" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="54" name="/RP2040/XIN">
+      <node ref="C24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="XIN" pintype="input"/>
+      <node ref="Y2" pin="1" pinfunction="XOUT" pintype="passive"/>
+    </net>
+    <net code="55" name="/RP2040/XOUT">
+      <node ref="R18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="XOUT" pintype="output"/>
+    </net>
+    <net code="56" name="GND">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C21" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C23" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C24" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C25" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C27" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C28" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC2" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="IC2" pin="9" pinfunction="HEAT_GND" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="01" pinfunction="01" pintype="passive"/>
+      <node ref="J3" pin="02" pinfunction="02" pintype="passive"/>
+      <node ref="J3" pin="03" pinfunction="03" pintype="passive"/>
+      <node ref="J4" pin="01" pinfunction="01" pintype="passive"/>
+      <node ref="J5" pin="01" pinfunction="01" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J9" pin="02" pinfunction="02" pintype="passive"/>
+      <node ref="LED1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R33" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RGB LED1" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="S1" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="S1" pin="4" pinfunction="4" pintype="bidirectional"/>
+      <node ref="S3" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="S3" pin="4" pinfunction="4" pintype="bidirectional"/>
+      <node ref="U1" pin="12" pinfunction="GND12" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GND14" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="GND26" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="GND30" pintype="passive"/>
+      <node ref="U1" pin="53" pinfunction="GND53" pintype="passive"/>
+      <node ref="U1" pin="56" pinfunction="EGP56" pintype="passive"/>
+      <node ref="U1" pin="57" pinfunction="EGP57" pintype="passive"/>
+      <node ref="U1" pin="58" pinfunction="EGP58" pintype="passive"/>
+      <node ref="U1" pin="59" pinfunction="EGP59" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GND6" pintype="passive"/>
+      <node ref="U1" pin="60" pinfunction="EGP60" pintype="passive"/>
+      <node ref="U1" pin="61" pinfunction="EGP61" pintype="passive"/>
+      <node ref="U1" pin="62" pinfunction="EGP62" pintype="passive"/>
+      <node ref="U1" pin="63" pinfunction="EGP63" pintype="passive"/>
+      <node ref="U1" pin="64" pinfunction="EGP64" pintype="passive"/>
+      <node ref="U1" pin="65" pinfunction="EGP65" pintype="passive"/>
+      <node ref="U1" pin="66" pinfunction="EGP66" pintype="passive"/>
+      <node ref="U1" pin="67" pinfunction="EGP67" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="TESTEN" pintype="passive"/>
+      <node ref="U2" pin="57" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="Y2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="Y2" pin="4" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="04" pinfunction="04" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="01" pinfunction="01" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(C29-Pad2)">
+      <node ref="C29" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R33" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D3-K)">
+      <node ref="C26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC2" pin="1" pinfunction="SW" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(IC2-BST)">
+      <node ref="C26" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="IC2" pin="8" pinfunction="BST" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(IC2-COMP)">
+      <node ref="C29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="IC2" pin="3" pinfunction="COMP" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(IC2-EN)">
+      <node ref="IC2" pin="2" pinfunction="EN" pintype="passive"/>
+      <node ref="R28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R31" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(IC2-FB)">
+      <node ref="IC2" pin="4" pinfunction="FB" pintype="passive"/>
+      <node ref="R29" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R30" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(IC2-FREQ)">
+      <node ref="IC2" pin="6" pinfunction="FREQ" pintype="passive"/>
+      <node ref="R32" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(J1-SIG)">
+      <node ref="J1" pin="3" pinfunction="SIG" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="RSVD13" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(J2-Pad02)">
+      <node ref="J2" pin="02" pinfunction="02" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(J2-Pad03)">
+      <node ref="J2" pin="03" pinfunction="03" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(J2-Pad04)">
+      <node ref="J2" pin="04" pinfunction="04" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(J2-Pad05)">
+      <node ref="J2" pin="05" pinfunction="05" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(J9-Pad03)">
+      <node ref="J9" pin="03" pinfunction="03" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(LED1-A)">
+      <node ref="LED1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R27" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(U1-IO_2{slash}XL1)">
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="IO_2/XL1" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(U1-IO_3{slash}XL2)">
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="IO_3/XL2" pintype="passive"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(U2-QSPI_SCLK)">
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="52" pinfunction="QSPI_SCLK" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="Net-(U2-QSPI_SD0)">
+      <node ref="R12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="Net-(U2-QSPI_SD1)">
+      <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="Net-(U2-QSPI_SD2)">
+      <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="Net-(U2-QSPI_SD3)">
+      <node ref="R15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="Net-(U2-USB_DM)">
+      <node ref="R16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="Net-(U2-USB_DP)">
+      <node ref="R17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="Net-(Y2-XIN)">
+      <node ref="C23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Y2" pin="3" pinfunction="XIN" pintype="passive"/>
+    </net>
+    <net code="84" name="unconnected-(RGB LED1-DOUT2-Pad2)">
+      <node ref="RGB LED1" pin="2" pinfunction="DOUT2" pintype="output+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U1-BLUE-Pad8)">
+      <node ref="U1" pin="8" pinfunction="BLUE" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U1-GREEN{slash}SWITCH_1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="GREEN/SWITCH_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U1-I0_47-Pad47)">
+      <node ref="U1" pin="47" pinfunction="I0_47" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U1-IO_4-Pad4)">
+      <node ref="U1" pin="4" pinfunction="IO_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U1-IO_5-Pad5)">
+      <node ref="U1" pin="5" pinfunction="IO_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U1-IO_27-Pad27)">
+      <node ref="U1" pin="27" pinfunction="IO_27" pintype="passive+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U1-IO_32-Pad32)">
+      <node ref="U1" pin="32" pinfunction="IO_32" pintype="passive+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U1-IO_33-Pad33)">
+      <node ref="U1" pin="33" pinfunction="IO_33" pintype="passive+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U1-IO_36-Pad36)">
+      <node ref="U1" pin="36" pinfunction="IO_36" pintype="passive+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U1-IO_37-Pad37)">
+      <node ref="U1" pin="37" pinfunction="IO_37" pintype="passive+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U1-IO_38-Pad38)">
+      <node ref="U1" pin="38" pinfunction="IO_38" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U1-IO_39-Pad39)">
+      <node ref="U1" pin="39" pinfunction="IO_39" pintype="passive+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U1-IO_40-Pad40)">
+      <node ref="U1" pin="40" pinfunction="IO_40" pintype="passive+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U1-IO_41-Pad41)">
+      <node ref="U1" pin="41" pinfunction="IO_41" pintype="passive+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U1-IO_42-Pad42)">
+      <node ref="U1" pin="42" pinfunction="IO_42" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U1-IO_43-Pad43)">
+      <node ref="U1" pin="43" pinfunction="IO_43" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U1-IO_44-Pad44)">
+      <node ref="U1" pin="44" pinfunction="IO_44" pintype="passive+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U1-IO_45-Pad45)">
+      <node ref="U1" pin="45" pinfunction="IO_45" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U1-IO_46-Pad46)">
+      <node ref="U1" pin="46" pinfunction="IO_46" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U1-IO_48-Pad48)">
+      <node ref="U1" pin="48" pinfunction="IO_48" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U1-IO_49-Pad49)">
+      <node ref="U1" pin="49" pinfunction="IO_49" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U1-IO_50-Pad50)">
+      <node ref="U1" pin="50" pinfunction="IO_50" pintype="passive+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U1-IO_51-Pad51)">
+      <node ref="U1" pin="51" pinfunction="IO_51" pintype="passive+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U1-IO_52-Pad52)">
+      <node ref="U1" pin="52" pinfunction="IO_52" pintype="passive+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U1-RED-Pad1)">
+      <node ref="U1" pin="1" pinfunction="RED" pintype="passive+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U1-RSVD11-Pad11)">
+      <node ref="U1" pin="11" pinfunction="RSVD11" pintype="passive+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U1-RSVD15-Pad15)">
+      <node ref="U1" pin="15" pinfunction="RSVD15" pintype="passive+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U1-RSVD55-Pad55)">
+      <node ref="U1" pin="55" pinfunction="RSVD55" pintype="passive+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U1-RSVSD54-Pad54)">
+      <node ref="U1" pin="54" pinfunction="RSVSD54" pintype="passive+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U1-VBUS-Pad31)">
+      <node ref="U1" pin="31" pinfunction="VBUS" pintype="passive+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U2-GPIO16-Pad27)">
+      <node ref="U2" pin="27" pinfunction="GPIO16" pintype="output+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U2-GPIO17-Pad28)">
+      <node ref="U2" pin="28" pinfunction="GPIO17" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

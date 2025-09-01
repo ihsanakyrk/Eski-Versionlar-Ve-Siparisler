@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "POWER UNİT-altium-import")(type "KiCad")(uri "D:/Donanımlar/Bluetooth/Anchor_Wifi/Bluetooth-Anchor_Wifi_Altium/Bluetooth-anchor-Altium/POWER UNİT-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32 S2-altium-import")(type "KiCad")(uri "D:/Donanımlar/Bluetooth/Anchor_Wifi/Bluetooth-Anchor_Wifi_Altium/Bluetooth-anchor-Altium/ESP32 S2-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "NINA-B411-altium-import")(type "KiCad")(uri "D:/Donanımlar/Bluetooth/Anchor_Wifi/Bluetooth-Anchor_Wifi_Altium/Bluetooth-anchor-Altium/NINA-B411-altium-import.kicad_sym")(options "")(descr ""))
+)

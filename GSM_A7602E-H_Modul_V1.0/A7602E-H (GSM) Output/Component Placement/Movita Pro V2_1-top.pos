@@ -1,0 +1,11 @@
+### Footprint positions - created on 2023-11-18T11:30:14+0300 ###
+### Printed by KiCad version 7.99.0-2677-g3cd60007c5
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                            Package                PosX       PosY       Rot  Side
+J1        CastellatedHoles_5Ways_2_54mm  Castelled_5          8.7900    37.0000    0.0000  top
+J2        CastellatedHoles_5Ways_2_54mm  Castelled_5          0.0000     8.8900   90.0000  top
+J3        CastellatedHoles_5Ways_2_54mm  Castelled_5         30.1000     0.0000  180.0000  top
+J4        CastellatedHoles_6Ways_2_54mm  castelled_8         40.0100    18.3200  -90.0000  top
+U1        A7602E-H                       A7602EH             21.5600    -0.9600    0.0000  top
+## End

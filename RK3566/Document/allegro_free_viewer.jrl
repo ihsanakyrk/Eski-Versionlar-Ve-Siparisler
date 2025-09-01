@@ -1,0 +1,70 @@
+\t (00:00:07) allegro_free_viewer 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:07)     Journal start - Wed Feb 12 10:29:08 2025
+\t (00:00:07)         Host=DESKTOP-HM05M8G User=Ýhsan Pid=16016 CPUs=16
+\t (00:00:07) CmdLine= C:\Cadence\PCBViewers_2023\tools\bin\allegro_free_viewer.exe C:\Users\Ýhsan\Desktop\Dosyalar\Geçmiþ Projeler\RK3566\Document\EM3566-AV V1.pcb
+\t (00:00:07) 
+\t (00:00:08) Opening existing design...
+\e (00:00:08) ERROR(SPMHDB-180): Design revision post-23.1 is newer than current program version.
+\e (00:00:08) ERROR(SPMHDB-180): Design revision post-23.1 is newer than current program version.
+\i (00:00:09) fillin confirm
+\t (00:00:09) Starting new design...
+\i (00:00:10) trapsize 1910
+\i (00:00:10) trapsize 1261
+\i (00:00:10) updateport PropPane
+\i (00:00:10) updateport VisibilityPane
+\i (00:00:10) ucpedit 
+\i (00:00:10) updateport VisibilityPane
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 15234.4 7869.4
+\i (00:00:11) trapsize 631
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 13004.4 7882.0
+\i (00:00:11) trapsize 315
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 12998.1 7926.2
+\i (00:00:11) trapsize 158
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 12998.2 7932.5
+\i (00:00:11) trapsize 315
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 12998.1 7932.5
+\i (00:00:11) trapsize 631
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 12991.8 7932.5
+\i (00:00:12) trapsize 1261
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 15209.2 8121.7
+\i (00:00:12) trapsize 1261
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 15209.2 8121.7
+\i (00:00:12) trapsize 1261
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 15209.2 8121.7
+\i (00:00:12) trapsize 1261
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 15209.2 8172.1
+\i (00:00:12) trapsize 1261
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 15209.2 8172.1
+\i (00:00:12) trapsize 1261
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 15209.2 8172.1
+\i (00:00:12) trapsize 1261
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 15209.2 8172.1
+\i (00:00:12) trapsize 1261
+\i (00:00:15) exit 
+\t (00:00:15)     Journal end - Wed Feb 12 10:29:16 2025

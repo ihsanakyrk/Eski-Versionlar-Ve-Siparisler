@@ -1,0 +1,25 @@
+Drill report for OV24-RV_V1.0.kicad_pcb
+Created on 2025-09-01T11:00:04+0300
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L1 :  B.Cu                      back
+
+
+Drill file 'OV24-RV_V1.0-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.200mm  0.0079"  (38 holes)
+    T2  0.254mm  0.0100"  (3 holes)
+    T3  0.300mm  0.0118"  (6 holes)
+    T4  0.800mm  0.0315"  (8 holes)
+
+    Total plated holes count 55
+
+
+Drill file 'OV24-RV_V1.0-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

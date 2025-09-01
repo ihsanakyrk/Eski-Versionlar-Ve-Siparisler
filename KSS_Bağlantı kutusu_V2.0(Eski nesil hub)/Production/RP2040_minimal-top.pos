@@ -1,0 +1,25 @@
+### Footprint positions - created on 2023-08-30T12:30:41+0300 ###
+### Printed by KiCad version 7.99.0-1900-g89780d353a
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                                       PosX       PosY       Rot  Side
+D1        MRA4007T3G         D_SMA                                      17.4160   -15.1184  -90.0000  top
+D2        MRA4007T3G         D_SMA                                      74.7160   -14.6884   90.0000  top
+IC1       MMBT2222ALT1G      SOT96P237X111-3N                           17.3460   -20.7684  180.0000  top
+IC2       MMBT2222ALT1G      SOT96P237X111-3N                           74.6460    -8.7584    0.0000  top
+J1        Conn_01x08_Socket  JST_XH_S8B-XH-A_1x08_P2.50mm_Horizontal    67.8460    -2.5684  180.0000  top
+J2        Conn_01x03_Pin     KF2EDGR-Y-5.08-03P-1_B                     40.7660    -2.7259  180.0000  top
+J3        Conn_01x03_Pin     KF2EDGR-Y-5.08-03P-1_B                     30.6060   -31.9284    0.0000  top
+J4        DNP                PinHeader_1x01_P1.00mm_Horizontal          72.0160    -4.1584  -90.0000  top
+J7        8P8C               RJ45_Amphenol_54602-x08_Horizontal         51.7935   -27.5724    0.0000  top
+K1        _SRD-12VDC-SL-C    RELAY_SRD-05VDC-SL-C                       30.5260   -14.7284    0.0000  top
+K2        _SRD-12VDC-SL-C    RELAY_SRD-05VDC-SL-C                       61.9235   -14.3484  180.0000  top
+LED1      NCD0805R1_         LED_0805_2012Metric                        46.0660    -7.0884   90.0000  top
+R1        10K                R_0603_1608Metric                          77.2760    -5.4534  -90.0000  top
+R2        10K                R_0603_1608Metric                          74.2060    -6.1884    0.0000  top
+R3        0R                 R_0603_1608Metric                          16.6660    -9.0584    0.0000  top
+R4        10K                R_0603_1608Metric                          20.2760   -24.2934   90.0000  top
+R5        10K                R_0603_1608Metric                          17.9010   -26.1184    0.0000  top
+R6        0R                 R_0603_1608Metric                          74.3360   -20.0484    0.0000  top
+R7        3.3K               R_0603_1608Metric                          48.8160    -7.7284  180.0000  top
+## End

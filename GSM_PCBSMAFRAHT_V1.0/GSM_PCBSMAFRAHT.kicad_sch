@@ -1,0 +1,770 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1dffc71e-ee91-4009-9042-6ddccb6334fc")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 186.69 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97431ebd-d6db-4833-b91f-1af494687bf4")
+	)
+	(wire
+		(pts
+			(xy 111.76 34.29) (xy 182.88 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039b7373-5f44-4d87-9795-1a82fe7d606e")
+	)
+	(wire
+		(pts
+			(xy 109.22 71.12) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159e1296-2622-45a3-bed8-0303bf1dcf07")
+	)
+	(wire
+		(pts
+			(xy 109.22 73.66) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f81504-013b-49e3-a0e2-0ba27ecb1eed")
+	)
+	(wire
+		(pts
+			(xy 109.22 53.34) (xy 121.92 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18afd295-dd44-4c2e-a19b-240f23bb54ff")
+	)
+	(wire
+		(pts
+			(xy 109.22 62.23) (xy 121.92 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a6c96d-3553-4440-9ab0-7253f0166f41")
+	)
+	(wire
+		(pts
+			(xy 109.22 55.88) (xy 121.92 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284987fd-d59d-4f9e-b6bc-5f57becdeb52")
+	)
+	(wire
+		(pts
+			(xy 111.76 45.72) (xy 111.76 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbdf41a-1864-4910-9a75-175c1136abca")
+	)
+	(wire
+		(pts
+			(xy 186.69 63.5) (xy 187.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31428206-e059-4d12-ad43-153ed069969e")
+	)
+	(wire
+		(pts
+			(xy 109.22 76.2) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34131cce-8efd-4f03-b69c-116b12ee0a62")
+	)
+	(wire
+		(pts
+			(xy 109.22 48.26) (xy 121.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65340e22-8bdf-4ef7-8177-f29b46086c4b")
+	)
+	(wire
+		(pts
+			(xy 109.22 59.69) (xy 121.92 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7169de35-4c19-40e5-8716-7edb0d9f4581")
+	)
+	(wire
+		(pts
+			(xy 77.47 99.06) (xy 77.47 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f6dfaa-bbac-4545-927d-ae0a24e0199d")
+	)
+	(wire
+		(pts
+			(xy 109.22 78.74) (xy 121.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb48187-84b9-4dee-8e0d-5fb61c284bdb")
+	)
+	(wire
+		(pts
+			(xy 170.18 60.96) (xy 187.96 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92405bee-a3ea-47aa-8be6-925ed2e84f97")
+	)
+	(wire
+		(pts
+			(xy 97.79 102.87) (xy 97.79 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993d4b0e-1644-4ff3-a362-aa310da5bc60")
+	)
+	(wire
+		(pts
+			(xy 109.22 81.28) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4d6e45-55c3-4c57-9e29-443652a188af")
+	)
+	(wire
+		(pts
+			(xy 80.01 99.06) (xy 80.01 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9d0c2c-810d-4d50-866a-a69bad0e6871")
+	)
+	(wire
+		(pts
+			(xy 109.22 45.72) (xy 111.76 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f64c8d-842d-4a00-bc27-1e9927f05627")
+	)
+	(wire
+		(pts
+			(xy 97.79 100.33) (xy 186.69 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce50700b-4c12-4bcd-b41c-846756f101ee")
+	)
+	(wire
+		(pts
+			(xy 170.18 58.42) (xy 187.96 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd332ebd-a635-483a-bead-1e3c69fdff30")
+	)
+	(wire
+		(pts
+			(xy 182.88 34.29) (xy 182.88 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f0e29b-72bc-4a96-9d84-e4a257b82c17")
+	)
+	(wire
+		(pts
+			(xy 182.88 63.5) (xy 186.69 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e52dd2e1-1aaf-44a8-8fae-ce2fa7192098")
+	)
+	(wire
+		(pts
+			(xy 186.69 100.33) (xy 186.69 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9009563-5416-4e63-b7b1-2226853e0ac8")
+	)
+	(wire
+		(pts
+			(xy 109.22 85.09) (xy 121.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f977349f-d327-413b-8b47-80f0d300b6c7")
+	)
+	(wire
+		(pts
+			(xy 74.93 99.06) (xy 74.93 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfe2b21-6e8c-4aa4-9c96-f368f266f6a0")
+	)
+	(sheet
+		(at 60.96 41.91)
+		(size 48.26 57.15)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16cd9863-2543-4654-a360-08e979dcb936")
+		(property "Sheetname" "GSM_Castelled"
+			(at 60.96 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GSM_Castelled.kicad_sch"
+			(at 60.96 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V8" input
+			(at 109.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c1624f09-f21d-4766-84c2-e411e42f9d0b")
+		)
+		(pin "TXD" input
+			(at 109.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1e7ccc65-9970-43ff-961c-65739681b7ea")
+		)
+		(pin "RXD" input
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a89f10af-7a7a-4f17-8b3e-4bbc1da45e21")
+		)
+		(pin "ANT_GNSS" input
+			(at 77.47 99.06 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b999b6d-512c-4a25-8ef4-0a04524af43f")
+		)
+		(pin "ANT_MAIN" input
+			(at 74.93 99.06 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce0c29d5-c5b1-4e1c-9fa4-4e72c05b546e")
+		)
+		(pin "USB_GSM_P" input
+			(at 109.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c7d6aebd-23db-4ff2-a45a-b4d697a54455")
+		)
+		(pin "USB_GSM_N" input
+			(at 109.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f6462560-4964-4171-9e0a-3664d32e328d")
+		)
+		(pin "ANT_DIV" input
+			(at 80.01 99.06 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ad834ec2-aff7-40f0-a544-8f02bbaab469")
+		)
+		(pin "USIM_PRESENCE" input
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dc14408d-8f48-4209-b149-4ffa0bb8d5c6")
+		)
+		(pin "USIM_VDD" input
+			(at 109.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e523ee2c-db5b-40ff-a142-cac24f7b908b")
+		)
+		(pin "USIM_RST" input
+			(at 109.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e77f7333-1e84-4e55-a248-b42b789d7a7d")
+		)
+		(pin "USIM_DATA" input
+			(at 109.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8fd024b2-69fd-4a2b-9343-c94afdfe9cc2")
+		)
+		(pin "VDD_EXT_1V8" input
+			(at 109.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fab41cc4-e78f-42f2-a9bc-26fd8cccd3d1")
+		)
+		(pin "USIM_CLK" input
+			(at 109.22 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "91164fa6-90af-4cf4-8634-1aaf2205bfa3")
+		)
+		(pin "MODEM_NET_STATUS" input
+			(at 109.22 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f9eae667-9b28-4dd6-8ef8-2804330919d3")
+		)
+		(instances
+			(project "GSM_PCBSMAFRAHT"
+				(path "/1dffc71e-ee91-4009-9042-6ddccb6334fc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 41.91)
+		(size 48.26 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2ebce6b1-6547-4c82-903e-b236d340d552")
+		(property "Sheetname" "91228-3002"
+			(at 121.92 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "91228-3002.kicad_sch"
+			(at 121.92 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USIM_CLK" input
+			(at 121.92 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "09bff271-ad12-46c3-9e2f-06015f663c35")
+		)
+		(pin "USIM_DATA" input
+			(at 121.92 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b6a35684-54c8-4562-ac91-11d41b54e741")
+		)
+		(pin "USIM_RST" input
+			(at 121.92 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e1d12ec5-79fe-4376-ad3d-3b907a1c18cc")
+		)
+		(pin "USIM_VDD" input
+			(at 121.92 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "713f7388-2470-4e0e-b3e4-c0f5d688080e")
+		)
+		(pin "VDD_EXT_1V8" input
+			(at 121.92 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "14932dc3-46df-4fdd-8379-68133fb055e1")
+		)
+		(pin "USIM_PRESENCE" input
+			(at 121.92 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9ef28c6f-668e-41f2-adba-c00ed17361d4")
+		)
+		(pin "VIN" input
+			(at 170.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d9ac99c6-75fe-48b2-b65f-c8bac2bb12d6")
+		)
+		(pin "TXD" input
+			(at 121.92 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d0161eb8-e12a-4a16-8d3c-c94b06493541")
+		)
+		(pin "RXD" input
+			(at 121.92 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1dd3e736-f35c-439c-8b57-555a38deec14")
+		)
+		(pin "MODEM_NET_STATUS" input
+			(at 121.92 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da984537-57d2-4e46-aa39-9e6de488b1a5")
+		)
+		(pin "USB_GSM_P" input
+			(at 121.92 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7119dacf-0025-4a2d-a9e8-9fd4ce5b5693")
+		)
+		(pin "EN3V8" input
+			(at 170.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ae33da45-fe87-4d51-8d68-979dc75ca18a")
+		)
+		(pin "USB_GSM_N" input
+			(at 121.92 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f13e81d-c1be-49c0-9219-c4e336667677")
+		)
+		(instances
+			(project "GSM_PCBSMAFRAHT"
+				(path "/1dffc71e-ee91-4009-9042-6ddccb6334fc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 36.83)
+		(size 45.72 71.12)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51287b52-7941-4899-94cd-44b5b01db2d4")
+		(property "Sheetname" "Power Unıt"
+			(at 187.96 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Unıt.kicad_sch"
+			(at 187.96 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 187.96 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "81d214c0-6497-4c34-a3eb-943d99258fe4")
+		)
+		(pin "EN3V8" input
+			(at 187.96 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e03a6e6-a8c5-4d84-b020-35414dc9050e")
+		)
+		(pin "+3V8" input
+			(at 187.96 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "190c7763-e966-49b2-973d-830ca2e42969")
+		)
+		(instances
+			(project "GSM_PCBSMAFRAHT"
+				(path "/1dffc71e-ee91-4009-9042-6ddccb6334fc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 102.87)
+		(size 30.48 16.51)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6d26704-6cae-4e7f-85b4-05976466e479")
+		(property "Sheetname" "RF Antenna Connector"
+			(at 69.596 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF Antenna Connector.kicad_sch"
+			(at 69.596 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ANT_DIV" input
+			(at 74.93 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "92e97f2f-2578-4e1a-b532-ea097c7ff396")
+		)
+		(pin "ANT_MAIN" input
+			(at 80.01 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e9adf31e-2f28-42e9-b639-96afd12fbfd5")
+		)
+		(pin "+3V8" input
+			(at 97.79 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd6cbd9d-c8be-4c6d-aba5-1235ea3c9c6e")
+		)
+		(pin "ANT_GNSS" input
+			(at 77.47 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8939ca8b-4871-412b-8d02-0bf6c8c3870b")
+		)
+		(instances
+			(project "GSM_PCBSMAFRAHT"
+				(path "/1dffc71e-ee91-4009-9042-6ddccb6334fc"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

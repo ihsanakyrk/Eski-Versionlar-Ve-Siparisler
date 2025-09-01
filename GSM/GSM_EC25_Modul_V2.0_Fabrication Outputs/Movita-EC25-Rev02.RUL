@@ -1,0 +1,15 @@
+DRC Rules Export File for PCB: C:\Projects\Altium\Movita\Movita-EC25-Rev02\Movita-EC25-Rev02.PcbDoc
+RuleKind=Clearance|RuleName=Poly to Poly_1|Scope=Board|Minimum=11.81
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.95
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.91
+RuleKind=Width|RuleName=Width Ground|Scope=Board|Minimum=9.06
+RuleKind=Width|RuleName=Width Power|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=DiffPair_DIFF90Width|Scope=Board|Minimum=5.91
+RuleKind=Width|RuleName=DiffPair_DIFF100Width|Scope=Board|Minimum=3.94
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=PWR Poly to VIA|Scope=Board|Minimum=3.94
+RuleKind=Clearance|RuleName=Poly to Poly|Scope=Board|Minimum=20.00
+RuleKind=Clearance|RuleName=Signal tracks|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance Non Plated Holes|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=Pad Clearance|Scope=Board|Minimum=5.00

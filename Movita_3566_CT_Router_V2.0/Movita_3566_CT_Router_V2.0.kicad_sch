@@ -1,0 +1,2845 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "25e5aa8e-2696-44a3-8d3c-c2c53f2923cf")
+	(paper "A3")
+	(title_block
+		(title "CamTracker")
+		(date "2022-09-20")
+		(rev "REV1")
+		(company "SmartEQ Bilisim")
+	)
+	(lib_symbols)
+	(junction
+		(at 19.05 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b0ecc22-6f9a-4b96-a078-7c5f6f169464")
+	)
+	(junction
+		(at 118.11 110.49)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "c847fc09-6e83-4b17-ae87-d7287296b04b")
+	)
+	(wire
+		(pts
+			(xy 181.61 68.58) (xy 181.61 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "07853061-071d-43fa-9ed2-342e49f3a89f")
+	)
+	(wire
+		(pts
+			(xy 19.05 78.74) (xy 48.26 78.74)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "0dd1bc66-2e6f-498c-a90f-cf08d461cb72")
+	)
+	(wire
+		(pts
+			(xy 203.2 181.61) (xy 203.2 195.58)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "15a612f5-4195-46c2-a942-3b9fdc3e71f3")
+	)
+	(polyline
+		(pts
+			(xy 124.46 196.85) (xy 133.35 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1af8ff67-1c37-4bb0-973b-033bf83715f4")
+	)
+	(wire
+		(pts
+			(xy 176.53 68.58) (xy 176.53 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1c078ad3-d9a1-40cd-a40a-8173324035bd")
+	)
+	(wire
+		(pts
+			(xy 184.15 181.61) (xy 184.15 195.58)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1c4aff12-02b0-40cf-8fbd-5a8968c67b88")
+	)
+	(wire
+		(pts
+			(xy 118.11 110.49) (xy 127 110.49)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "230ade75-15f2-48b8-b80f-fcb045dfedfb")
+	)
+	(wire
+		(pts
+			(xy 110.49 87.63) (xy 127 87.63)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2438cad9-9a39-42ff-826a-d1adfc6b5d8f")
+	)
+	(wire
+		(pts
+			(xy 184.15 68.58) (xy 184.15 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "25c433d6-a4cb-4e63-b2ff-da1aad0b4acf")
+	)
+	(wire
+		(pts
+			(xy 111.76 171.45) (xy 127 171.45)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "26b6131e-ff14-420d-96de-f83c1c15d03a")
+	)
+	(wire
+		(pts
+			(xy 111.76 153.67) (xy 116.84 153.67)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2a1efa2e-96b3-4079-8918-c33627f0ab3e")
+	)
+	(wire
+		(pts
+			(xy 186.69 181.61) (xy 186.69 195.58)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2bd11906-baab-439e-8734-fd10272bca8b")
+	)
+	(wire
+		(pts
+			(xy 173.99 68.58) (xy 173.99 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2c2619aa-78e0-4d98-94ea-36ed43146643")
+	)
+	(wire
+		(pts
+			(xy 29.21 90.17) (xy 29.21 176.53)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "306bfa59-6813-46c7-beea-43ed96844a34")
+	)
+	(wire
+		(pts
+			(xy 236.22 181.61) (xy 236.22 195.58)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "347597a1-a375-4eaa-a872-71051ca2372a")
+	)
+	(wire
+		(pts
+			(xy 271.78 68.58) (xy 271.78 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "36fa52f2-8bca-48c2-bfb9-acdf50d17f58")
+	)
+	(wire
+		(pts
+			(xy 24.13 82.55) (xy 48.26 82.55)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "3f791115-98af-4b03-aeee-b193ea911553")
+	)
+	(wire
+		(pts
+			(xy 34.29 95.25) (xy 48.26 95.25)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "4443224d-488a-404e-9b35-351f45d33671")
+	)
+	(wire
+		(pts
+			(xy 231.14 68.58) (xy 231.14 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "45c23cf8-7760-4a5b-9f0f-013bff14084e")
+	)
+	(wire
+		(pts
+			(xy 110.49 123.19) (xy 118.11 123.19)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "460c8355-5421-403c-af75-23731246e9ef")
+	)
+	(wire
+		(pts
+			(xy 29.21 90.17) (xy 48.26 90.17)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "492aa702-7ee3-4b5b-9845-d88b61b09a33")
+	)
+	(wire
+		(pts
+			(xy 19.05 78.74) (xy 19.05 181.61)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "4dc95e8d-35f9-4ee8-bb0b-39ef637799e4")
+	)
+	(wire
+		(pts
+			(xy 34.29 171.45) (xy 49.53 171.45)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "506d66a8-80a2-400d-a5af-ac6030f9d22f")
+	)
+	(wire
+		(pts
+			(xy 19.05 181.61) (xy 49.53 181.61)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "50fd5b43-6292-4544-a88c-2926d9bd8b95")
+	)
+	(wire
+		(pts
+			(xy 111.76 173.99) (xy 127 173.99)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "55905c46-92c0-4d49-b317-35ebb406ac55")
+	)
+	(wire
+		(pts
+			(xy 110.49 34.29) (xy 200.66 34.29)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5ca89ed5-4a55-486b-9949-dd7dc0f7bfaa")
+	)
+	(wire
+		(pts
+			(xy 228.6 68.58) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5daf5413-198f-4fe9-9930-034d7f0fd1dd")
+	)
+	(wire
+		(pts
+			(xy 322.58 92.71) (xy 331.47 92.71)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5ff1495a-c49f-477f-bf30-00532bb0bc23")
+	)
+	(wire
+		(pts
+			(xy 110.49 46.99) (xy 127 46.99)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "60c3570b-8555-46a7-b301-87c3b19a7474")
+	)
+	(wire
+		(pts
+			(xy 179.07 68.58) (xy 179.07 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "6ff2722d-86d0-4dc7-842a-be410e343d04")
+	)
+	(wire
+		(pts
+			(xy 233.68 68.58) (xy 233.68 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "77228072-a532-4351-9d02-0864fcde049b")
+	)
+	(wire
+		(pts
+			(xy 200.66 34.29) (xy 200.66 48.26)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "84a0243b-1db2-4c03-8e3b-b967d8880ae2")
+	)
+	(wire
+		(pts
+			(xy 39.37 167.64) (xy 49.53 167.64)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "86fb4ed5-aea4-4d80-b0f4-10106500a231")
+	)
+	(wire
+		(pts
+			(xy 186.69 68.58) (xy 186.69 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "88ae82d3-7cb4-40ab-a99f-6a283b46b502")
+	)
+	(wire
+		(pts
+			(xy 111.76 209.55) (xy 127 209.55)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "8f9fafad-7f22-4a89-9ea5-5c5ca1d88c51")
+	)
+	(wire
+		(pts
+			(xy 110.49 26.67) (xy 398.78 26.67)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "95bcb342-b6f0-470b-b38b-dea8da76a086")
+	)
+	(wire
+		(pts
+			(xy 118.11 110.49) (xy 118.11 123.19)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a20326ae-726d-4f82-82fa-6e79772c13d4")
+	)
+	(wire
+		(pts
+			(xy 110.49 137.16) (xy 119.38 137.16)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a62de38c-2e92-44c4-972a-355c8ff57547")
+	)
+	(wire
+		(pts
+			(xy 240.03 181.61) (xy 240.03 195.58)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a840e9d0-44af-467f-a55c-14810e1f0faa")
+	)
+	(wire
+		(pts
+			(xy 200.66 48.26) (xy 205.74 48.26)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "aec02fd1-f0c9-4d14-821c-c264c98b1e4e")
+	)
+	(wire
+		(pts
+			(xy 233.68 181.61) (xy 233.68 195.58)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b071e0e5-6f56-4afc-ad93-9ca977edd212")
+	)
+	(wire
+		(pts
+			(xy 111.76 200.66) (xy 127 200.66)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b1ef7e10-bbe8-46aa-acff-652a2c4ec980")
+	)
+	(wire
+		(pts
+			(xy 171.45 68.58) (xy 171.45 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b201ef1d-56ae-4a51-b696-be8a712ada2b")
+	)
+	(wire
+		(pts
+			(xy 118.11 99.06) (xy 118.11 110.49)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b718500f-1448-4f4f-91bb-ecb85cc39b7e")
+	)
+	(wire
+		(pts
+			(xy 119.38 137.16) (xy 119.38 156.21)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "ba1bf5ef-5042-4bf5-a968-7bc569445fd7")
+	)
+	(wire
+		(pts
+			(xy 29.21 176.53) (xy 49.53 176.53)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "baad9f45-8a10-4d95-b14e-73c64bb84202")
+	)
+	(wire
+		(pts
+			(xy 110.49 30.48) (xy 322.58 30.48)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "bdadeb1d-14c1-4d94-8483-e5222f33d505")
+	)
+	(wire
+		(pts
+			(xy 110.49 139.7) (xy 116.84 139.7)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "bdc83ff0-9c82-4d33-84ba-a471f9b6f619")
+	)
+	(wire
+		(pts
+			(xy 116.84 139.7) (xy 116.84 153.67)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "beacb67e-a92f-43db-aed1-e285e43e0ef5")
+	)
+	(wire
+		(pts
+			(xy 111.76 156.21) (xy 119.38 156.21)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "c0c89e3a-7b15-4686-a395-d7fc9454b829")
+	)
+	(wire
+		(pts
+			(xy 24.13 82.55) (xy 24.13 227.33)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c1d7bf64-e4f4-4d4b-b321-3fb9ea8ef8ba")
+	)
+	(wire
+		(pts
+			(xy 19.05 231.14) (xy 127 231.14)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c653b7b6-9340-4f9c-962a-da855dd00bbf")
+	)
+	(wire
+		(pts
+			(xy 269.24 68.58) (xy 269.24 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "c81886f3-3af3-44ca-84f2-9c602bba8429")
+	)
+	(wire
+		(pts
+			(xy 24.13 227.33) (xy 127 227.33)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ca9c2b7e-6c3c-49b4-a04a-dfae38afa36b")
+	)
+	(wire
+		(pts
+			(xy 34.29 95.25) (xy 34.29 171.45)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "cb68eaef-7636-4a4f-9f99-2b3022a0aa2d")
+	)
+	(wire
+		(pts
+			(xy 110.49 99.06) (xy 118.11 99.06)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ce0e8216-4108-492e-a954-50e4a64eddfb")
+	)
+	(polyline
+		(pts
+			(xy 96.52 196.85) (xy 96.52 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d04f819f-6ffb-4d6b-b3c6-77af23297941")
+	)
+	(wire
+		(pts
+			(xy 242.57 181.61) (xy 242.57 195.58)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d25a3fbf-cdbc-4a01-b640-e1395efe61c4")
+	)
+	(wire
+		(pts
+			(xy 19.05 181.61) (xy 19.05 231.14)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d649b8d9-0059-4659-b29e-1583d07b9a21")
+	)
+	(wire
+		(pts
+			(xy 39.37 99.06) (xy 39.37 167.64)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "da03981e-9da0-4c7b-86cf-16d3be616b51")
+	)
+	(polyline
+		(pts
+			(xy 96.52 201.93) (xy 119.38 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "db9438cb-656c-4ec5-8af8-bc4890e553bb")
+	)
+	(polyline
+		(pts
+			(xy 96.52 196.85) (xy 124.46 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "de731504-3cfd-41fe-acdd-4c7a67725afa")
+	)
+	(wire
+		(pts
+			(xy 236.22 68.58) (xy 236.22 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "e5ae93c0-db1f-497f-af1e-8a1191e5fb2e")
+	)
+	(wire
+		(pts
+			(xy 398.78 26.67) (xy 398.78 232.41)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "eaeb0ed8-a582-4d33-b88f-4e4bec11539b")
+	)
+	(wire
+		(pts
+			(xy 207.01 232.41) (xy 398.78 232.41)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f2b01686-7c39-49d4-9d39-a3e0fc1eaa46")
+	)
+	(polyline
+		(pts
+			(xy 133.35 196.85) (xy 133.35 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f2c38cdd-2d7c-4f95-8b29-896a1518cc82")
+	)
+	(wire
+		(pts
+			(xy 322.58 30.48) (xy 322.58 92.71)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f6a8703a-ef14-4e90-81d0-1fdfc5bfa7ce")
+	)
+	(polyline
+		(pts
+			(xy 119.38 201.93) (xy 133.35 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f92f7d7d-ab91-4985-91d8-b677989b676d")
+	)
+	(wire
+		(pts
+			(xy 200.66 181.61) (xy 200.66 195.58)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "fa8c17e1-c5d0-459b-8721-765b4cb8dade")
+	)
+	(wire
+		(pts
+			(xy 39.37 99.06) (xy 48.26 99.06)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "fabc60f9-e3a1-4847-b87a-54491da95e3b")
+	)
+	(wire
+		(pts
+			(xy 111.76 198.12) (xy 127 198.12)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "fdb712ac-48c0-458b-b5c4-071994cbc488")
+	)
+	(rectangle
+		(start 96.52 134.62)
+		(end 121.92 158.75)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 17332177-51d5-475b-91f9-1ca6fea2c173)
+	)
+	(rectangle
+		(start 46.99 165.1)
+		(end 66.04 173.99)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1d8ba962-913a-4590-bb02-99ed4489c5ab)
+	)
+	(rectangle
+		(start 170.18 40.64)
+		(end 187.96 101.6)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 31b1c959-6f4c-4c39-835a-bbcb4e557c54)
+	)
+	(rectangle
+		(start 198.12 159.258)
+		(end 205.74 218.44)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3e58ca99-6771-4bff-ac3a-e6839504180e)
+	)
+	(rectangle
+		(start 231.394 167.64)
+		(end 245.11 203.2)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 51343f39-9bff-4c62-8b55-d15e57b007f7)
+	)
+	(rectangle
+		(start 181.61 162.56)
+		(end 189.23 212.09)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5c962938-6063-4bb0-bd96-1bb43bc91893)
+	)
+	(rectangle
+		(start 226.06 45.72)
+		(end 239.776 106.68)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5e3ccfaa-ebf5-4beb-958a-851eba1bd7bb)
+	)
+	(rectangle
+		(start 46.99 92.71)
+		(end 60.96 101.6)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8ba4595a-9235-4e6e-af14-a3e834886e57)
+	)
+	(rectangle
+		(start 266.7 50.8)
+		(end 274.32 101.6)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e005b9f4-f970-4169-9e9b-ca7c9e0ecf2e)
+	)
+	(rectangle
+		(start 93.98 168.91)
+		(end 148.59 176.53)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fea90f85-85f1-462c-a17a-4a37b021f2b1)
+	)
+	(text "REG ENABLE"
+		(exclude_from_sim no)
+		(at 67.31 97.028 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "02a71b67-8601-446e-a9b8-957f78e11666")
+	)
+	(text "SERI BAĞLANTI\n"
+		(exclude_from_sim no)
+		(at 201.422 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "285de307-053b-4ce6-9c09-658c16f187a0")
+	)
+	(text "CM3566"
+		(exclude_from_sim no)
+		(at 216.408 139.446 0)
+		(effects
+			(font
+				(face "Academy Engraved LET")
+				(size 7.62 7.62)
+				(thickness 0.508)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "3d347374-542d-4e1d-b834-1b5aae2def4e")
+	)
+	(text "GSM"
+		(exclude_from_sim no)
+		(at 167.64 216.916 0)
+		(effects
+			(font
+				(face "Academy Engraved LET")
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "570bb4d5-4a4d-4101-914e-a4dbdfc91d8f")
+	)
+	(text "RP2040"
+		(exclude_from_sim no)
+		(at 78.486 191.77 0)
+		(effects
+			(font
+				(face "Academy Engraved LET")
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "59011b64-68ed-4a61-8a75-3c2cfbc824f5")
+	)
+	(text "MICRO SD"
+		(exclude_from_sim no)
+		(at 178.816 103.886 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "5fbc58c4-d9bc-4c0c-9b49-fa69678e446a")
+	)
+	(text "TYPE_C\n"
+		(exclude_from_sim no)
+		(at 350.774 211.582 0)
+		(effects
+			(font
+				(face "Academy Engraved LET")
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "6b69d749-810c-4a1b-a682-154bfe7a705d")
+	)
+	(text "RP2040-GSM"
+		(exclude_from_sim no)
+		(at 140.208 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "7a7bceab-5052-4a0f-9ce5-c42c9b398ea2")
+	)
+	(text "RP2040-CM3566"
+		(exclude_from_sim no)
+		(at 138.176 167.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "7cf7520f-9c37-4c59-a183-1e4004ddb6fa")
+	)
+	(text "REG ENABLE"
+		(exclude_from_sim no)
+		(at 72.136 169.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "91493846-956f-4577-986a-fe833be27f51")
+	)
+	(text "FIRMWARE"
+		(exclude_from_sim no)
+		(at 232.156 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "92668747-8b2c-4fa7-84d2-4bcacbb7c597")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 109.474 147.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "9ce74471-e2af-4592-a908-8791670abf7a")
+	)
+	(text "CAMTRACKER"
+		(exclude_from_sim no)
+		(at 214.63 128.016 0)
+		(effects
+			(font
+				(face "Academy Engraved LET")
+				(size 7.62 7.62)
+				(thickness 0.508)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "9e0998ce-2d25-49f8-9aa4-bdd044fe90a5")
+	)
+	(text "GSM"
+		(exclude_from_sim no)
+		(at 184.658 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "a5319c70-4690-486b-87af-f33a2d4f2eed")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 78.232 127.508 0)
+		(effects
+			(font
+				(face "Academy Engraved LET")
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "bf3ab647-6806-4713-803a-8b4c239ea237")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 251.46 52.578 0)
+		(effects
+			(font
+				(face "Academy Engraved LET")
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "c4e4a0bc-c880-4984-827b-0bc774964a7d")
+	)
+	(text "NETWORK"
+		(exclude_from_sim no)
+		(at 237.998 165.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "c512ac93-f325-48e6-b27a-fc8825dd9972")
+	)
+	(text "POWER UNIT"
+		(exclude_from_sim no)
+		(at 79.502 66.04 0)
+		(effects
+			(font
+				(face "Academy Engraved LET")
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "c85f72a4-fe00-41b8-a594-8f2f58573777")
+	)
+	(text "MICRO SD\n"
+		(exclude_from_sim no)
+		(at 149.606 55.118 0)
+		(effects
+			(font
+				(face "Academy Engraved LET")
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "c917a56c-4b0d-48df-9ddd-bff3cdf2bbd0")
+	)
+	(text "CAMERA\n"
+		(exclude_from_sim no)
+		(at 369.062 129.794 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "ca79d324-8055-49de-b482-2786a19f99cc")
+	)
+	(text "MPU_6050"
+		(exclude_from_sim no)
+		(at 76.962 135.636 0)
+		(effects
+			(font
+				(face "Academy Engraved LET")
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "d7dfa889-7c5d-43f5-baa6-16198f7ab3a8")
+	)
+	(text "NETWORK"
+		(exclude_from_sim no)
+		(at 257.048 211.836 0)
+		(effects
+			(font
+				(face "Academy Engraved LET")
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "e4a23ffd-ec05-4a45-b003-77744370636f")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 270.256 103.378 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "e7d14859-4772-48ee-af26-450202a1b7aa")
+	)
+	(sheet
+		(at 49.53 149.86)
+		(size 62.23 71.12)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "1147878d-87e6-4054-a960-524e5dd813b0")
+		(property "Sheetname" "RP2040"
+			(at 75.438 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2040.kicad_sch"
+			(at 71.12 223.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA_RP2040" input
+			(at 111.76 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "4be6db95-e146-420b-aca1-cf754c128a3b")
+		)
+		(pin "SCL_RP2040" input
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "ac565da2-efea-4690-87fb-9a8ec7bfeeb0")
+		)
+		(pin "TX_TOP_RP2040" input
+			(at 111.76 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "abeea0ae-86a7-4f8b-a645-6bf752aa4f48")
+		)
+		(pin "RX_TOP_RP2040" input
+			(at 111.76 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "841e7abc-5593-4cb2-95d2-e2922c9ac72a")
+		)
+		(pin "TX_TOP_GSM" input
+			(at 111.76 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "2152f9d7-3682-4b75-9a51-d5a8073e3494")
+		)
+		(pin "RX_TOP_GSM" input
+			(at 111.76 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "d5829c85-f115-4f4b-b0e6-5018c9dbb817")
+		)
+		(pin "+3V3_RP2040" input
+			(at 49.53 176.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "5aa6cb7a-8ea2-423e-ad47-e0e32b4cab40")
+		)
+		(pin "3.8V_EN_RP2040" input
+			(at 111.76 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "6fcedf1d-892b-4699-afd5-5e066f2c0b2c")
+		)
+		(pin "5V_EN_RP2040" input
+			(at 49.53 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "bb0798bc-f6ec-4699-90d6-81377808fa36")
+		)
+		(pin "VIN" input
+			(at 49.53 181.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "d361f4fe-7cce-4747-9d5d-511c818d78e6")
+		)
+		(pin "3.3V_EN_Reg3" input
+			(at 49.53 167.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "0f22b888-f62b-4718-b95b-a1b032163a24")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 195.58)
+		(size 80.01 39.37)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "1988e811-771a-4880-9d51-b95ca24d711d")
+		(property "Sheetname" "TopBoard_Connection"
+			(at 156.464 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TopBoard_Connection.kicad_sch"
+			(at 150.114 235.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_GSM_D-" input
+			(at 186.69 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "32715bd4-8848-4734-b747-c110bf99b2d0")
+		)
+		(pin "USB_GSM_D+" input
+			(at 184.15 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "fc623207-25f3-43c7-aa50-e740a54d2231")
+		)
+		(pin "UART2_TX_M0_DEBUG" input
+			(at 200.66 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "518700dd-0dc5-4613-84fc-663f07577bef")
+		)
+		(pin "UART2_RX_M0_DEBUG" input
+			(at 203.2 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "27768cee-3415-4bbb-b4c5-e2b4446375f6")
+		)
+		(pin "VIN" input
+			(at 127 231.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c3cbf7c9-02cf-4c12-b8d0-df8a67558279")
+		)
+		(pin "RXD" input
+			(at 127 198.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d97981cb-7715-427b-bff9-c0fb0a25364f")
+		)
+		(pin "TXD" input
+			(at 127 200.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "43158366-db55-49e3-8e9b-7623d0d2c5de")
+		)
+		(pin "EN_3.8V" input
+			(at 127 209.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "97ca636b-f091-4e5a-9c9d-241202b2047b")
+		)
+		(pin "+5V" input
+			(at 127 227.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5abb35f2-30a0-4c06-9fa1-6af10ad8711a")
+		)
+		(pin "+3.3V_Serial" input
+			(at 207.01 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "03d824e2-2058-4b2d-8287-529d488b2a4f")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 118.11)
+		(size 62.23 25.4)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "383fcf5a-65f6-49c3-bf77-797c72e18f88")
+		(property "Sheetname" "I2C"
+			(at 75.946 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "I2C.kicad_sch"
+			(at 70.866 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3_Sensor" input
+			(at 110.49 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "2ae350fe-b0c5-42aa-8fb6-b2ec07e527bb")
+		)
+		(pin "SDA_RP2040" input
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "fdc3a155-7df9-4484-9c0d-4fd58101c693")
+		)
+		(pin "SCL_RP2040" input
+			(at 110.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "a6b12abc-13fa-4b12-9b97-e14d1938a071")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 83.82)
+		(size 179.07 97.79)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "5bc3c318-bd5f-4941-a50a-f3947ca4cb24")
+		(property "Sheetname" "3566"
+			(at 127 82.9306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3566.kicad_sch"
+			(at 127 182.3724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MIPI_CSI_RX_D1N" input
+			(at 306.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3bf40d95-7d05-4f2f-a5d9-b7446960526c")
+		)
+		(pin "MIPI_CSI_RX_D1P" input
+			(at 306.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f29d6479-d77e-4cc8-a736-ffd206c5a188")
+		)
+		(pin "MIPI_CSI_RX_D2N" input
+			(at 306.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1044a961-e4d5-4514-8404-6f8d08f70132")
+		)
+		(pin "MIPI_CSI_RX_D2P" input
+			(at 306.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a79b6c0-3cab-42b7-879c-440f57e5d38c")
+		)
+		(pin "MIPI_CSI_RX_D3P" input
+			(at 306.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e08ac2c1-5c07-4065-b9aa-649c42abdb4f")
+		)
+		(pin "MIPI_CSI_RX_D3N" input
+			(at 306.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b432de92-61e5-4931-91e5-30696c24b990")
+		)
+		(pin "MIPI_CSI_RX_CLK1P" input
+			(at 306.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "86df3de8-d565-4b44-a275-834e7a48c7a8")
+		)
+		(pin "MIPI_CSI_RX_CLK1N" input
+			(at 306.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bee9c149-79a5-4ec5-b516-3dcaba4601eb")
+		)
+		(pin "+3.3V" input
+			(at 127 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "03d75f8b-d531-428e-a9a2-e73c23e0debb")
+		)
+		(pin "MIPI_CSI_RX_D0P" input
+			(at 306.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de596059-3d47-40f0-b8ea-7a98fe13417c")
+		)
+		(pin "MIPI_CSI_RX_CLK0P" input
+			(at 306.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "11fc2b22-25b8-487f-aed4-408495e6d476")
+		)
+		(pin "MIPI_CSI_RX_D0N" input
+			(at 306.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9cfc5912-c329-41d4-9cd4-c78e6eb09fbb")
+		)
+		(pin "MIPI_CSI_RX_CLK0N" input
+			(at 306.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bf83b66b-8cb8-4f0c-9d4b-027fd8a5e1a9")
+		)
+		(pin "UART4_RX{slash}PWM1_M0" input
+			(at 127 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "5a773a71-ff90-4bec-bd8a-75576c425b55")
+		)
+		(pin "UART4_TX{slash}GPIO0_C1" input
+			(at 127 173.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "281afe5c-bd4d-4145-aff5-4c0b40d1c22c")
+		)
+		(pin "USB2_HOST2_DP" input
+			(at 184.15 181.61 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "036c649c-5728-4810-882a-0824f80c12de")
+		)
+		(pin "USB2_HOST2_DN" input
+			(at 186.69 181.61 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "52f66ad8-5811-45b8-b9c8-c03869e8bd03")
+		)
+		(pin "I2C4_SDA_M0_1V8" input
+			(at 306.07 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3491d938-bb22-49f1-8975-4e74ff041a0a")
+		)
+		(pin "I2C4_SCL_M0_1V8" input
+			(at 306.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c411e3cb-f29a-4553-af44-5c73ee8396ab")
+		)
+		(pin "PHY1_MDI1-" input
+			(at 236.22 181.61 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "7099f399-7117-4b12-8972-7d9bd9baa30a")
+		)
+		(pin "PHY1_MDI0-" input
+			(at 242.57 181.61 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "08d939a7-09ed-40c6-9764-9576cbbcd137")
+		)
+		(pin "PHY1_MDI1+" input
+			(at 233.68 181.61 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "f85aaea2-5cee-48bd-9af5-a38b90c0ce91")
+		)
+		(pin "PHY1_MDI0+" input
+			(at 240.03 181.61 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "b82e70da-f6d7-4546-9120-d45c2c8a31c0")
+		)
+		(pin "3V3_Sensor" input
+			(at 127 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "0add6b16-c183-464f-846c-3632315b5e75")
+		)
+		(pin "USB3_OTG0_VBUSDET" input
+			(at 236.22 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "011951e0-1095-40a8-b194-9be05cbb213a")
+		)
+		(pin "USB3_OTG0_ID" input
+			(at 233.68 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f55be649-7905-4648-b3c6-3f78ff578d97")
+		)
+		(pin "USB3_OTG0_DP" input
+			(at 228.6 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "84a84757-c791-45e4-9e01-df00c4e01fa9")
+		)
+		(pin "USB3_HOST1_DN" input
+			(at 271.78 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "09a9301e-3b8d-4f62-bc57-13cb1e2d07a1")
+		)
+		(pin "USB3_OTG0_DN" input
+			(at 231.14 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "30c41901-1472-427f-b3d4-4519afa671ba")
+		)
+		(pin "USB3_HOST1_DP" input
+			(at 269.24 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2167c7b8-b0a5-4284-9d48-6bfdfde95d13")
+		)
+		(pin "UART2_TX_M0_DEBUG" input
+			(at 200.66 181.61 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "4584386e-2dbb-4a42-954e-9d48b539070f")
+		)
+		(pin "UART2_RX_M0_DEBUG" input
+			(at 203.2 181.61 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "18ba28bf-e798-424a-ab76-b3602cf4ba34")
+		)
+		(pin "SDMMC0_DET_L" input
+			(at 181.61 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e1b486a7-eaf8-4de3-a806-9c1b566ed319")
+		)
+		(pin "SDMMC0_CLK" input
+			(at 176.53 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1c0cf0ff-e691-43c7-958c-a8dd97ff6680")
+		)
+		(pin "SDMMC0_CMD" input
+			(at 179.07 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c62256a7-f351-4e8b-a6b5-255b3548e79f")
+		)
+		(pin "SDMMC0_D3" input
+			(at 186.69 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6aadc7cc-7a2c-4e7d-90db-408fcc25fae0")
+		)
+		(pin "SDMMC0_D0" input
+			(at 171.45 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "17719a6b-5fa7-475f-8019-faa8732d9149")
+		)
+		(pin "SDMMC0_D2" input
+			(at 184.15 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6513ab7f-f480-4e75-a742-e02bd524d645")
+		)
+		(pin "SDMMC0_D1" input
+			(at 173.99 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8e5302dd-a876-49d8-a28a-4105a58ec11f")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 36.83)
+		(size 95.25 31.75)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "62d26b0b-2db9-4fe2-ac72-e0fedbabb9b7")
+		(property "Sheetname" "USB"
+			(at 249.428 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 241.554 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 205.74 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b551db2-e5b0-494f-81ae-7a2300172cdb")
+		)
+		(pin "USB3_OTG0_VBUSDET" input
+			(at 236.22 68.58 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36b07b0e-8a6d-4ea9-9dc6-2fad739d6b5c")
+		)
+		(pin "USB3_HOST1_DP" input
+			(at 269.24 68.58 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a73b1af1-765b-4d86-bc43-955f95ed9c1b")
+		)
+		(pin "USB3_HOST1_DN" input
+			(at 271.78 68.58 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a305a26-5894-40b5-bd1f-5d7892a651cd")
+		)
+		(pin "USB3_OTG0_ID" input
+			(at 233.68 68.58 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "50660436-36f6-4059-bbee-86b8bf572933")
+		)
+		(pin "USB3_OTG0_DP" input
+			(at 228.6 68.58 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "55d7f876-d52d-4457-8bec-cc1806d72f6a")
+		)
+		(pin "USB3_OTG0_DN" input
+			(at 231.14 68.58 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a8e0493a-d191-4526-91b1-a1b0f4ae892b")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 331.47 83.82)
+		(size 60.96 96.52)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "b95e0e73-b949-4c37-857a-15cd5fafca64")
+		(property "Sheetname" "CAMERA"
+			(at 346.964 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAMERA.kicad_sch"
+			(at 337.566 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAM1_D0_N" input
+			(at 331.47 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "48571ffb-e4c6-4334-8193-dacc25614b95")
+		)
+		(pin "CAM1_D0_P" input
+			(at 331.47 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b19c6f7-96b8-40af-85bb-5a7b50e25b76")
+		)
+		(pin "CAM1_D1_N" input
+			(at 331.47 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae832062-72d7-47fb-ad5c-01e8b02aa76f")
+		)
+		(pin "CAM1_D1_P" input
+			(at 331.47 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be8d1773-0adb-441a-9d3c-72313bda2d9b")
+		)
+		(pin "CAM1_C_N" input
+			(at 331.47 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab185162-529e-4e04-9980-915fbe47cf62")
+		)
+		(pin "CAM1_C_P" input
+			(at 331.47 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c4eeb28-3245-41b7-a2b2-82d8c08f2fec")
+		)
+		(pin "SDA0" input
+			(at 331.47 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f7cf2140-66a6-4554-897a-0614695cd48d")
+		)
+		(pin "SCL0" input
+			(at 331.47 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a1af365-105a-4b6f-8963-b02104e5d61b")
+		)
+		(pin "+3.3v" input
+			(at 331.47 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8c334ac-a99f-455a-bd89-d0b48762c40c")
+		)
+		(pin "CAM0_D0_N" input
+			(at 331.47 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "31f3509d-ade2-4541-b2b8-e13760bfc98b")
+		)
+		(pin "CAM0_D0_P" input
+			(at 331.47 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8cd1cc12-71ec-4a3d-a976-95e1cecb49db")
+		)
+		(pin "CAM0_D1_N" input
+			(at 331.47 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "20a5ca83-38db-4184-8af9-8ae45ef01fef")
+		)
+		(pin "CAM0_D1_P" input
+			(at 331.47 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3843e1ef-f102-418e-90cf-ae9b1e1df446")
+		)
+		(pin "CAM0_C_N" input
+			(at 331.47 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "43cb0d85-46b8-4d97-9024-cdadd7b933cd")
+		)
+		(pin "CAM0_C_P" input
+			(at 331.47 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "019ab42c-5150-46e9-ba7a-b719c7a31593")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 24.13)
+		(size 62.23 87.63)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "c678bd8c-5c82-4d82-9e56-953defc53f40")
+		(property "Sheetname" "Power Unit"
+			(at 72.644 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Unit.kicad_sch"
+			(at 66.04 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN1_5V" input
+			(at 48.26 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "aacf0657-5df7-4a7a-9ec7-54a39510aab5")
+		)
+		(pin "EN1_3.3V" input
+			(at 48.26 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "d385e804-5716-405f-b236-c116ebed4c7f")
+		)
+		(pin "VIN" input
+			(at 48.26 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "4b53fe8e-c6d4-4c2f-a720-235e5315c710")
+		)
+		(pin "+3V3_REG1" input
+			(at 48.26 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "302d7a6b-7d67-435b-b30f-541474baa98e")
+		)
+		(pin "+3V3_REG2" input
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "670b4cbe-1399-44d7-8787-0db517f6e495")
+		)
+		(pin "+3V3_CM3566" input
+			(at 110.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "a90ba0c6-1c27-410a-8947-b57821d54214")
+		)
+		(pin "+3V3_Micro SD" input
+			(at 110.49 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "5e304dea-c871-4b52-bf4a-bcde34c11b5a")
+		)
+		(pin "GSM" input
+			(at 110.49 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "a9620e75-01d8-4884-ba58-69e59d840c65")
+		)
+		(pin "+3V3_Camera" input
+			(at 110.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "3801c475-10d1-4752-b6fa-700c4542c0e3")
+		)
+		(pin "+5V_GSM" input
+			(at 48.26 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "d97f7df3-e559-4085-b0e6-061b7f58b4fc")
+		)
+		(pin "+5V_USB" input
+			(at 110.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "ed9c9801-609f-4022-8d4c-4195f4eb3c76")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 195.58)
+		(size 69.85 31.75)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "cc573126-09a5-458d-aef4-03d1a49e48a2")
+		(property "Sheetname" "Ethernet pin"
+			(at 249.428 231.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet pin.kicad_sch"
+			(at 241.3 228.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RX_P" input
+			(at 233.68 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "2ad000b6-6695-4f0a-889d-39f280d5b777")
+		)
+		(pin "RX_N" input
+			(at 236.22 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "eb1940f2-a94e-4c29-afe7-e6760f20991f")
+		)
+		(pin "TX_P" input
+			(at 240.03 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "9816fbca-be8f-455a-9370-27af20ae4f35")
+		)
+		(pin "TX_N" input
+			(at 242.57 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "e3a73258-0b17-4e66-ba65-a810617dc791")
+		)
+		(pin "TRD1_P" input
+			(at 293.37 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "1add62c7-397c-4444-9988-aaee2e402df7")
+		)
+		(pin "TRD1_N" input
+			(at 293.37 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "488200f0-0e0b-4372-9ee2-55ce45533089")
+		)
+		(pin "TRD0_P" input
+			(at 293.37 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "b754c36d-ca1c-4fba-b9c5-774e80e96bc9")
+		)
+		(pin "TRD0_N" input
+			(at 293.37 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "9455484d-678c-461b-a256-42f579a84ac5")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 318.77 195.58)
+		(size 64.77 31.75)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "df538ea1-f152-40a6-a302-d26b2b11dd3b")
+		(property "Sheetname" "TYPE-C"
+			(at 347.472 194.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TYPE_C.kicad_sch"
+			(at 343.916 228.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 38.1)
+		(size 63.5 30.48)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "f6e8ee5e-fdda-418e-bce1-28d6de982252")
+		(property "Sheetname" "Micro SD"
+			(at 150.368 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Micro SD.kicad_sch"
+			(at 144.018 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3.3V" input
+			(at 127 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "0fa56364-d143-443c-86c1-fa406810b2d0")
+		)
+		(pin "SDMMC0_CMD" passive
+			(at 179.07 68.58 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a673cce2-3956-4479-8d02-65600a1cdf58")
+		)
+		(pin "SDMMC0_D3/ARMJTAG_TMS" passive
+			(at 186.69 68.58 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "677392bc-3791-4178-b905-9f4df49cad7e")
+		)
+		(pin "SDMMC0_D0" passive
+			(at 171.45 68.58 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3ed4fd9c-32ad-4f77-af14-1177d90ad8c2")
+		)
+		(pin "SDMMC0_D2/ARMJTAG_TCK" passive
+			(at 184.15 68.58 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa057d36-4e47-45c3-b672-de510b821311")
+		)
+		(pin "SDMMC0_DET_L" passive
+			(at 181.61 68.58 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bfddfd63-084d-440d-a92f-40266dee0eed")
+		)
+		(pin "SDMMC0_CLK" passive
+			(at 176.53 68.58 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "17d603c6-ca40-46cb-afd1-002c5b5539ea")
+		)
+		(pin "SDMMC0_D1" passive
+			(at 173.99 68.58 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d7eb9418-04fa-4ad4-b77a-292c127a3c38")
+		)
+		(instances
+			(project "Movita_3566_CT_Router_V2.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

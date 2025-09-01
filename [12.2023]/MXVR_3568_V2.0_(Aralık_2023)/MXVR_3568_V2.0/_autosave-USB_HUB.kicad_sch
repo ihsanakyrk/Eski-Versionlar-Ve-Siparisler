@@ -1,0 +1,14 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 2c06c0d7-b029-47db-9a85-8a095dddfea8)
+
+  (paper "A4")
+
+  (title_block
+    (company "SmartEQ Information Technologies")
+  )
+
+  (lib_symbols
+  )
+
+)

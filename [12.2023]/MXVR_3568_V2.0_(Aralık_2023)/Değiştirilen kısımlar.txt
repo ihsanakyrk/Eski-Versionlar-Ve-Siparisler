@@ -1,0 +1,4 @@
+MXVR 
+-Mıpı CSI -> EM3568 bağlantıları eklenmemiş onlar düzeltildi
+-Uart 0 ile Uart 4 pinleri yer değiştirildi 
+-Nextchip 4 kısmı düzeltildi

@@ -1,0 +1,23 @@
+(kicad_sch (version 20230819) (generator eeschema)
+
+  (uuid 62f07da2-096c-4a9d-85ee-608d2ab95abe)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (bus (pts (xy 270.51 71.12) (xy 285.1494 71.12))
+    (stroke (width 0) (type default))
+    (uuid 15229465-7889-4493-bb54-7b9fec8c88ce)
+  )
+  (bus (pts (xy 160.02 11.9681) (xy 160.02 71.12))
+    (stroke (width 0) (type default))
+    (uuid 5ccfb4d8-c252-413a-9f86-2d592b4eb0b7)
+  )
+  (bus (pts (xy 160.02 71.12) (xy 270.4726 71.12))
+    (stroke (width 0) (type default))
+    (uuid d39f3937-1601-497b-93f2-283cb48099d4)
+  )
+)

@@ -1,0 +1,8211 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2c06c0d7-b029-47db-9a85-8a095dddfea8")
+	(paper "A4")
+	(title_block
+		(company "SmartEQ Information Technologies")
+	)
+	(lib_symbols
+		(symbol "150080VS75000:150080VS75000"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "150080VS75000"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC2012X80N"
+				(at 12.7 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://katalog.we-online.com/led/datasheet/150080VS75000.pdf"
+				(at 12.7 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Wurth Elektronik WL-SMCW 570 nm Green LED, 2012 (0805) Clear SMD package"
+				(at 12.7 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.8"
+				(at 12.7 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 12.7 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "150080VS75000"
+				(at 12.7 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-150080VS75000"
+				(at 12.7 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080VS75000?qs=LlUlMxKIyB0tGHJmO6%252B0ug%3D%3D"
+				(at 12.7 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 12.7 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 12.7 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Part Number" ""
+				(at 12.7 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Price/Stock" ""
+				(at 12.7 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "150080VS75000_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "150080VS75000_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BLM21BB050SN1D:BLM21BB050SN1D"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FL"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BLM21BB050SN1D"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BLM21BB050SH1D"
+				(at 16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM21BB050SN1%23"
+				(at 16.51 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "BLM21_N1D Series EMI Suppression Filter 5+/-25% at 100MHz 1A @85"
+				(at 16.51 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.05"
+				(at 16.51 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 16.51 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BLM21BB050SN1D"
+				(at 16.51 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "81-BLM21B050S"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM21BB050SN1D?qs=V9BdO3EfVKkDe3ie2a%2F9MA%3D%3D"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "BLM21BB050SN1D"
+				(at 16.51 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/blm21bb050sn1d/murata-manufacturing"
+				(at 16.51 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Part Number" ""
+				(at 16.51 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Price/Stock" ""
+				(at 16.51 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "BLM21BB050SN1D_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BLM21BB050SN1D_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:USB_A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB_A"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB Type A connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_A_0_1"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 2.159)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 4.826)
+					(end -4.318 5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 4.572)
+					(end -4.572 5.842)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.635 3.429)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.127 -7.62)
+					(end 0.127 -6.858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 1.27)
+					(end -0.508 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 4.953)
+					(end 4.318 5.207)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -0.127)
+					(end 4.318 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -2.667)
+					(end 4.318 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_A_1_1"
+				(polyline
+					(pts
+						(xy -1.905 2.159) (xy 0.635 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Crystal_GND24"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FE1.1s_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U5"
+				(at 2.0194 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FE1.1s"
+				(at 2.0194 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SSOP-28_3.9x9.9mm_P0.635mm"
+				(at 26.67 -38.1 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2991/FE1.1s+Data+Sheet+(Rev.+1.0).pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.lcsc.com/product-detail/USB-ICs_Terminus-Tech-FE1-1S-BSOP28BCN_C9359.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "FE1.1S-BSOP28BCN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field-1" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "4-Port, EEPROM, High Speed, Hub, USB2.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SSOP*3.9x9.9mm*P0.635mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FE1.1s_1_1_1"
+				(rectangle
+					(start -15.24 25.4)
+					(end 15.24 -25.4)
+					(stroke
+						(width 0.635)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 238 238 238 1)
+					)
+				)
+				(pin input line
+					(at -17.78 22.86 0)
+					(length 2.54)
+					(name "VBUSM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 17.78 0)
+					(length 2.54)
+					(name "DPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 15.24 0)
+					(length 2.54)
+					(name "DMU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 10.16 0)
+					(length 2.54)
+					(name "~{XRSTJ}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 2.54)
+					(name "BUSJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 2.54)
+					(name "OVCJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -11.43 0)
+					(length 2.54)
+					(name "XOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -13.97 0)
+					(length 2.54)
+					(name "XIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -20.32 0)
+					(length 2.54)
+					(name "VD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -22.86 0)
+					(length 2.54)
+					(name "REXT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 27.94 270)
+					(length 2.54)
+					(name "VDD5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 27.94 270)
+					(length 2.54)
+					(name "VD33_O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 5.08 27.94 270)
+					(length 2.54)
+					(name "VD18_O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 27.94 270)
+					(length 2.54)
+					(name "VD18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 22.86 180)
+					(length 2.54)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 20.32 180)
+					(length 2.54)
+					(name "DM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 15.24 180)
+					(length 2.54)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 12.7 180)
+					(length 2.54)
+					(name "DM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 7.62 180)
+					(length 2.54)
+					(name "DP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 5.08 180)
+					(length 2.54)
+					(name "DM3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "DP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "DM4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "TESTJ/EESDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -12.7 180)
+					(length 2.54)
+					(name "LED1/EESCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -15.24 180)
+					(length 2.54)
+					(name "LED2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -17.78 180)
+					(length 2.54)
+					(name "DRV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -22.86 180)
+					(length 2.54)
+					(name "PWRJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 238.76 80.01)
+		(end 259.08 86.36)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 08e1df6d-b813-406f-b98b-575da00cbba0)
+	)
+	(rectangle
+		(start 113.03 60.96)
+		(end 124.46 66.04)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1320d6d8-7720-44d6-aec4-929d7032292c)
+	)
+	(rectangle
+		(start 179.07 115.57)
+		(end 207.01 127)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1554f520-7e31-4624-b687-cf8183635678)
+	)
+	(rectangle
+		(start 182.88 80.5615)
+		(end 213.36 86.9115)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 18886c09-9a19-4065-9f46-dabce141f658)
+	)
+	(rectangle
+		(start 241.3 74.93)
+		(end 255.27 78.74)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 22bfe0f0-7cd2-4ee8-aa58-8e83dfb674f4)
+	)
+	(rectangle
+		(start 128.27 29.21)
+		(end 143.51 36.83)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 40c19494-3cd4-44e6-8435-2958835009e4)
+	)
+	(rectangle
+		(start 37.338 38.608)
+		(end 62.738 50.038)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 48e9dee6-bfc3-4cb3-95b0-480d0de3c4a2)
+	)
+	(rectangle
+		(start 68.58 24.13)
+		(end 80.01 29.21)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5cc338ff-8764-4c8e-ad06-8fb4b2731183)
+	)
+	(rectangle
+		(start 78.74 93.98)
+		(end 92.71 101.6)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6751b24e-04b8-4b8b-a2e5-cafb3f193c35)
+	)
+	(rectangle
+		(start 35.56 85.09)
+		(end 49.53 90.17)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6c197244-8519-451a-a3e3-d0022aae1f53)
+	)
+	(rectangle
+		(start 37.592 21.082)
+		(end 62.992 32.512)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 86721020-ef11-402a-bb30-8a76b80b3a9a)
+	)
+	(rectangle
+		(start 182.88 97.79)
+		(end 213.36 102.87)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bbbbbfef-6e1a-4c26-8127-c2242b9c9b51)
+	)
+	(rectangle
+		(start 38.1 54.61)
+		(end 63.5 67.31)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c1bf0ef9-2338-4255-b814-8fbeff17812f)
+	)
+	(rectangle
+		(start 34.29 83.82)
+		(end 59.69 130.81)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cf059d65-cf15-4422-b1de-a905021a8115)
+	)
+	(rectangle
+		(start 229.87 20.32)
+		(end 255.27 49.53)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cfed768c-d8fa-4e55-9c8b-2feb821f0571)
+	)
+	(rectangle
+		(start 63.5 87.63)
+		(end 92.71 92.71)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e9a5e62a-ab06-423b-9b94-65ca55b1a6be)
+	)
+	(rectangle
+		(start 91.44 132.08)
+		(end 105.41 137.16)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f4ad7c5c-e8d5-47e4-8961-dbf06849f5e3)
+	)
+	(rectangle
+		(start 180.34 76.2)
+		(end 219.71 111.76)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f89011a4-b11d-4b94-b09e-c170e1609cb3)
+	)
+	(text "USB1_D+"
+		(exclude_from_sim no)
+		(at 51.054 62.992 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "017eb2b2-34a1-4e44-b4d1-e59975ea71b9")
+	)
+	(text "USB_GSM_D+"
+		(exclude_from_sim no)
+		(at 242.57 34.544 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "2fdb8683-eb67-4244-b30f-1c988cd62ca3")
+	)
+	(text "GSM"
+		(exclude_from_sim no)
+		(at 202.184 100.838 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "5f5f5915-6469-41b9-960b-c892ddee1e0b")
+	)
+	(text "USB_CON_A_D+"
+		(exclude_from_sim no)
+		(at 242.824 24.638 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "6336797f-21bd-4a4a-9b5f-138c4564c7aa")
+	)
+	(text "USB_IN"
+		(exclude_from_sim no)
+		(at 71.12 90.424 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "7a5e56ec-e76a-4564-8bc0-87467304572e")
+	)
+	(text "5V_Input"
+		(exclude_from_sim no)
+		(at 49.53 26.67 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "917f6c24-70fb-4fa6-a1b3-be236229ae1c")
+	)
+	(text "RP2040_USB_D+"
+		(exclude_from_sim no)
+		(at 243.078 42.672 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "9db335bc-4ecc-4496-9082-a36f011b49f9")
+	)
+	(text "USB_CON_A_D-"
+		(exclude_from_sim no)
+		(at 242.824 27.94 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "b91e5f6e-2cdd-40aa-b8de-b4569ed81de6")
+	)
+	(text "USB_GSM_D-"
+		(exclude_from_sim no)
+		(at 242.57 37.592 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "c41c40e7-8ff8-4762-aa12-105a6d7ea864")
+	)
+	(text "RP2040_USB_D-"
+		(exclude_from_sim no)
+		(at 243.078 45.72 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "c48c3f7d-9426-48f2-a268-efb841bd40e7")
+	)
+	(text "USB_OUT"
+		(exclude_from_sim no)
+		(at 199.39 74.168 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "e5f41f8e-cdbf-4129-8698-02cb00b5a2aa")
+	)
+	(text "USB1_D-"
+		(exclude_from_sim no)
+		(at 51.054 59.69 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "e839a72c-e96b-481b-a504-bc9692c99268")
+	)
+	(text "3.3V_Input\n"
+		(exclude_from_sim no)
+		(at 50.8 44.45 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "f3426ec5-19c3-4560-9500-ea999efe914a")
+	)
+	(text "USB_CON"
+		(exclude_from_sim no)
+		(at 205.486 84.074 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "f4ead89b-d83f-4094-82a6-b8637e6b1627")
+	)
+	(junction
+		(at 92.71 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a78f37f-abf0-4ac8-bae4-e69347e7d5db")
+	)
+	(junction
+		(at 128.27 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "193e973c-ac61-439f-a680-1a94166d43cf")
+	)
+	(junction
+		(at 111.76 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3333786b-7021-4515-ba7c-bd496c0fdb06")
+	)
+	(junction
+		(at 128.27 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f03b9ec-a64f-4b9a-9bc3-afb2d3e16093")
+	)
+	(junction
+		(at 162.56 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f97eff9-45e9-41d7-86fe-5f65fafc4a23")
+	)
+	(junction
+		(at 72.39 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45b635ee-0e80-48f5-b7f8-e0a4f6966078")
+	)
+	(junction
+		(at 242.57 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48954510-305e-4022-87fb-e5accd9e50ca")
+	)
+	(junction
+		(at 99.06 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62e193f3-0432-44d5-b524-5aa684ae4c8e")
+	)
+	(junction
+		(at 111.76 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6767a78d-e12d-4d57-a2da-98befa615f26")
+	)
+	(junction
+		(at 154.94 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75a23a31-bf62-4af7-963b-2b9182f68bd0")
+	)
+	(junction
+		(at 137.16 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c35c260-71d0-4515-88f8-30aa7ff1fe2c")
+	)
+	(junction
+		(at 44.45 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "905043f7-6169-48dc-8e49-bf62aa9429ea")
+	)
+	(junction
+		(at 92.71 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "979e05f6-883b-44d3-8b88-2447a7fa4c33")
+	)
+	(junction
+		(at 147.32 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c60bf163-59ac-4db3-8991-9802fb74a51c")
+	)
+	(junction
+		(at 110.49 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce313bbc-e1ac-4a08-a8d5-4aaa3fc3ccef")
+	)
+	(junction
+		(at 265.43 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e73cfa12-f928-42b8-a69f-9d306746e385")
+	)
+	(junction
+		(at 147.32 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9268592-0200-4ecb-8e77-30ac2e7c7c27")
+	)
+	(no_connect
+		(at 165.1 121.92)
+		(uuid "19e72d23-91bc-4457-8a00-6e1c91e7147b")
+	)
+	(no_connect
+		(at 165.1 129.54)
+		(uuid "4b0b60df-5c0a-49c6-b929-126c03c21c89")
+	)
+	(no_connect
+		(at 165.1 116.84)
+		(uuid "f7cab1da-c49c-4134-ad53-6c9fc9dc537b")
+	)
+	(wire
+		(pts
+			(xy 128.27 129.54) (xy 129.54 129.54)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "021c6fef-e8f5-4dec-a23b-a856ccba32e6")
+	)
+	(wire
+		(pts
+			(xy 110.49 127) (xy 129.54 127)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "02b91935-921e-4d57-873a-f8823f4e89a3")
+	)
+	(polyline
+		(pts
+			(xy 269.24 31.75) (xy 271.78 34.29)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "050d2948-d7ee-4857-8782-9113d334c032")
+	)
+	(wire
+		(pts
+			(xy 265.43 120.65) (xy 265.43 135.89)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "073d57f0-3767-4ce7-a389-38753a7b761b")
+	)
+	(wire
+		(pts
+			(xy 137.16 68.58) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "076e830e-46d1-419a-a680-7e6611fd1f0a")
+	)
+	(wire
+		(pts
+			(xy 152.4 69.85) (xy 152.4 68.58)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "07f9992a-8154-45fd-b35e-0dc509f2869e")
+	)
+	(wire
+		(pts
+			(xy 111.76 73.66) (xy 115.57 73.66)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "0a74636c-80b2-4d81-b73c-863882530b4f")
+	)
+	(wire
+		(pts
+			(xy 110.49 127) (xy 110.49 134.62)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "0af6120f-cae6-400d-802b-2d28c55ea3e1")
+	)
+	(wire
+		(pts
+			(xy 152.4 60.96) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "0f0543fe-1167-4144-8de3-c4c89e616429")
+	)
+	(polyline
+		(pts
+			(xy 223.52 135.89) (xy 227.33 135.89)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "11f61386-7848-4953-9149-adcfe07b4163")
+	)
+	(polyline
+		(pts
+			(xy 222.25 82.55) (xy 236.22 82.55)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1270609c-bb89-4832-80fa-c94d9bbd51de")
+	)
+	(wire
+		(pts
+			(xy 85.09 119.38) (xy 87.63 119.38)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "13681e8b-f07e-4fb2-b60e-6ea353f76e4e")
+	)
+	(wire
+		(pts
+			(xy 165.1 109.22) (xy 209.55 109.22)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "144bc677-343c-40e3-bb84-bd5f2afdeee2")
+	)
+	(polyline
+		(pts
+			(xy 31.75 60.96) (xy 29.21 63.5)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "14da5bbf-e72e-450c-bbac-18045c959f5e")
+	)
+	(wire
+		(pts
+			(xy 72.39 118.11) (xy 68.58 118.11)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "151f6e53-0302-4efe-90a1-6539c5e8660c")
+	)
+	(wire
+		(pts
+			(xy 252.73 113.03) (xy 265.43 113.03)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1a9b7952-6ccf-454b-8cd2-afe0e83b7c58")
+	)
+	(polyline
+		(pts
+			(xy 233.68 85.09) (xy 236.22 82.55)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1bd24ecf-7d86-4414-b556-03ab257e0b1a")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 99.06 83.82)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1d702560-77ba-419b-a750-dce1a0f2288c")
+	)
+	(wire
+		(pts
+			(xy 190.5 124.46) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1f22cc85-0644-491e-9439-c99c4c79a5ed")
+	)
+	(polyline
+		(pts
+			(xy 31.75 60.96) (xy 20.32 60.96)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "204970a0-c68e-488d-9470-525996a0be9b")
+	)
+	(wire
+		(pts
+			(xy 129.54 118.11) (xy 106.68 118.11)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "225d3c14-3582-4af2-b704-cc5c9c24de54")
+	)
+	(polyline
+		(pts
+			(xy 233.68 80.01) (xy 236.22 82.55)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2702d17a-456f-45df-919f-9aefa7ff5ce5")
+	)
+	(wire
+		(pts
+			(xy 128.27 140.97) (xy 128.27 143.51)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "28664dc1-f9ea-4dfc-8ed2-7517748795ed")
+	)
+	(polyline
+		(pts
+			(xy 209.55 123.19) (xy 218.44 123.19)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "299ff828-cffc-4e4b-a729-4e7eac11eb3c")
+	)
+	(wire
+		(pts
+			(xy 72.39 127) (xy 72.39 118.11)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2a2de60d-adf6-4d92-9348-6c0f0b1a91fa")
+	)
+	(wire
+		(pts
+			(xy 44.45 87.63) (xy 44.45 93.98)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2a377053-acea-4ed9-9ca1-6f3bb4e38d22")
+	)
+	(wire
+		(pts
+			(xy 90.17 88.9) (xy 129.54 88.9)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2aeb558c-76d7-445e-a7b1-83b87d794daa")
+	)
+	(wire
+		(pts
+			(xy 128.27 129.54) (xy 128.27 133.35)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "315707f7-fa0f-496f-83c1-8c03178079fd")
+	)
+	(wire
+		(pts
+			(xy 190.5 119.38) (xy 165.1 119.38)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "315f09b2-f7ac-441a-af21-246e6259e2b6")
+	)
+	(wire
+		(pts
+			(xy 110.49 134.62) (xy 110.49 143.51)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "331ebdf1-97b7-4e29-a630-a84b760403c9")
+	)
+	(wire
+		(pts
+			(xy 147.32 143.51) (xy 147.32 146.05)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "34203368-1cb3-4ebb-9bf9-a154b530ca13")
+	)
+	(wire
+		(pts
+			(xy 107.95 73.66) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "35173cd1-cf8b-4605-b71e-8b9a9ed3fc51")
+	)
+	(wire
+		(pts
+			(xy 137.16 58.42) (xy 137.16 60.96)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "35451ca1-d985-4f16-a5a7-70ac733f5167")
+	)
+	(wire
+		(pts
+			(xy 265.43 120.65) (xy 260.35 120.65)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "3684778b-5f74-4937-9e25-d074665fa962")
+	)
+	(wire
+		(pts
+			(xy 209.55 91.44) (xy 165.1 91.44)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "373aae0a-4a2d-4424-9f3f-2fd173ec4e0c")
+	)
+	(wire
+		(pts
+			(xy 77.47 26.67) (xy 90.17 26.67)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "374b0612-d085-4cbd-b3df-83759d9d33df")
+	)
+	(wire
+		(pts
+			(xy 90.17 99.06) (xy 104.14 99.06)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "377519d7-a490-41b4-b5f8-e6eecfeb324d")
+	)
+	(wire
+		(pts
+			(xy 106.68 118.11) (xy 106.68 110.49)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "3c262b58-d7ea-483e-a698-678324b930b9")
+	)
+	(wire
+		(pts
+			(xy 154.94 72.39) (xy 154.94 78.74)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "3cb719bf-9b1f-4294-b5e4-45c494a89e5f")
+	)
+	(wire
+		(pts
+			(xy 120.65 143.51) (xy 128.27 143.51)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "3db759f9-eab4-4823-81a3-fd05c01e023e")
+	)
+	(polyline
+		(pts
+			(xy 271.78 34.29) (xy 269.24 36.83)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "3e0d9d52-485f-44b2-b61e-5063ae0c8a91")
+	)
+	(polyline
+		(pts
+			(xy 226.06 110.49) (xy 228.6 113.03)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "4360434c-fdb8-474f-bf15-6fb0ec301b02")
+	)
+	(wire
+		(pts
+			(xy 74.93 127) (xy 72.39 127)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "44a9b3ca-c8ab-4ed8-a7b7-dc72bb61a1b7")
+	)
+	(wire
+		(pts
+			(xy 100.33 119.38) (xy 97.79 119.38)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "454ca9a7-7747-4919-9010-b63ee616c489")
+	)
+	(wire
+		(pts
+			(xy 72.39 110.49) (xy 74.93 110.49)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "473ebdaa-82ae-43fb-af45-9bbe52da2a90")
+	)
+	(polyline
+		(pts
+			(xy 20.32 44.45) (xy 20.32 44.45)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "4dcde340-04e3-4bc1-93ba-33b0ac3cd9f0")
+	)
+	(wire
+		(pts
+			(xy 92.71 123.19) (xy 92.71 127)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "4dff48bb-8cd0-4596-a6cb-d43446035dc9")
+	)
+	(wire
+		(pts
+			(xy 265.43 135.89) (xy 260.35 135.89)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "4e90d0a5-8af8-4ef1-bb00-4424c904f360")
+	)
+	(wire
+		(pts
+			(xy 162.56 58.42) (xy 162.56 60.96)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "4f3dcada-e07d-4d12-bf6f-eda44d93535f")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 97.79 78.74)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "51203119-1ed8-4cf2-8f23-e7d2711e5a6f")
+	)
+	(wire
+		(pts
+			(xy 81.28 24.13) (xy 90.17 24.13)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5173e319-8303-4861-b8e6-f10cd43ed7f8")
+	)
+	(wire
+		(pts
+			(xy 162.56 72.39) (xy 168.91 72.39)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "52e424a2-771c-49d5-a0be-298861d6ce4d")
+	)
+	(wire
+		(pts
+			(xy 106.68 120.65) (xy 106.68 127)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "561558e5-11e8-4d4e-af25-0ecb0e97ada5")
+	)
+	(wire
+		(pts
+			(xy 147.32 134.62) (xy 147.32 143.51)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5b6f7396-a76e-43a0-9de4-9482b6cb2a6e")
+	)
+	(wire
+		(pts
+			(xy 242.57 154.94) (xy 242.57 135.89)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5e2e00b6-ecb2-44bc-87d6-cd0347ba6504")
+	)
+	(polyline
+		(pts
+			(xy 223.52 113.03) (xy 228.6 113.03)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5edda3b3-3a3f-467a-a6a6-de5ac3567c36")
+	)
+	(polyline
+		(pts
+			(xy 100.33 30.48) (xy 100.33 64.77)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5ee0aa40-95e1-4343-826f-3506382eaca5")
+	)
+	(wire
+		(pts
+			(xy 147.32 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "62df19ae-c097-4522-8bee-f107b647485b")
+	)
+	(wire
+		(pts
+			(xy 140.97 33.02) (xy 147.32 33.02)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "62eda069-03bd-45db-b170-37e70e1a75bb")
+	)
+	(polyline
+		(pts
+			(xy 100.33 64.77) (xy 110.49 64.77)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "66c0f691-57c7-4905-be6f-9a7b83fa7f76")
+	)
+	(polyline
+		(pts
+			(xy 30.48 44.45) (xy 27.94 46.99)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "66ce7f10-38be-4a65-8be1-c1b639eb5658")
+	)
+	(wire
+		(pts
+			(xy 92.71 110.49) (xy 92.71 115.57)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "685c4749-659d-42d0-9b66-8afbd8cfa03a")
+	)
+	(wire
+		(pts
+			(xy 152.4 72.39) (xy 152.4 78.74)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "6a3e39ca-2c0a-4e52-8858-9ba9c9536144")
+	)
+	(wire
+		(pts
+			(xy 114.3 64.77) (xy 128.27 64.77)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "6ab765aa-c23d-4a37-9c08-02aa18cf2164")
+	)
+	(wire
+		(pts
+			(xy 107.95 83.82) (xy 111.76 83.82)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "6bc56411-83e1-4748-be15-a58255fc48f8")
+	)
+	(wire
+		(pts
+			(xy 269.24 95.25) (xy 269.24 92.71)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "6c2ef4df-6e63-412b-8feb-cd23d1d6bc23")
+	)
+	(wire
+		(pts
+			(xy 242.57 135.89) (xy 229.87 135.89)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "6cb7bad9-fc58-4761-9cec-73184fef2fde")
+	)
+	(polyline
+		(pts
+			(xy 30.48 44.45) (xy 20.32 44.45)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "6cd94b20-ca48-44f6-a8bf-8bc8b815cacd")
+	)
+	(polyline
+		(pts
+			(xy 113.03 101.6) (xy 113.03 105.41)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "72238de6-5704-445f-9a57-b19dc6701d88")
+	)
+	(wire
+		(pts
+			(xy 209.55 106.68) (xy 165.1 106.68)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "732c8f8a-e271-4fd9-b3dc-5d3b7e6ec983")
+	)
+	(wire
+		(pts
+			(xy 168.91 58.42) (xy 168.91 60.96)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "765476ef-f3dc-4096-9a7c-cc6158bb82ef")
+	)
+	(wire
+		(pts
+			(xy 184.15 101.6) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "778ed28a-44a1-4377-ba11-880f4d027a5b")
+	)
+	(wire
+		(pts
+			(xy 82.55 127) (xy 92.71 127)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "795c8934-88e5-493d-a033-8cff6e9217f0")
+	)
+	(wire
+		(pts
+			(xy 276.86 154.94) (xy 273.05 154.94)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "79cc31ea-6873-4b7f-9f62-5a93b1af4d6b")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 99.06 78.74)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "7a9e33b0-e43b-40f5-8bee-0ba6f01b2d8a")
+	)
+	(polyline
+		(pts
+			(xy 224.79 133.35) (xy 227.33 135.89)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "7e46a1d3-5d80-48d6-845a-241d09e6dcd7")
+	)
+	(polyline
+		(pts
+			(xy 107.95 67.31) (xy 110.49 64.77)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "7fe8f173-3064-459a-b478-ba36be3aae51")
+	)
+	(wire
+		(pts
+			(xy 90.17 96.52) (xy 104.14 96.52)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "8192edfb-4231-4acb-b136-a0d0ca3d0cb9")
+	)
+	(wire
+		(pts
+			(xy 129.54 120.65) (xy 106.68 120.65)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "846d1e3f-ced3-4c8d-a91f-4a1e0b5bd443")
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06) (xy 129.54 99.06)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "8a56624d-97a0-4e3d-a0d0-8262b7729a84")
+	)
+	(polyline
+		(pts
+			(xy 118.11 100.33) (xy 119.38 101.6)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "8abbc5b1-8d49-4675-8cc3-a5b2b459dfb2")
+	)
+	(wire
+		(pts
+			(xy 242.57 120.65) (xy 245.11 120.65)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "904a2e63-1718-4ef2-8547-0a94582b6f9e")
+	)
+	(polyline
+		(pts
+			(xy 118.11 102.87) (xy 119.38 101.6)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "910fe372-106e-408e-ab2c-ee6f0f58548d")
+	)
+	(polyline
+		(pts
+			(xy 30.988 26.162) (xy 19.558 26.162)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "912f09eb-fd43-4b36-9429-fa54a0a54262")
+	)
+	(wire
+		(pts
+			(xy 240.03 85.09) (xy 261.62 85.09)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "949b438c-69d7-49fb-b611-47fbd50dd35f")
+	)
+	(wire
+		(pts
+			(xy 265.43 154.94) (xy 260.35 154.94)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "96c51646-53ff-4805-b588-ded064da225c")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 198.12 83.82)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "971279cd-ec82-4dac-84cf-c7b1f837ef89")
+	)
+	(polyline
+		(pts
+			(xy 223.52 123.19) (xy 223.52 135.89)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "988e1c34-cd59-4d96-98cf-d8be3821666a")
+	)
+	(wire
+		(pts
+			(xy 162.56 68.58) (xy 162.56 72.39)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "99d8015e-2fe9-47b4-bbe8-29ebd7140715")
+	)
+	(wire
+		(pts
+			(xy 242.57 135.89) (xy 242.57 120.65)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "9c87fabd-acb0-4410-a7a0-2dfe83336668")
+	)
+	(polyline
+		(pts
+			(xy 209.55 120.65) (xy 218.44 120.65)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a0810f56-5e2d-438c-ad08-d1354d4c00c1")
+	)
+	(wire
+		(pts
+			(xy 90.17 91.44) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a49b59d7-1714-41b9-bcce-94d24e3cb5ad")
+	)
+	(wire
+		(pts
+			(xy 106.68 110.49) (xy 92.71 110.49)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a4c6f5f8-d04c-4a97-a5be-bd36f8720bb0")
+	)
+	(polyline
+		(pts
+			(xy 27.94 41.91) (xy 30.48 44.45)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a660d2b5-289a-40f3-b7f9-b19080d4d8ee")
+	)
+	(wire
+		(pts
+			(xy 152.4 72.39) (xy 154.94 72.39)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a6adb6b7-53a7-43a5-a23c-002d4f2fa131")
+	)
+	(wire
+		(pts
+			(xy 44.45 123.19) (xy 44.45 115.57)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a74832e5-8549-476b-9615-ef3928b50a82")
+	)
+	(wire
+		(pts
+			(xy 82.55 110.49) (xy 92.71 110.49)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "aad8dde6-c2ca-4eb2-a437-27ce58b5bb74")
+	)
+	(polyline
+		(pts
+			(xy 223.52 113.03) (xy 223.52 120.65)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ab6e87e3-0fc3-411d-99c0-805f75cbc960")
+	)
+	(polyline
+		(pts
+			(xy 107.95 62.23) (xy 110.49 64.77)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "acbbe0d3-9879-4b95-8144-dcda37e36dd2")
+	)
+	(wire
+		(pts
+			(xy 142.24 78.74) (xy 142.24 73.66)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ae7b47c4-bf0e-487d-ac22-f90099a1cd25")
+	)
+	(wire
+		(pts
+			(xy 245.11 135.89) (xy 242.57 135.89)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ae880779-f085-4586-81de-83c5f808ccc8")
+	)
+	(wire
+		(pts
+			(xy 265.43 113.03) (xy 265.43 120.65)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b09ccb67-ab42-47b6-80c2-626aa322efcb")
+	)
+	(wire
+		(pts
+			(xy 147.32 69.85) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b894964f-a075-44f1-83ff-ddf3322dafd5")
+	)
+	(polyline
+		(pts
+			(xy 218.44 120.65) (xy 223.52 120.65)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ba9541ac-7c82-45ed-ae30-853d44185658")
+	)
+	(wire
+		(pts
+			(xy 229.87 113.03) (xy 245.11 113.03)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "bdf01eec-a3e3-4086-a3e5-e6b429a7da29")
+	)
+	(polyline
+		(pts
+			(xy 224.79 138.43) (xy 227.33 135.89)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "bfe07d93-8486-4ded-aa9c-8f26b75213f5")
+	)
+	(wire
+		(pts
+			(xy 72.39 110.49) (xy 72.39 118.11)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c3ccbc41-7e8c-4bd3-ba31-0c9b828f7ad8")
+	)
+	(wire
+		(pts
+			(xy 102.87 134.62) (xy 110.49 134.62)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c6f18232-7659-4eb3-abde-0c645bab1a8f")
+	)
+	(polyline
+		(pts
+			(xy 218.44 123.19) (xy 223.52 123.19)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c8192bf1-9664-4fbf-8719-322e367937b1")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 100.33 73.66)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c82fb192-8f43-41fd-8d5b-a10100cf0cc9")
+	)
+	(wire
+		(pts
+			(xy 128.27 64.77) (xy 128.27 73.66)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c86cbf99-7160-4cb9-ad23-2ef00e8cc880")
+	)
+	(wire
+		(pts
+			(xy 110.49 143.51) (xy 113.03 143.51)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "cb8100d6-ce80-492e-b05d-dec629c0369c")
+	)
+	(wire
+		(pts
+			(xy 99.06 83.82) (xy 100.33 83.82)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "cb940f5f-22e3-4899-b221-1693fbd96adf")
+	)
+	(wire
+		(pts
+			(xy 245.11 154.94) (xy 242.57 154.94)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "cc5f4d40-acf3-46d8-87b3-075b2a3e4bf8")
+	)
+	(wire
+		(pts
+			(xy 128.27 73.66) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "cd07aa72-00af-40f4-84e4-40c531a2a367")
+	)
+	(wire
+		(pts
+			(xy 184.15 99.06) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "cd4ea2b2-9a5b-4b8a-8fe0-5e3d774c5c3a")
+	)
+	(wire
+		(pts
+			(xy 154.94 72.39) (xy 162.56 72.39)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "cd757b36-f132-4e76-8bd4-36d0350e3892")
+	)
+	(wire
+		(pts
+			(xy 147.32 33.02) (xy 147.32 69.85)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ced0ff16-2351-49f5-9dad-3d60e478c96b")
+	)
+	(wire
+		(pts
+			(xy 111.76 96.52) (xy 129.54 96.52)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "cf57e6fc-1478-44bb-ba33-88c9eb9bd80d")
+	)
+	(wire
+		(pts
+			(xy 44.45 104.14) (xy 44.45 107.95)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d349967f-988e-4cb6-93d6-42fb5d94e139")
+	)
+	(polyline
+		(pts
+			(xy 226.06 115.57) (xy 228.6 113.03)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d37ccc38-b893-48cf-be7e-6d07bf6a9f24")
+	)
+	(polyline
+		(pts
+			(xy 30.988 26.162) (xy 28.448 28.702)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d79ef873-7aef-4cce-842b-29e4dccea1af")
+	)
+	(wire
+		(pts
+			(xy 106.68 127) (xy 92.71 127)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d9553469-5040-46c6-a8ed-6f3c9562e5e8")
+	)
+	(wire
+		(pts
+			(xy 252.73 77.47) (xy 261.62 77.47)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "dd0a0469-8933-4a98-a379-7cf04b1c7e3e")
+	)
+	(polyline
+		(pts
+			(xy 28.448 23.622) (xy 30.988 26.162)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "e291f662-e491-43c9-89d2-9931ba726b03")
+	)
+	(wire
+		(pts
+			(xy 271.78 95.25) (xy 271.78 92.71)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "e5bf5869-20fa-4c4e-9593-23583cb5b7f8")
+	)
+	(wire
+		(pts
+			(xy 111.76 73.66) (xy 111.76 83.82)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "e5ffe799-30bf-43ee-82c0-c2e8fbb985ba")
+	)
+	(wire
+		(pts
+			(xy 44.45 101.6) (xy 44.45 104.14)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "e63213a9-d57b-4ea8-9d30-7e3a2fa42188")
+	)
+	(polyline
+		(pts
+			(xy 271.78 34.29) (xy 260.35 34.29)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "e78e436a-d447-41c6-af30-b935a7e7043d")
+	)
+	(polyline
+		(pts
+			(xy 113.03 101.6) (xy 119.38 101.6)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "e7f94988-f49b-46f4-a186-845fa162796e")
+	)
+	(polyline
+		(pts
+			(xy 62.23 105.41) (xy 113.03 105.41)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "e8f90840-2268-4dfc-b988-6159268a8fde")
+	)
+	(wire
+		(pts
+			(xy 168.91 68.58) (xy 168.91 72.39)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "e9f107b6-5437-4a8d-8edf-f427a0baf01f")
+	)
+	(wire
+		(pts
+			(xy 142.24 73.66) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ea73df33-9dc9-4e08-ac56-b089249f2599")
+	)
+	(wire
+		(pts
+			(xy 57.15 104.14) (xy 44.45 104.14)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ea89c13a-0129-4002-adc9-ce2a4770f643")
+	)
+	(wire
+		(pts
+			(xy 198.12 86.36) (xy 165.1 86.36)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "eb8d5dcc-8273-4e5f-b1fb-b423ab8198fb")
+	)
+	(polyline
+		(pts
+			(xy 29.21 58.42) (xy 31.75 60.96)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "edd560cb-04c0-4bb0-ab59-75551abcc31c")
+	)
+	(wire
+		(pts
+			(xy 240.03 82.55) (xy 261.62 82.55)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "efdd31a3-9548-4942-baee-4146a951ba9e")
+	)
+	(wire
+		(pts
+			(xy 123.19 73.66) (xy 128.27 73.66)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f21ee0ed-7af6-4fe6-bf62-b9ee74ae9d40")
+	)
+	(wire
+		(pts
+			(xy 128.27 143.51) (xy 147.32 143.51)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f7a6f680-444f-48a7-b7c4-6fb86ad52522")
+	)
+	(wire
+		(pts
+			(xy 111.76 83.82) (xy 129.54 83.82)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f9cf4329-8cb2-4c47-abc4-7492f438fbf5")
+	)
+	(wire
+		(pts
+			(xy 165.1 93.98) (xy 209.55 93.98)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "fb402f20-a3c4-4d7b-8e5c-7b8104829ac4")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0.1778)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "fe2a33f4-faa4-46bd-afb2-485923bf52cf")
+	)
+	(label "USB_CON_A_D+"
+		(at 240.03 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "053bd34c-2b52-448b-a555-3b61866cc1c3")
+	)
+	(label "USB_DP2_P"
+		(at 167.64 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53cfd13f-89a7-4259-8dba-d5448a8a13d7")
+	)
+	(label "OVCJ"
+		(at 120.65 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "592d7c74-0355-48b9-87dd-3160210691ef")
+	)
+	(label "USB_DP4_N"
+		(at 167.64 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67ace719-9381-4151-a5fe-9526fcdd78ef")
+	)
+	(label "DRV1"
+		(at 190.5 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74a8e47f-13ce-4074-ab59-4866083ae5e9")
+	)
+	(label "USB_DP4_P"
+		(at 167.64 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79a55305-c4c7-4b0f-9fd4-4764fc5e3c6e")
+	)
+	(label "USB_CON_A_D-"
+		(at 198.12 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c21f193-0f85-4bec-b245-e937db80259a")
+	)
+	(label "LED1"
+		(at 190.5 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87937a2c-8cc8-4c58-9ef8-ba20bb0c4f30")
+	)
+	(label "DRV1"
+		(at 229.87 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0b0429e-9dc0-472c-ab5e-d2f0084d9a3b")
+	)
+	(label "USB_DP2_N"
+		(at 167.64 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa3fef58-2dca-4e65-b883-b9ace21804ed")
+	)
+	(label "5V_HUB_1"
+		(at 114.3 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab170c38-2845-4fb6-9b84-598e130c6121")
+	)
+	(label "LED1"
+		(at 229.87 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aef338f5-e924-4cf6-8c6e-f26d656e9cf1")
+	)
+	(label "USB_CON_A_D-"
+		(at 240.03 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d68f9181-fbf6-4420-96fb-36abe70dafe4")
+	)
+	(label "USB_CON_A_D+"
+		(at 198.12 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7d2d2d9-4dc1-405b-bf2e-942955dbd22a")
+	)
+	(label "OVCJ"
+		(at 57.15 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec936fec-0cac-4759-9c6d-de5a9162f58c")
+	)
+	(label "5V_HUB_1"
+		(at 81.28 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbba88b2-d940-46fe-b3f7-24f0a7b6cf36")
+	)
+	(hierarchical_label "USB_GSM_D-"
+		(shape input)
+		(at 184.15 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "116060e5-9ffe-47e1-88e5-cd8244078ace")
+	)
+	(hierarchical_label "3.3V_HUB"
+		(shape input)
+		(at 90.17 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3590c780-a061-4eb7-af78-52018710acd8")
+	)
+	(hierarchical_label "5V_HUB"
+		(shape input)
+		(at 44.45 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f59181b-cdce-4429-aae7-116c5a25c275")
+	)
+	(hierarchical_label "3.3V_HUB"
+		(shape input)
+		(at 102.87 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85966c46-a528-4537-b587-3b5dbebbb4d6")
+	)
+	(hierarchical_label "USB_GSM_D+"
+		(shape input)
+		(at 184.15 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98dbcdef-f7ae-4d3a-b089-cdbb134c38cf")
+	)
+	(hierarchical_label "3.3V_HUB"
+		(shape input)
+		(at 90.17 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abbbe78e-8bad-4935-b07b-904af15cd168")
+	)
+	(hierarchical_label "5V_HUB"
+		(shape input)
+		(at 77.47 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b05cb566-4e8b-4d8f-9311-5648ad8552cb")
+	)
+	(hierarchical_label "3.3V_HUB"
+		(shape input)
+		(at 140.97 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b372def7-45a8-4821-a1f3-c557ca918212")
+	)
+	(hierarchical_label "USB1_D+"
+		(shape input)
+		(at 90.17 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8364bdc-9f00-42f2-9b25-9842a8740995")
+	)
+	(hierarchical_label "5V_HUB"
+		(shape input)
+		(at 252.73 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea19c633-f9b6-490f-9fbb-c7058e34ee79")
+	)
+	(hierarchical_label "USB1_D-"
+		(shape input)
+		(at 90.17 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fdaa2ada-9e5f-408c-9cfe-5900575b44ec")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 162.56 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "030b54f6-9a10-479e-a095-cbd8d002d770")
+		(property "Reference" "C32"
+			(at 158.242 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 157.226 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 161.5948 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 162.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 162.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f904dd25-4aa4-47a4-bf67-99091c3f3665")
+		)
+		(pin "2"
+			(uuid "d120baee-617c-49cc-bd9e-b69d6bad6767")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 248.92 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0372e708-bba6-4d8b-8fb5-f51352abe432")
+		(property "Reference" "R38"
+			(at 248.92 107.7722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 248.92 110.0836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 248.92 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 248.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 248.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "652a55a0-5107-4d0a-9e2d-063e3e1782b4")
+		)
+		(pin "2"
+			(uuid "61673bcf-6fab-4eaa-98bf-b2ce53aac0e8")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b8e7f9b-f0bb-4f83-bca4-c18b41ed4f73")
+		(property "Reference" "R32"
+			(at 49.7078 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 47.3964 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 46.228 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32fa5e9d-4ba7-4b9c-adfb-1fc9abf4177d")
+		)
+		(pin "2"
+			(uuid "a36b8a62-2478-4f3d-97fb-ca0ca78ca46f")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "149cc252-743e-4694-aa5e-06aa809e4582")
+		(property "Reference" "C29"
+			(at 121.158 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 112.776 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 120.65 142.5448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 116.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 116.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99a2d6a4-e5aa-4a29-ab98-5156e07bf049")
+		)
+		(pin "2"
+			(uuid "0c0fe62a-bc9d-4f1c-8ee6-80f2a040231b")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2348f499-5d1d-4811-99d5-b3f54c5ed927")
+		(property "Reference" "R37"
+			(at 131.826 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.7K"
+			(at 131.826 138.4554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 126.492 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 128.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 128.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28081a6c-8068-4c24-a140-eb90684c97aa")
+		)
+		(pin "2"
+			(uuid "b7c941b0-87d6-421f-9885-61524a17fe16")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 92.71 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d8d6314-d201-4a52-b0b7-ee10b59ba3ba")
+		(property "Reference" "Y2"
+			(at 94.488 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CRYSTAL 12MHz"
+			(at 91.948 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(at 92.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.lcsc.com/product-detail/Crystals_huaxindianzi-CF4012M00020001_C7294551.html"
+			(at 92.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CF4012M00020001"
+			(at 92.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 92.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9a19fc9-3263-407d-b8ef-491245eb0096")
+		)
+		(pin "2"
+			(uuid "2763c03b-fd5d-4ad0-99b7-48107295aad8")
+		)
+		(pin "3"
+			(uuid "89d68024-8eaa-4b92-9aa5-cba648b76bdf")
+		)
+		(pin "4"
+			(uuid "6887824a-dbef-4325-ba29-6f767ffd58e0")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47a97eae-3884-4ec9-a1ca-983867a355ed")
+		(property "Reference" "#PWR050"
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.113 99.6442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8148a6da-8d15-4933-95f7-a13fe988a2a7")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 209.55 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50a779a7-5a0b-435c-8d23-0a747e4e6d6f")
+		(property "Reference" "TP2"
+			(at 214.122 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 202.438 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 209.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "442f7c1d-a0c3-4f29-a589-cdb8c8dd1d86")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51b077ab-d7ff-4189-859f-495538fb8574")
+		(property "Reference" "#PWR045"
+			(at 137.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "672b1d4b-fee6-4b07-a53f-08211b3738c6")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "529b1594-7e19-4017-96c9-a5a27fb7a981")
+		(property "Reference" "#PWR043"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cc4d4af-0057-4492-bc70-99a113da2658")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5984fe82-deeb-4c6e-860c-f8e4af6fd3d7")
+		(property "Reference" "#PWR048"
+			(at 162.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5381f784-0107-42d2-8139-7edc9091cffe")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "FE1.1s_1")
+		(lib_id "Interface_USB:FE1.1s")
+		(at 147.32 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59cedc27-9214-49fa-831a-2d734922fbd6")
+		(property "Reference" "U5"
+			(at 149.3394 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FE1.1s"
+			(at 149.3394 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-28_3.9x9.9mm_P0.635mm"
+			(at 173.99 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2991/FE1.1s+Data+Sheet+(Rev.+1.0).pdf"
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.lcsc.com/product-detail/USB-ICs_Terminus-Tech-FE1-1S-BSOP28BCN_C9359.html"
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FE1.1S-BSOP28BCN"
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d2c61a3-2caa-4498-a33d-1153a2eeddbf")
+		)
+		(pin "10"
+			(uuid "7c291768-fe7b-4c9b-b8fa-7fa565ad1ec8")
+		)
+		(pin "11"
+			(uuid "50ef704b-d76e-4e5e-b2e9-d90ac95fad28")
+		)
+		(pin "12"
+			(uuid "1ca88c18-7009-48b2-8e3c-dda2de09b9be")
+		)
+		(pin "13"
+			(uuid "19e0ccf9-d77c-4ca9-bfea-8553652875a6")
+		)
+		(pin "14"
+			(uuid "8cd0b497-4a3c-47aa-b921-26d62e592088")
+		)
+		(pin "15"
+			(uuid "60c67084-e254-4cf3-a0df-f753989e9765")
+		)
+		(pin "16"
+			(uuid "db94725b-edee-436e-8734-66f0c168f374")
+		)
+		(pin "17"
+			(uuid "6c3be2fb-6b29-4bd3-97f1-4619f1d8ae3b")
+		)
+		(pin "18"
+			(uuid "10a95224-00d4-4b63-a402-2c6c6d7b6d33")
+		)
+		(pin "19"
+			(uuid "b94315bc-3333-45c5-ac88-e2b36d969cd5")
+		)
+		(pin "2"
+			(uuid "5a60851f-373a-4767-a4e6-c2e37f146526")
+		)
+		(pin "20"
+			(uuid "7e98af53-1ab9-41f0-a9d1-a1c16fd580ce")
+		)
+		(pin "21"
+			(uuid "401f9167-bdeb-44a1-86e9-ad588c141fea")
+		)
+		(pin "22"
+			(uuid "d29c1c27-9049-487d-9fce-462c36bd2316")
+		)
+		(pin "23"
+			(uuid "7be5e012-78d5-491e-923b-883c37721f3c")
+		)
+		(pin "24"
+			(uuid "34fd131a-b2f5-4387-9c70-439a49f7e06c")
+		)
+		(pin "25"
+			(uuid "d64f8550-a2dd-4073-9670-a2e77f01146a")
+		)
+		(pin "26"
+			(uuid "b797a84b-c8ad-4a81-aa7f-4c68317ab1a0")
+		)
+		(pin "27"
+			(uuid "db226dcb-7e5d-4fc8-8af9-8e45b3094d88")
+		)
+		(pin "28"
+			(uuid "4e9fb677-372d-4bb1-b7f6-155cb2af9635")
+		)
+		(pin "3"
+			(uuid "c1521a45-a9aa-40a0-a89e-91c7b11a52a4")
+		)
+		(pin "4"
+			(uuid "0d045395-92e0-4bae-b1a6-d9cd677411b3")
+		)
+		(pin "5"
+			(uuid "25f68d72-e5f9-4694-9cf4-10b4d3218d2d")
+		)
+		(pin "6"
+			(uuid "98d19ffa-bc38-4a33-9023-5bdeb63c08ca")
+		)
+		(pin "7"
+			(uuid "e950acd9-20c4-4644-a0be-e02c9b051261")
+		)
+		(pin "8"
+			(uuid "0e756d1b-b4c4-461d-938d-e37b3d85890a")
+		)
+		(pin "9"
+			(uuid "8d5b103c-ca2f-44b1-8014-df45184f89ef")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59e80694-ad2e-4d43-843d-3e63424e6368")
+		(property "Reference" "#PWR044"
+			(at 106.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "150a8197-97b1-42f9-acd4-056c81059d99")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ee51991-7b59-4cf0-8c6d-5d07fc95838d")
+		(property "Reference" "#PWR046"
+			(at 147.32 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e9ec1f9-1ee1-4ca7-a5f6-fcf5bb3b34f4")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.78 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f8110d1-bb8f-4735-8521-467e307c0e6b")
+		(property "Reference" "#PWR051"
+			(at 271.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.653 99.6442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "394d2f63-c5d0-40c7-85aa-27f0997d6f8e")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65af4b69-3f90-491e-9628-ee60aec3df57")
+		(property "Reference" "R33"
+			(at 99.314 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 109.22 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 104.14 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "958a2e46-0f00-4f03-b8e8-e784ac4cba4f")
+		)
+		(pin "2"
+			(uuid "7bfd4077-4192-48b9-8d26-a98eaf66ad28")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "150080VS75000:150080VS75000")
+		(at 260.35 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "671c0f65-2960-4262-b1be-4c08ce3c5073")
+		(property "Reference" "LED3"
+			(at 259.842 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED Green"
+			(at 248.412 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 247.65 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.com/led/datasheet/150080VS75000.pdf"
+			(at 247.65 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wurth Elektronik WL-SMCW 570 nm Green LED, 2012 (0805) Clear SMD package"
+			(at 247.65 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 247.65 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 247.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150080VS75000"
+			(at 247.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150080VS75000"
+			(at 247.65 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080VS75000?qs=LlUlMxKIyB0tGHJmO6%252B0ug%3D%3D"
+			(at 247.65 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 247.65 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 247.65 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 247.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 247.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/würth-elektronik/150080VS75000/4489924"
+			(at 260.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LED Green"
+			(at 260.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 260.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b5b5e20-a155-4778-8646-e9828cffb102")
+		)
+		(pin "2"
+			(uuid "4e952539-b757-4530-a9c6-0b2c4374ab03")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c2f2198-c2c9-42fa-ad36-ee87c3c8b100")
+		(property "Reference" "#PWR047"
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93036b77-b59c-476b-9708-d0258e7fe6d7")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cbf6574-4f33-4d40-8138-db2cfa84bb20")
+		(property "Reference" "#PWR042"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.534 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6173f56a-fa94-46ff-89f1-a9612fb33815")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7aad3519-bf91-41ec-bd78-3d3e28388459")
+		(property "Reference" "#PWR040"
+			(at 44.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b0c69a2-7ae3-4394-821f-8c401537a69c")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f69fb97-2fc8-437d-9e7b-65764cc0f21a")
+		(property "Reference" "#PWR041"
+			(at 62.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.1858 118.237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "771a8dfa-ef6d-42cd-a2df-b4502e0c6aaa")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_A")
+		(at 269.24 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80c3739c-703f-45d6-ae1f-2e9a6611b6d9")
+		(property "Reference" "J4"
+			(at 269.24 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB-A Female SMD connector"
+			(at 269.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal"
+			(at 265.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " ~"
+			(at 265.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 269.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 269.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6ca167f-4608-4578-aaf9-645968943d8b")
+		)
+		(pin "2"
+			(uuid "e2b90a2f-c52f-4d5d-ab8d-a671e8117fe2")
+		)
+		(pin "3"
+			(uuid "79b5075c-84d0-461b-8f57-98300eb8e4dd")
+		)
+		(pin "4"
+			(uuid "09bcff6a-023c-4bac-8c89-a3fc83895974")
+		)
+		(pin "5"
+			(uuid "da40251c-8d72-41be-bc2c-40897af863dc")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "150080VS75000:150080VS75000")
+		(at 245.11 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87207681-21ee-4a13-972a-c96f29aed070")
+		(property "Reference" "LED1"
+			(at 258.572 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED Green"
+			(at 248.666 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 257.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.com/led/datasheet/150080VS75000.pdf"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wurth Elektronik WL-SMCW 570 nm Green LED, 2012 (0805) Clear SMD package"
+			(at 257.81 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 257.81 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 257.81 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150080VS75000"
+			(at 257.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150080VS75000"
+			(at 257.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080VS75000?qs=LlUlMxKIyB0tGHJmO6%252B0ug%3D%3D"
+			(at 257.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 257.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 257.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 257.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 257.81 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/würth-elektronik/150080VS75000/4489924"
+			(at 245.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LED Green"
+			(at 245.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 245.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b806a8a-f304-459c-917f-ade49707fba0")
+		)
+		(pin "2"
+			(uuid "18f0e035-2521-4e93-8e2c-167834f54b55")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b73a1d7-0441-41c0-bf88-56ed499876e0")
+		(property "Reference" "C33"
+			(at 169.672 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 169.672 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 167.9448 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 168.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 168.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d99b8ce0-e569-40f2-9dce-20640165f219")
+		)
+		(pin "2"
+			(uuid "e52a1301-ecbd-4a8b-83fd-1503a03dfc59")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93d01343-35b1-4c0f-9db3-45492e4f7844")
+		(property "Reference" "R34"
+			(at 95.25 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 100.33 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 107.95 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 107.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 107.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "567e92ce-fd7b-4554-a768-ad94b100f093")
+		)
+		(pin "2"
+			(uuid "08771080-eb70-49eb-848e-3d80a2077c6f")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d364fa4-84e3-4a0f-862c-00510e7fd52b")
+		(property "Reference" "C28"
+			(at 105.918 85.3186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 96.774 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 100.33 84.7852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 104.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 104.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66bc32c4-148c-4d76-b6cc-4fe66e73849c")
+		)
+		(pin "2"
+			(uuid "ce3170ea-df78-491a-bf28-627327150b13")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a14c8420-4b0e-4d4e-b307-14ad972b5140")
+		(property "Reference" "R36"
+			(at 114.3 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 124.206 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 119.38 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 119.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 119.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00e8a7ad-861b-4632-813f-0bb6f63cc1aa")
+		)
+		(pin "2"
+			(uuid "96f187c8-00f7-4ab7-be4a-51c5ca810658")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 209.55 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7479645-5131-4d39-a72a-8dcd9b132c13")
+		(property "Reference" "TP4"
+			(at 214.122 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 202.438 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 209.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "583f1c64-c9ac-4207-9925-765a3cd573f0")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 276.86 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "beb1e594-e708-41af-aa89-4d03dcadc4e4")
+		(property "Reference" "#PWR052"
+			(at 283.21 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fcd0e7d-013c-466e-bc3d-42a64f93682a")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BLM21BB050SN1D:BLM21BB050SN1D")
+		(at 90.17 26.67 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c110feab-bb41-4664-800b-08f8a49427cb")
+		(property "Reference" "FL1"
+			(at 106.68 26.6701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BLM21BB050SN1D"
+			(at 106.68 24.1301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Footprint Library:BLM21BB050SH1D"
+			(at 106.68 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM21BB050SN1%23"
+			(at 106.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "BLM21_N1D Series EMI Suppression Filter 5+/-25% at 100MHz 1A @85"
+			(at 106.68 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.05"
+			(at 106.68 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 106.68 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BLM21BB050SN1D"
+			(at 106.68 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-BLM21B050S"
+			(at 106.68 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM21BB050SN1D?qs=V9BdO3EfVKkDe3ie2a%2F9MA%3D%3D"
+			(at 106.68 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "BLM21BB050SN1D"
+			(at 106.68 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/blm21bb050sn1d/murata-manufacturing"
+			(at 106.68 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 106.68 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 106.68 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.lcsc.com/product-detail/Ferrite-Beads_Murata-Electronics-BLM21BB050SN1D_C113035.html"
+			(at 90.17 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BLM21BB050SN1D"
+			(at 90.17 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20d75e0e-d348-4620-8465-6193699503c3")
+		)
+		(pin "2"
+			(uuid "f8a39803-8f77-476a-b1b7-dcce99934b97")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "FL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 209.55 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3ae8d16-576a-4a0d-8c31-9cfb52c62f00")
+		(property "Reference" "TP3"
+			(at 214.376 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 202.438 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 209.55 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6c4ca8f-e3cb-4a8b-b0da-fad5a9844e03")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c406538c-b0e2-4b60-8f8f-402949ae474d")
+		(property "Reference" "C26"
+			(at 72.39 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27pF"
+			(at 81.026 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 74.93 111.4552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 78.74 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 78.74 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bb9f1a6-7d8b-4adc-95bc-709f90dcd9f5")
+		)
+		(pin "2"
+			(uuid "67732ee7-215d-4772-b59b-922813263d07")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 209.55 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c81d6191-56d6-485e-82a2-3328f66cb37a")
+		(property "Reference" "TP5"
+			(at 214.376 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 202.438 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "671155f5-3b9b-4b04-8120-90170a3d37a2")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "150080VS75000:150080VS75000")
+		(at 260.35 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb06829c-36dc-467f-b414-619b6921307b")
+		(property "Reference" "LED2"
+			(at 259.334 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED Green"
+			(at 248.158 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 247.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.com/led/datasheet/150080VS75000.pdf"
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wurth Elektronik WL-SMCW 570 nm Green LED, 2012 (0805) Clear SMD package"
+			(at 247.65 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 247.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 247.65 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150080VS75000"
+			(at 247.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150080VS75000"
+			(at 247.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080VS75000?qs=LlUlMxKIyB0tGHJmO6%252B0ug%3D%3D"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 247.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 247.65 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 247.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/würth-elektronik/150080VS75000/4489924"
+			(at 260.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LED Green"
+			(at 260.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 260.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "555a8235-07bc-4122-b8e1-22c5c3ade015")
+		)
+		(pin "2"
+			(uuid "4022862f-bfc3-49b6-a0e7-531688b551a7")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf8e7fd3-3662-47a5-9c35-a3ef2685a21a")
+		(property "Reference" "C27"
+			(at 72.898 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27pF"
+			(at 80.264 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 74.93 127.9652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "092aa0b8-708d-4b6e-8895-4f54fd00f3fc")
+		)
+		(pin "2"
+			(uuid "6927a647-c5b8-4bfd-b2b3-cea74bd39848")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cff88a85-ce71-49e7-83c7-f733efea3182")
+		(property "Reference" "C31"
+			(at 147.574 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 147.32 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 153.3652 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "679796c0-8be9-4b80-9fc4-138625905050")
+		)
+		(pin "2"
+			(uuid "bd2a909f-4596-470b-a59d-79e0b3040bbc")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "daff250f-1643-4d75-b75a-ead28e0309f0")
+		(property "Reference" "C30"
+			(at 132.588 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 132.08 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 138.1252 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5f0c446-e6e0-4f35-90fe-60921066cff4")
+		)
+		(pin "2"
+			(uuid "253809c7-be19-48cc-8219-d3c7be314540")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 44.45 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e21a5a82-6dc4-420a-8f69-f1e68cdc0682")
+		(property "Reference" "C25"
+			(at 48.26 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 48.26 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 45.4152 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "219edc3b-bc36-4b96-9dca-9a2088070903")
+		)
+		(pin "2"
+			(uuid "c66f270c-04d1-4b1c-af87-e4d308b17de0")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec4219d2-5a09-41aa-ad0f-f4680c856b46")
+		(property "Reference" "#PWR049"
+			(at 168.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08d15fe5-edb3-462b-8bc5-f55693a10d98")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 269.24 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee91cf0f-8cfb-4480-b15d-9d1dff21e5a2")
+		(property "Reference" "R39"
+			(at 269.24 160.1978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 269.24 157.8864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 269.24 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 269.24 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 269.24 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f77ddd0b-bcc7-4d15-bb86-1050e0745904")
+		)
+		(pin "2"
+			(uuid "c1bd5bfe-0739-459f-8cab-e8f734596d6b")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd1abfbd-3320-45e9-8de2-30c5bd9516c9")
+		(property "Reference" "R35"
+			(at 95.25 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 100.33 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 107.95 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "116c7cbb-088d-4666-8315-09c60526b776")
+		)
+		(pin "2"
+			(uuid "a4ce1b4a-c6c6-471a-8e6b-4745fa7e8f16")
+		)
+		(instances
+			(project "Movita_CM4_CT_Router_V1.0"
+				(path "/25e5aa8e-2696-44a3-8d3c-c2c53f2923cf/76dd2ec3-0093-4367-9b35-5a77b0015319"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
