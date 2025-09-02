@@ -1,0 +1,29 @@
+Drill report for GSM_SMA_V1.0.kicad_pcb
+Created on 2025-09-02T13:29:43+0300
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L1 :  B.Cu                      back
+    L1 :  In1.Cu                    in1
+    L1 :  In2.Cu                    in2
+
+
+Drill file 'GSM_SMA_V1.0-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.200mm  0.0079"  (20 holes)
+    T2  0.254mm  0.0100"  (7 holes)
+    T3  0.300mm  0.0118"  (1 hole)
+    T4  0.800mm  0.0315"  (10 holes)
+    T5  1.500mm  0.0591"  (15 holes)
+
+    Total plated holes count 53
+
+
+Drill file 'GSM_SMA_V1.0-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  4.000mm  0.1575"  (2 holes)
+
+    Total unplated holes count 2
